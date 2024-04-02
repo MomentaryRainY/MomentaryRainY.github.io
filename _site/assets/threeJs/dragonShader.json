@@ -1,0 +1,48 @@
+{
+  "id": 6895,
+  "name": "New Composed Shader",
+  "fragment": "precision highp float;\nprecision highp int;\nuniform mat4 modelMatrix;\nuniform vec3 color;\nuniform vec3 lightPosition;\nuniform vec3 baseColor;\nvarying vec3 highlight1709195015237_322_vPosition;\nvarying vec3 highlight1709195015237_322_vNormal;\nvec4 highlight1709195015237_322_main() \n                                                                                {\n                                                                                    vec4 highlight1709195015237_322_gl_FragColor = vec4(0.0);\n                                                                                    vec3 worldPosition = (modelMatrix * vec4(highlight1709195015237_322_vPosition, 1.0)).xyz;\n                                                                                    vec3 worldNormal = normalize(vec3(modelMatrix * vec4(highlight1709195015237_322_vNormal, 0.0)));\n                                                                                    vec3 lightVector = normalize(lightPosition - worldPosition);\n                                                                                    float brightness = dot(worldNormal, lightVector);\n                                                                                    highlight1709195015237_322_gl_FragColor = vec4(color * brightness, 1.0);\n                                                                                    return highlight1709195015237_322_gl_FragColor *= 1.0;\n                                                                                }\nvec4 ambient1709195052543_389_main() \n                                                                                {\n                                                                                    vec4 ambient1709195052543_389_gl_FragColor = vec4(0.0);\n                                                                                    ambient1709195052543_389_gl_FragColor = vec4(0.3, 0.3, 0.3, 1.0);\n                                                                                    return ambient1709195052543_389_gl_FragColor *= 1.0;\n                                                                                }\nvec4 diffuse1709195549517_424_main() \n                                                                                {\n                                                                                    vec4 diffuse1709195549517_424_gl_FragColor = vec4(0.0);\n                                                                                    diffuse1709195549517_424_gl_FragColor = vec4(baseColor, 1.0);\n                                                                                    return diffuse1709195549517_424_gl_FragColor *= 1.0;\n                                                                                }\nvoid main() \n                                                                                {\n                                                                                    gl_FragColor = (highlight1709195015237_322_main() + ambient1709195052543_389_main() + diffuse1709195549517_424_main());                                                                                }\n",
+  "vertex": "precision highp float;\nprecision highp int;\nuniform mat4 modelMatrix;\nuniform mat4 modelViewMatrix;\nuniform mat4 projectionMatrix;\nuniform mat4 viewMatrix;\nuniform mat3 normalMatrix;\nuniform vec3 cameraPosition;\nuniform float time;\nattribute vec3 position;\nattribute vec3 normal;\nattribute vec2 uv;\nattribute vec2 uv2;\nvarying vec3 highlight1709195015237_322_vPosition;\nvarying vec3 highlight1709195015237_322_vNormal;\nvarying vec2 highlight1709195015237_322_vUv;\nvarying vec2 highlight1709195015237_322_vUv2;\nvarying vec3 ambient1709195052543_389_vPosition;\nvarying vec3 ambient1709195052543_389_vNormal;\nvarying vec2 ambient1709195052543_389_vUv;\nvarying vec2 ambient1709195052543_389_vUv2;\nvarying vec3 diffuse1709195549517_424_vPosition;\nvarying vec3 diffuse1709195549517_424_vNormal;\nvarying vec2 diffuse1709195549517_424_vUv;\nvarying vec2 diffuse1709195549517_424_vUv2;\nvec4 highlight1709195015237_322_main() \n                                                                                {\n                                                                                    vec4 highlight1709195015237_322_gl_Position = vec4(0.0);\n                                                                                    highlight1709195015237_322_vNormal = normal;\n                                                                                    highlight1709195015237_322_vUv = uv;\n                                                                                    highlight1709195015237_322_vUv2 = uv2;\n                                                                                    highlight1709195015237_322_vPosition = position;\n                                                                                    highlight1709195015237_322_gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);\n                                                                                    return highlight1709195015237_322_gl_Position *= 1.0;\n                                                                                }\nvec4 ambient1709195052543_389_main() \n                                                                                {\n                                                                                    vec4 ambient1709195052543_389_gl_Position = vec4(0.0);\n                                                                                    ambient1709195052543_389_vNormal = normal;\n                                                                                    ambient1709195052543_389_vUv = uv;\n                                                                                    ambient1709195052543_389_vUv2 = uv2;\n                                                                                    ambient1709195052543_389_vPosition = position;\n                                                                                    ambient1709195052543_389_gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);\n                                                                                    return ambient1709195052543_389_gl_Position *= 1.0;\n                                                                                }\nvec4 diffuse1709195549517_424_main() \n                                                                                {\n                                                                                    vec4 diffuse1709195549517_424_gl_Position = vec4(0.0);\n                                                                                    diffuse1709195549517_424_vNormal = normal;\n                                                                                    diffuse1709195549517_424_vUv = uv;\n                                                                                    diffuse1709195549517_424_vUv2 = uv2;\n                                                                                    diffuse1709195549517_424_vPosition = position;\n                                                                                    diffuse1709195549517_424_gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);\n                                                                                    return diffuse1709195549517_424_gl_Position *= 1.0;\n                                                                                }\nvoid main() \n                                                                                {\n                                                                                    gl_Position = highlight1709195015237_322_main() + ambient1709195052543_389_main() + diffuse1709195549517_424_main();                                                                                }\n",
+  "uniforms": {
+    "cameraPosition": {
+      "type": "v3",
+      "glslType": "vec3"
+    },
+    "time": {
+      "type": "f",
+      "glslType": "float"
+    },
+    "lightPosition": {
+      "value": {
+        "x": 3,
+        "y": 20,
+        "z": 20
+      },
+      "type": "v3",
+      "glslType": "vec3"
+    },
+    "color": {
+      "value": {
+        "r": 1,
+        "g": 0.6823529411764706,
+        "b": 0.6666666666666666
+      },
+      "type": "c",
+      "glslType": "vec3"
+    },
+    "baseColor": {
+      "value": {
+        "r": 1,
+        "g": 0.39101472225589085,
+        "b": 0.3164307736453502
+      },
+      "type": "c",
+      "glslType": "vec3"
+    }
+  },
+  "url": "http://shaderfrog.com/app/view/6895",
+  "user": {
+    "username": "young",
+    "url": "http://shaderfrog.com/app/profile/andrewray"
+  }
+}

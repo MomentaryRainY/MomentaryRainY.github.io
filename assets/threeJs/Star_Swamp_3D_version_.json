@@ -1,0 +1,72 @@
+{
+  "id": 441,
+  "name": "Star Swamp (3D version)",
+  "fragment": "precision highp float;\nprecision highp int;\n\nvarying vec2 vUv;\nvarying vec3 vPosition;\nvarying vec3 vNormal;\n\nuniform vec3 baseColor;\nuniform float brightness;\nuniform float scale;\nuniform float time;\n\n// http://www.fractalforums.com/new-theories-and-research/very-simple-formula-for-fractal-patterns/\nfloat field(in vec3 p) {\n\tfloat strength = 7. + .03 * log(1.e-6 + fract(sin(1.0) * 4373.11));\n\tfloat accum = 0.;\n\tfloat prev = 0.;\n\tfloat tw = 0.;\n\tfor (int i = 0; i < 32; ++i) {\n\t\tfloat mag = dot(p, p);\n\t\tp = abs(p) / mag + vec3(-.51, -.4, -1.3);\n\t\tfloat w = exp(-float(i) / 7.);\n\t\taccum += w * exp(-strength * pow(abs(mag - prev), 2.3));\n\t\ttw += w;\n\t\tprev = mag;\n\t}\n\treturn max(0., 5. * accum / tw - .2);\n}\n\nvec3 nrand3( vec2 co )\n{\n\tvec3 a = fract( cos( co.x*8.3e-3 + co.y )*vec3(1.3e5, 4.7e5, 2.9e5) );\n\tvec3 b = fract( sin( co.x*0.3e-3 + co.y )*vec3(8.1e5, 1.0e5, 0.1e5) );\n\tvec3 c = mix(a, b, 0.5);\n\treturn c;\n}\n\nvoid main() {\n    vec3 pos = vPosition/scale;\n\n    \n\tvec3 p = vec3(pos / 4.) + vec3(2., -1.3, -1.);\n\tp += 0.18 * vec3(sin(1.0 / 16.), sin(1.0 / 12.),  sin(1.0 / 128.));\n\t\n\tvec3 p2 = vec3(pos / (4.+sin(1.0*0.11)*0.2+0.2+sin(1.0*0.15)*0.3+0.4)) + vec3(2., -1.3, -1.);\n\tp2 += 0.2 * vec3(sin(1.0 / 16.), sin(1.0 / 12.),  sin(1.0 / 128.));\n\n\tvec3 p3 = vec3(pos / (4.+sin(1.0*0.14)*0.23+0.23+sin(1.0*0.19)*0.31+0.31)) + vec3(2., -1.3, -1.);\n\tp3 += 0.25 * vec3(sin(1.0 / 16.), sin(1.0 / 12.),  sin(1.0 / 128.));\n\t\n\tfloat t = field(p);\n\tfloat t2 = field(p2);\n\tfloat t3 = field(p3);\n\n\tfloat v = (1. - exp((abs(pos.x) - 1.) * 6.)) * (1. - exp((abs(pos.y) - 1.) * 6.)) * (1. - exp((abs(pos.z) - 1.) * 6.));\n\t\n\tvec3 c1 = mix(.9, 1., v) * vec3(1.8 * t * t * t, 1.4 * t * t, t);\n\tvec3 c2 = mix(.8, 1., v) * vec3(1.9 * t2 * t2 * t2, 1.8 * t2 * t2, t2);\n\tvec3 c3 = mix(.8, 1., v) * vec3(1.4 * t3 * t3 * t3, 1.8 * t3 * t3, t3);\n\tc1 *= baseColor;\n\tc2 *= baseColor;\n\tc3 *= baseColor;\n\t\n\tgl_FragColor = vec4( brightness * vec3(c1*0.7 + c2*0.9 + c3*0.1), 1.0 );\n\t\n}\n",
+  "vertex": "precision highp float;\r\nprecision highp int;\r\n\r\nuniform mat4 modelMatrix;\r\nuniform mat4 modelViewMatrix;\r\nuniform mat4 projectionMatrix;\r\nuniform mat4 viewMatrix;\r\nuniform mat3 normalMatrix;\r\n\r\nattribute vec3 position;\r\nattribute vec3 normal;\r\nattribute vec2 uv;\r\nattribute vec2 uv2;\r\n\r\nvarying vec2 vUv;\r\nvarying vec3 vPosition;\r\nvarying vec3 vNormal;\r\n\r\nvoid main() {\r\n  vUv = uv;\r\n  vPosition = position;\r\n  vNormal = normal;\r\n  gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);\r\n}",
+  "uniforms": {
+    "baseColor": {
+      "name": "baseColor",
+      "displayName": null,
+      "type": "c",
+      "glslType": "vec3",
+      "useGridHelper": false,
+      "useRange": false,
+      "range": null,
+      "isRandom": false,
+      "randomRange": null,
+      "useToggle": false,
+      "toggle": null,
+      "description": ""
+    },
+    "brightness": {
+      "name": "brightness",
+      "displayName": null,
+      "type": "f",
+      "glslType": "float",
+      "useGridHelper": false,
+      "useRange": false,
+      "range": null,
+      "isRandom": false,
+      "randomRange": null,
+      "useToggle": false,
+      "toggle": null,
+      "description": ""
+    },
+    "scale": {
+      "name": "scale",
+      "displayName": null,
+      "type": "f",
+      "glslType": "float",
+      "useGridHelper": false,
+      "useRange": true,
+      "range": {
+        "min": "1",
+        "max": "10"
+      },
+      "isRandom": false,
+      "randomRange": null,
+      "useToggle": false,
+      "toggle": null,
+      "description": ""
+    },
+    "time": {
+      "name": "time",
+      "displayName": null,
+      "type": "f",
+      "glslType": "float",
+      "useGridHelper": false,
+      "useRange": false,
+      "range": null,
+      "isRandom": false,
+      "randomRange": null,
+      "useToggle": false,
+      "toggle": null,
+      "description": ""
+    }
+  },
+  "url": "http://shaderfrog.com/app/view/441",
+  "user": {
+    "username": "Micheus",
+    "url": "http://shaderfrog.com/app/profile/andrewray"
+  }
+}
