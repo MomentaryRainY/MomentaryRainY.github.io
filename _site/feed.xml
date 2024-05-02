@@ -4,7 +4,7 @@
   <id>https://momentaryrainy.github.io/</id>
   <title>Chirpy</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-05-02T15:41:11+08:00</updated>
+  <updated>2024-05-02T16:12:49+08:00</updated>
   <author>
     <name>Shunyu Yang</name>
     <uri>https://momentaryrainy.github.io/</uri>
@@ -17,6 +17,39 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>threeJs animation</title>
+    <link href="https://momentaryrainy.github.io/posts/threeJs/" rel="alternate" type="text/html" title="threeJs animation" />
+    <published>2024-02-28T00:00:00+08:00</published>
+  
+    <updated>2024-05-02T15:41:47+08:00</updated>
+  
+    <id>https://momentaryrainy.github.io/posts/threeJs/</id>
+    <content src="https://momentaryrainy.github.io/posts/threeJs/" />
+    <author>
+      <name>Shunyu Yang</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      content
+
+    </summary>
+  
+
+  </entry>
 
 </feed>
 
