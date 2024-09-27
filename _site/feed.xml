@@ -2,9 +2,9 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://momentaryrainy.github.io/</id>
-  <title>Chirpy</title>
+  <title>MomentaryRainY</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-09-27T12:30:31+08:00</updated>
+  <updated>2024-09-27T18:39:33+08:00</updated>
   <author>
     <name>Shunyu Yang</name>
     <uri>https://momentaryrainy.github.io/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>threeJs animation</title>
-    <link href="https://momentaryrainy.github.io/posts/threeJs/" rel="alternate" type="text/html" title="threeJs animation" />
-    <published>2024-02-28T00:00:00+08:00</published>
+    <title>Toon Shader</title>
+    <link href="https://momentaryrainy.github.io/posts/shader/" rel="alternate" type="text/html" title="Toon Shader" />
+    <published>2024-09-27T00:00:00+08:00</published>
   
-    <updated>2024-05-02T17:06:38+08:00</updated>
+    <updated>2024-09-27T00:00:00+08:00</updated>
   
-    <id>https://momentaryrainy.github.io/posts/threeJs/</id>
-    <content src="https://momentaryrainy.github.io/posts/threeJs/" />
+    <id>https://momentaryrainy.github.io/posts/shader/</id>
+    <content src="https://momentaryrainy.github.io/posts/shader/" />
     <author>
       <name>Shunyu Yang</name>
     </author>
@@ -44,7 +44,139 @@
 
 
 
-      content
+      github link
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Rastizer</title>
+    <link href="https://momentaryrainy.github.io/posts/rastizer/" rel="alternate" type="text/html" title="Rastizer" />
+    <published>2024-09-27T00:00:00+08:00</published>
+  
+    <updated>2024-09-27T00:00:00+08:00</updated>
+  
+    <id>https://momentaryrainy.github.io/posts/rastizer/</id>
+    <content src="https://momentaryrainy.github.io/posts/rastizer/" />
+    <author>
+      <name>Shunyu Yang</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      github link
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>LearnOpenGL</title>
+    <link href="https://momentaryrainy.github.io/posts/opengl/" rel="alternate" type="text/html" title="LearnOpenGL" />
+    <published>2024-09-27T00:00:00+08:00</published>
+  
+    <updated>2024-09-27T00:00:00+08:00</updated>
+  
+    <id>https://momentaryrainy.github.io/posts/opengl/</id>
+    <content src="https://momentaryrainy.github.io/posts/opengl/" />
+    <author>
+      <name>Shunyu Yang</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      github link
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Physical Based Animation</title>
+    <link href="https://momentaryrainy.github.io/posts/PBA/" rel="alternate" type="text/html" title="Physical Based Animation" />
+    <published>2024-09-27T00:00:00+08:00</published>
+  
+    <updated>2024-09-27T00:00:00+08:00</updated>
+  
+    <id>https://momentaryrainy.github.io/posts/PBA/</id>
+    <content src="https://momentaryrainy.github.io/posts/PBA/" />
+    <author>
+      <name>Shunyu Yang</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      github link
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Anti Alisaing</title>
+    <link href="https://momentaryrainy.github.io/posts/AA/" rel="alternate" type="text/html" title="Anti Alisaing" />
+    <published>2024-09-27T00:00:00+08:00</published>
+  
+    <updated>2024-09-27T00:00:00+08:00</updated>
+  
+    <id>https://momentaryrainy.github.io/posts/AA/</id>
+    <content src="https://momentaryrainy.github.io/posts/AA/" />
+    <author>
+      <name>Shunyu Yang</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      github link
 
     </summary>
   

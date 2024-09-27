@@ -1,10 +1,95 @@
 [
   
   {
-    "title": "threeJs animation",
+    "title": "Toon Shader",
+    "url": "/posts/shader/",
+    "categories": "",
+    "tags": "shader, c#",
+    "date": "2024-09-27 00:00:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "github link",
+    "content": "github link"
+  },
+  
+  {
+    "title": "Rastizer",
+    "url": "/posts/rastizer/",
+    "categories": "",
+    "tags": "rastizer, c++",
+    "date": "2024-09-27 00:00:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "github link",
+    "content": "github link"
+  },
+  
+  {
+    "title": "LearnOpenGL",
+    "url": "/posts/opengl/",
+    "categories": "",
+    "tags": "opengl, rastizer, c++",
+    "date": "2024-09-27 00:00:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "github link",
+    "content": "github link"
+  },
+  
+  {
+    "title": "Physical Based Animation",
+    "url": "/posts/PBA/",
+    "categories": "",
+    "tags": "physical-based, algorithm, unity, c#",
+    "date": "2024-09-27 00:00:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "github link",
+    "content": "github link"
+  },
+  
+  {
+    "title": "Anti Alisaing",
+    "url": "/posts/AA/",
+    "categories": "",
+    "tags": "real-time, algorithm, cmak, c++",
+    "date": "2024-09-27 00:00:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "github link",
+    "content": "github link"
+  },
+  
+  {
+    "title": "ThreeJs Animation",
     "url": "/posts/threeJs/",
     "categories": "",
-    "tags": "animation",
+    "tags": "animation, threeJs, web, c++",
     "date": "2024-02-28 00:00:00 +0800",
     
 
@@ -13,8 +98,8 @@
 
 
     
-    "snippet": "content",
-    "content": "content"
+    "snippet": "webpage",
+    "content": "webpage"
   }
   
 ]
