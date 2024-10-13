@@ -4,7 +4,7 @@
   <id>https://momentaryrainy.github.io/</id>
   <title>MomentaryRainY</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-09-27T18:42:18+08:00</updated>
+  <updated>2024-10-14T03:32:30+08:00</updated>
   <author>
     <name>Shunyu Yang</name>
     <uri>https://momentaryrainy.github.io/</uri>
@@ -17,6 +17,72 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Ray Tracer</title>
+    <link href="https://momentaryrainy.github.io/posts/raytracer/" rel="alternate" type="text/html" title="Ray Tracer" />
+    <published>2024-10-14T00:00:00+08:00</published>
+  
+    <updated>2024-10-14T00:00:00+08:00</updated>
+  
+    <id>https://momentaryrainy.github.io/posts/raytracer/</id>
+    <content src="https://momentaryrainy.github.io/posts/raytracer/" />
+    <author>
+      <name>Shunyu Yang</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      github link
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Path Tracing</title>
+    <link href="https://momentaryrainy.github.io/posts/pathtracer/" rel="alternate" type="text/html" title="Path Tracing" />
+    <published>2024-10-14T00:00:00+08:00</published>
+  
+    <updated>2024-10-14T00:00:00+08:00</updated>
+  
+    <id>https://momentaryrainy.github.io/posts/pathtracer/</id>
+    <content src="https://momentaryrainy.github.io/posts/pathtracer/" />
+    <author>
+      <name>Shunyu Yang</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      github link
+
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -94,72 +160,6 @@
   
     <id>https://momentaryrainy.github.io/posts/opengl/</id>
     <content src="https://momentaryrainy.github.io/posts/opengl/" />
-    <author>
-      <name>Shunyu Yang</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      github link
-
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Physical Based Animation</title>
-    <link href="https://momentaryrainy.github.io/posts/PBA/" rel="alternate" type="text/html" title="Physical Based Animation" />
-    <published>2024-09-27T00:00:00+08:00</published>
-  
-    <updated>2024-09-27T00:00:00+08:00</updated>
-  
-    <id>https://momentaryrainy.github.io/posts/PBA/</id>
-    <content src="https://momentaryrainy.github.io/posts/PBA/" />
-    <author>
-      <name>Shunyu Yang</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      github link
-
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Anti Alisaing</title>
-    <link href="https://momentaryrainy.github.io/posts/AA/" rel="alternate" type="text/html" title="Anti Alisaing" />
-    <published>2024-09-27T00:00:00+08:00</published>
-  
-    <updated>2024-09-27T00:00:00+08:00</updated>
-  
-    <id>https://momentaryrainy.github.io/posts/AA/</id>
-    <content src="https://momentaryrainy.github.io/posts/AA/" />
     <author>
       <name>Shunyu Yang</name>
     </author>

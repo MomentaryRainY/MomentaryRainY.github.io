@@ -1,6 +1,40 @@
 [
   
   {
+    "title": "Ray Tracer",
+    "url": "/posts/raytracer/",
+    "categories": "",
+    "tags": "c++, cmake, BVH",
+    "date": "2024-10-14 00:00:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "github link",
+    "content": "github link"
+  },
+  
+  {
+    "title": "Path Tracing",
+    "url": "/posts/pathtracer/",
+    "categories": "",
+    "tags": "c++, cmake, real-time",
+    "date": "2024-10-14 00:00:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "github link",
+    "content": "github link"
+  },
+  
+  {
     "title": "Toon Shader",
     "url": "/posts/shader/",
     "categories": "",
