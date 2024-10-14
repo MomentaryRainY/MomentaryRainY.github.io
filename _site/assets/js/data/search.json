@@ -1,9 +1,26 @@
 [
   
   {
+    "title": "ue5 game",
+    "url": "/posts/ue5game/",
+    "categories": "Game",
+    "tags": "ue5, behevior tree, c++, game level",
+    "date": "2024-10-14 00:00:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "waiting to upload, content involves a published ue5 game(an exe file). for time saving, a demo video is making",
+    "content": "waiting to upload, content involves a published ue5 game(an exe file). for time saving, a demo video is making"
+  },
+  
+  {
     "title": "Ray Tracer",
     "url": "/posts/raytracer/",
-    "categories": "",
+    "categories": "Academic",
     "tags": "c++, cmake, BVH",
     "date": "2024-10-14 00:00:00 +0800",
     
@@ -20,7 +37,7 @@
   {
     "title": "Path Tracing",
     "url": "/posts/pathtracer/",
-    "categories": "",
+    "categories": "Academic",
     "tags": "c++, cmake, real-time",
     "date": "2024-10-14 00:00:00 +0800",
     
@@ -35,9 +52,26 @@
   },
   
   {
+    "title": "blender-made scenerio",
+    "url": "/posts/blender/",
+    "categories": "Animation",
+    "tags": "model, camera, render, postprocess",
+    "date": "2024-10-14 00:00:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "sword animationsweet coconut",
+    "content": "sword animationsweet coconut"
+  },
+  
+  {
     "title": "Toon Shader",
     "url": "/posts/shader/",
-    "categories": "",
+    "categories": "Academic",
     "tags": "shader, c#",
     "date": "2024-09-27 00:00:00 +0800",
     
@@ -54,7 +88,7 @@
   {
     "title": "Rastizer",
     "url": "/posts/rastizer/",
-    "categories": "",
+    "categories": "Academic",
     "tags": "rastizer, c++",
     "date": "2024-09-27 00:00:00 +0800",
     
@@ -71,7 +105,7 @@
   {
     "title": "LearnOpenGL",
     "url": "/posts/opengl/",
-    "categories": "",
+    "categories": "Academic",
     "tags": "opengl, rastizer, c++",
     "date": "2024-09-27 00:00:00 +0800",
     
@@ -88,7 +122,7 @@
   {
     "title": "Physical Based Animation",
     "url": "/posts/PBA/",
-    "categories": "",
+    "categories": "Academic",
     "tags": "physical-based, algorithm, unity, c#",
     "date": "2024-09-27 00:00:00 +0800",
     
@@ -105,7 +139,7 @@
   {
     "title": "Anti Alisaing",
     "url": "/posts/AA/",
-    "categories": "",
+    "categories": "Academic",
     "tags": "real-time, algorithm, cmak, c++",
     "date": "2024-09-27 00:00:00 +0800",
     
@@ -122,7 +156,7 @@
   {
     "title": "ThreeJs Animation",
     "url": "/posts/threeJs/",
-    "categories": "",
+    "categories": "Animation",
     "tags": "animation, threeJs, web, c++",
     "date": "2024-02-28 00:00:00 +0800",
     

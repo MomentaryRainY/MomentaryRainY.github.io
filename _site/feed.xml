@@ -4,7 +4,7 @@
   <id>https://momentaryrainy.github.io/</id>
   <title>MomentaryRainY</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-10-14T03:32:30+08:00</updated>
+  <updated>2024-10-14T12:33:55+08:00</updated>
   <author>
     <name>Shunyu Yang</name>
     <uri>https://momentaryrainy.github.io/</uri>
@@ -17,6 +17,41 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>ue5 game</title>
+    <link href="https://momentaryrainy.github.io/posts/ue5game/" rel="alternate" type="text/html" title="ue5 game" />
+    <published>2024-10-14T00:00:00+08:00</published>
+  
+    <updated>2024-10-14T00:00:00+08:00</updated>
+  
+    <id>https://momentaryrainy.github.io/posts/ue5game/</id>
+    <content src="https://momentaryrainy.github.io/posts/ue5game/" />
+    <author>
+      <name>Shunyu Yang</name>
+    </author>
+
+  
+    
+    <category term="Game" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      waiting to upload, content involves a published ue5 game(an exe file). for time saving, a demo video is making
+
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -33,6 +68,8 @@
     </author>
 
   
+    
+    <category term="Academic" />
     
   
 
@@ -67,6 +104,8 @@
 
   
     
+    <category term="Academic" />
+    
   
 
   
@@ -78,6 +117,42 @@
 
 
       github link
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>blender-made scenerio</title>
+    <link href="https://momentaryrainy.github.io/posts/blender/" rel="alternate" type="text/html" title="blender-made scenerio" />
+    <published>2024-10-14T00:00:00+08:00</published>
+  
+    <updated>2024-10-14T00:00:00+08:00</updated>
+  
+    <id>https://momentaryrainy.github.io/posts/blender/</id>
+    <content src="https://momentaryrainy.github.io/posts/blender/" />
+    <author>
+      <name>Shunyu Yang</name>
+    </author>
+
+  
+    
+    <category term="Animation" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      sword animation
+sweet coconut
 
     </summary>
   
@@ -100,71 +175,7 @@
 
   
     
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      github link
-
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Rastizer</title>
-    <link href="https://momentaryrainy.github.io/posts/rastizer/" rel="alternate" type="text/html" title="Rastizer" />
-    <published>2024-09-27T00:00:00+08:00</published>
-  
-    <updated>2024-09-27T00:00:00+08:00</updated>
-  
-    <id>https://momentaryrainy.github.io/posts/rastizer/</id>
-    <content src="https://momentaryrainy.github.io/posts/rastizer/" />
-    <author>
-      <name>Shunyu Yang</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      github link
-
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>LearnOpenGL</title>
-    <link href="https://momentaryrainy.github.io/posts/opengl/" rel="alternate" type="text/html" title="LearnOpenGL" />
-    <published>2024-09-27T00:00:00+08:00</published>
-  
-    <updated>2024-09-27T00:00:00+08:00</updated>
-  
-    <id>https://momentaryrainy.github.io/posts/opengl/</id>
-    <content src="https://momentaryrainy.github.io/posts/opengl/" />
-    <author>
-      <name>Shunyu Yang</name>
-    </author>
-
-  
+    <category term="Academic" />
     
   
 

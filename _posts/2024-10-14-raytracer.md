@@ -1,7 +1,7 @@
 ---
 title: Ray Tracer
 date: 2024-10-14 00:00:00 +/-0000
-categories: []
+categories: [Academic]
 tags: [c++, cmake, BVH]     # TAG names should always be lowercase
 ---
 
