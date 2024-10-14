@@ -4,7 +4,7 @@
   <id>https://momentaryrainy.github.io/</id>
   <title>MomentaryRainY</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-10-14T12:33:55+08:00</updated>
+  <updated>2024-10-14T12:42:58+08:00</updated>
   <author>
     <name>Shunyu Yang</name>
     <uri>https://momentaryrainy.github.io/</uri>
@@ -55,11 +55,11 @@
 
   
   <entry>
-    <title>Ray Tracer</title>
-    <link href="https://momentaryrainy.github.io/posts/raytracer/" rel="alternate" type="text/html" title="Ray Tracer" />
+    <title>Ray Tracing</title>
+    <link href="https://momentaryrainy.github.io/posts/raytracer/" rel="alternate" type="text/html" title="Ray Tracing" />
     <published>2024-10-14T00:00:00+08:00</published>
   
-    <updated>2024-10-14T00:00:00+08:00</updated>
+    <updated>2024-10-14T12:35:00+08:00</updated>
   
     <id>https://momentaryrainy.github.io/posts/raytracer/</id>
     <content src="https://momentaryrainy.github.io/posts/raytracer/" />
@@ -94,7 +94,7 @@
     <link href="https://momentaryrainy.github.io/posts/pathtracer/" rel="alternate" type="text/html" title="Path Tracing" />
     <published>2024-10-14T00:00:00+08:00</published>
   
-    <updated>2024-10-14T00:00:00+08:00</updated>
+    <updated>2024-10-14T12:35:00+08:00</updated>
   
     <id>https://momentaryrainy.github.io/posts/pathtracer/</id>
     <content src="https://momentaryrainy.github.io/posts/pathtracer/" />
@@ -125,8 +125,8 @@
 
   
   <entry>
-    <title>blender-made scenerio</title>
-    <link href="https://momentaryrainy.github.io/posts/blender/" rel="alternate" type="text/html" title="blender-made scenerio" />
+    <title>Blender-made scenerio</title>
+    <link href="https://momentaryrainy.github.io/posts/blender/" rel="alternate" type="text/html" title="Blender-made scenerio" />
     <published>2024-10-14T00:00:00+08:00</published>
   
     <updated>2024-10-14T00:00:00+08:00</updated>
@@ -165,7 +165,7 @@ sweet coconut
     <link href="https://momentaryrainy.github.io/posts/shader/" rel="alternate" type="text/html" title="Toon Shader" />
     <published>2024-09-27T00:00:00+08:00</published>
   
-    <updated>2024-09-27T00:00:00+08:00</updated>
+    <updated>2024-10-14T12:35:00+08:00</updated>
   
     <id>https://momentaryrainy.github.io/posts/shader/</id>
     <content src="https://momentaryrainy.github.io/posts/shader/" />

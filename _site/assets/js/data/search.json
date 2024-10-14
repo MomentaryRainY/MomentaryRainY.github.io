@@ -18,7 +18,7 @@
   },
   
   {
-    "title": "Ray Tracer",
+    "title": "Ray Tracing",
     "url": "/posts/raytracer/",
     "categories": "Academic",
     "tags": "c++, cmake, BVH",
@@ -52,7 +52,7 @@
   },
   
   {
-    "title": "blender-made scenerio",
+    "title": "Blender-made scenerio",
     "url": "/posts/blender/",
     "categories": "Animation",
     "tags": "model, camera, render, postprocess",
