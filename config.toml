@@ -14,3 +14,8 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+
+theme = "vonge"
+taxonomies = [
+    { name = "tags", feed = true},
+]
