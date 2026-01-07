@@ -9,10 +9,10 @@ description = "I show only my best works built completely with passion, simplici
 [[extra.content_blocks]]
 block = "projects-list"
 show_projects = true
-[[extra.content_blocks]]
-block = "newsletter"
-newsletter_title = "Join my mailing list"
-newsletter_description = "Get inspiration, updates and, cool stuff!"
-newsletter_identifier = ""
-newsletter_button = "Subscribe"
+#[[extra.content_blocks]]
+#block = "newsletter"
+#newsletter_title = "Join my mailing list"
+#newsletter_description = "Get inspiration, updates and, cool stuff!"
+#newsletter_identifier = ""
+#newsletter_button = "Subscribe"
 +++

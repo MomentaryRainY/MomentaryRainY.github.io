@@ -9,10 +9,10 @@ description = "Vonge blog features productivity, tips, inspiration and strategie
 [[extra.content_blocks]]
 block = "posts-list"
 show_posts = true
-[[extra.content_blocks]]
-block = "newsletter"
-newsletter_title = "Join my mailing list"
-newsletter_description = "Get inspiration, updates and, cool stuff!"
-newsletter_identifier = ""
-newsletter_button = "Subscribe"
+#[[extra.content_blocks]]
+#block = "newsletter"
+#newsletter_title = "Join my mailing list"
+#newsletter_description = "Get inspiration, updates and, cool stuff!"
+#newsletter_identifier = ""
+#newsletter_button = "Subscribe"
 +++

@@ -37,10 +37,10 @@ content_html = """
       plurimas gentis cantibus arbitramur, primarium populi fuisse, quod
       praestantissimus fuisset in conficiendis disseretur voluptatibus. Utram
       tandem linguam nescio. Quod dicit Epicurus voluptate terra perfectio.</p>"""
-[[extra.content_blocks]]
-block = "newsletter"
-newsletter_title = "Join my mailing list"
-newsletter_description = "Get inspiration, updates and, cool stuff!"
-newsletter_identifier = ""
-newsletter_button = "Subscribe"
+#[[extra.content_blocks]]
+#block = "newsletter"
+#newsletter_title = "Join my mailing list"
+#newsletter_description = "Get inspiration, updates and, cool stuff!"
+#newsletter_identifier = ""
+#newsletter_button = "Subscribe"
 +++
