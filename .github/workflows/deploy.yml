@@ -9,6 +9,14 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      - name: Delete old pages deployment
+        run: |
+          #git push origin --delete gh-pages 2>/dev/null || true
+          
+          rm -rf public _site docs .jekyll-cache 2>/dev/null || true
+          
+          find . -name "_config.yml" -delete 2>/dev/null || true
+          find . -name "Gemfile*" -delete 2>/dev/null || true
       - name: Force GitHub API purge
         run: |
           curl -X DELETE \
