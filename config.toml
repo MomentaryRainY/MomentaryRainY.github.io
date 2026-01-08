@@ -36,7 +36,7 @@ author_image = '/images/avatar.jpg'
 navigation = [
     { url = "$BASE_URL", title = "Home" },
     { url = "$BASE_URL/projects", title = "Projects" },
-    { url = "$BASE_URL/posts", title = "Blog" },
+    # { url = "$BASE_URL/posts", title = "Blog" },
     { url = "$BASE_URL/tags", title = "Tags" },
     { url = "", title = "Pages", submenu = [
         { url = "$BASE_URL/about", title = "About" },
@@ -65,7 +65,7 @@ menu = [
     { url = "$BASE_URL/projects/", title = "Projects" },
     { url = "$BASE_URL/elements/", title = "Elements" },
     { url = "$BASE_URL/about/", title = "About" },
-    { url = "$BASE_URL/posts/", title = "Blog" },
+    # { url = "$BASE_URL/posts/", title = "Blog" },
 ]
 #copyright = ""
 
@@ -73,11 +73,11 @@ menu = [
 [[extra.content_blocks]]
 block = "hero"
 title = "Hi there, I am Shunyu Yang"
-description_html = "<strong>Game Engine Developer</strong> but more an self-identified <strong> Artist </strong>!"
+description_html = "<strong>Game Engine Developer</strong> but more an <strong> Artist </strong>!"
 image = "/images/01.jpg"
 image_alt = "Vanessa Marley's picture"
-cta_button_link = "#contact"
-cta_button = "Get in touch"
+# cta_button_link = "#contact"
+# cta_button = "Get in touch"
 works_button_link = "#projects"
 works_button = "See my works"
 [[extra.content_blocks]]
@@ -88,20 +88,20 @@ description_html = """
     and creativity!</p>"""
 link_url = "/projects"
 show_projects = true
-[[extra.content_blocks]]
-block = "testimonials-section"
-title = "Happy Clients"
-description_html = ""
-show_testimonials = true
-[[extra.content_blocks]]
-block = "blog-section"
-title = "Recent Posts"
-description_html = """
-    <p>Vonge blog features productivity, tips, inspiration and strategies for
-    massive profits. Find out how to set up a successful blog or how to make
-    yours even better!</p>"""
-link_url = "/posts"
-show_posts = true
+#[[extra.content_blocks]]
+#block = "testimonials-section"
+#title = "Happy Clients"
+#description_html = ""
+#show_testimonials = true
+#[[extra.content_blocks]]
+#block = "blog-section"
+#title = "Recent Posts"
+#description_html = """
+    #<p>Vonge blog features productivity, tips, inspiration and strategies for
+    #massive profits. Find out how to set up a successful blog or how to make
+    #yours even better!</p>"""
+#link_url = "/posts"
+#show_posts = true
 #[[extra.content_blocks]]
 #block = "newsletter"
 #newsletter_title = "Join my mailing list"
