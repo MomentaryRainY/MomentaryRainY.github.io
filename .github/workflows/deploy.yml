@@ -8,6 +8,16 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v4
+      - name: Create .nojekyll
+        run: |
+          # 方法1：在 static 目录创建（Zola 会复制到 public）
+          echo "" > static/.nojekyll
+          
+          # 方法2：直接验证
+          if [ ! -f "static/.nojekyll" ]; then
+            touch static/.nojekyll
+            echo "Created .nojekyll in static/"
+          fi
       - name: build_and_deploy
         uses: shalzz/zola-deploy-action@master
         env:
