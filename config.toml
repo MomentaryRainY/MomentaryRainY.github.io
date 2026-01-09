@@ -38,10 +38,11 @@ navigation = [
     { url = "$BASE_URL/projects", title = "Projects" },
     # { url = "$BASE_URL/posts", title = "Blog" },
     { url = "$BASE_URL/tags", title = "Tags" },
-    { url = "", title = "Pages", submenu = [
-        { url = "$BASE_URL/about", title = "About" },
-        { url = "$BASE_URL/elements", title = "Elements" }
-    ] }
+    { url = "$BASE_URL/about", title = "About" }
+    #{ url = "", title = "Pages", submenu = [
+        #{ url = "$BASE_URL/about", title = "About" },
+        #{ url = "$BASE_URL/elements", title = "Elements" }
+    #] }
 ]
 social_icons = [
     { url = "https://github.com/MomentaryRainY", icon = "GitHub" },
@@ -73,7 +74,7 @@ menu = [
 [[extra.content_blocks]]
 block = "hero"
 title = "Hi there, I am Shunyu Yang"
-description_html = "<strong>Game Engine Developer</strong> but more an <strong> Artist </strong>!"
+description_html = "<strong>Graphics Programmer</strong> but more an <strong> Artist </strong>!"
 image = "/images/01.jpg"
 image_alt = "Vanessa Marley's picture"
 # cta_button_link = "#contact"
