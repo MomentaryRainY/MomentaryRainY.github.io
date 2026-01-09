@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Personal Website - Game</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/game/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-12-23T05:30:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/game/atom.xml</id>
+    <entry xml:lang="en">
+        <title>DX12</title>
+        <published>2025-12-23T05:30:35+00:00</published>
+        <updated>2025-12-23T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/projects/dx12/"/>
+        <id>https://momentaryrainy.github.io/projects/dx12/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/projects/dx12/">&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;dialogue.png&quot; alt=&quot;Dialogue&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Game Design&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The template game level called After Interstellar, basically explains what cooper (main character of movie &quot;Interstellar&quot; have met after into the black hole. There are instanced trees and a sea being affect by the black hole and a 4D creature (TRex, who saved copper) is able to talks to you. Player, as first person of copper, can only move forward (limited by collision), talk to TRex and exit.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Techniques&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Besides the given use of DX12 APIs, the game incorporates Bidirectional Reflection Distance Field, attenuation in lighting, transparent mesh, texture mapping for opaque mesh, alpha-tested leaves, vertex-animated leaves and sea, instancing of trees with simple procedural generation, TRex interaction by animation controller, simple AABB collision, normal mapping, faked displacement mapping, Gerstner-based water flowing and a fixed Sky Sphere and so on.&lt;&#x2F;p&gt;
+&lt;p&gt;personal github Link &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;DX12&quot;&gt;&lt;strong&gt;3D Game&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Vampire Survivor</title>
+        <published>2025-12-05T05:30:35+00:00</published>
+        <updated>2025-12-05T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/projects/vamipresurvival/"/>
+        <id>https://momentaryrainy.github.io/projects/vamipresurvival/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/projects/vamipresurvival/">&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;infinite.png&quot; alt=&quot;Infinite&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Assets Annnoucement&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Mainly acquired from itch.io, free assets. Fonts is drawn by author.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Game Design&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Player can make use of mountain to avoid or kill other three types of enemies efficiently. However, mage&#x27;s light ball is forcing player to run, find and kill mages. The design partially inherits the pleasure of killing huge amount of enemies by certain strategy, also applies survive pressure to make this game challenging, like vampire survivors.&lt;&#x2F;p&gt;
+&lt;p&gt;The health of player is set to 10, every time collide to an enemy or shoot by mage (a kind of NPC), player losing one health. Once it dropped to zero, player dies. The collided enemy will die as well. Player can press WASD to move, press R to cast AOE 5 damage to top 3 nearest enemies in range, press B to save if user is afraid of dying soon. Player will automatically shoot arrow to nearest enemy that can penetrate enemies to deal tons of damage (if they are in a line). Both player&#x27;s AOE and arrow attack are ranged, about half of the screen.&lt;&#x2F;p&gt;
+&lt;p&gt;There are four terrain types: Road, Grass, Water, and Mountain. Water and mountain is a terrain that prevent player to move, yet water cannot stop NPCs. Grass will decrease all character&#x27;s speed. What&#x27;s more, item will increase the amount of player&#x27;s AOE targets or decrease the arrow attack cooldown time. Mountain is quite unique, it has special interactions with characters.&lt;&#x2F;p&gt;
+&lt;p&gt;Enemies have four categories as well. Mage, Runner, Tank and Normal. Mage is in 5 health, and capable to shoot light sphere that can penetrate the mountain, yet player&#x27;s arrow cannot. Mage&#x27;s attack range covered all screen. Runner is running faster, with also 5 health, trying to collide with player directly. Tank has 15 health, relative slow speed to normal type. Normal type has the same attributes with player.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Play Method&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Requiring Visual Studio, download zip from github, unzip and run directly by visual studio. Console choosing new&#x2F;load and fixed map and infinite map.&lt;&#x2F;p&gt;
+&lt;p&gt;personal github Link &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;Game_VampireSurvivors&quot;&gt;&lt;strong&gt;2D Game&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Game Jam</title>
+        <published>2025-11-25T05:30:35+00:00</published>
+        <updated>2025-11-25T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/projects/pinballairhockey/"/>
+        <id>https://momentaryrainy.github.io/projects/pinballairhockey/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/projects/pinballairhockey/">&lt;p&gt;&lt;strong&gt;Game Design&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The main idea to make game frantic is promoting competition between two players. Game prototype is traditional pinball, but supporting two players. Game has two modes, two player playing in their own area, get buffer by hitting monsters to get points, or increasing opponents&#x27;s difficulty by hitting items, making them losing health. There are five kinds of collision items, effects are size+, size-, speed+, count+, and teleport. In two modes, items affect local&#x2F;opponent area.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;split.png&quot; alt=&quot;Split&quot; &#x2F;&gt;
+split mode&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;joint.png&quot; alt=&quot;Joint&quot; &#x2F;&gt;
+joint mode&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Assets Annoucement&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;All Assets are from itch.io, free assets.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Play&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Game is published in itch.io &lt;a href=&quot;https:&#x2F;&#x2F;hypersycos.itch.io&#x2F;frantic-pinball&quot;&gt;link&lt;&#x2F;a&gt;, supporting playing online. Game require two handles.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Awards&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Most Frantic&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;personal github Link &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Games-Engineering-Grp-Game-Jam&#x2F;PinballAirHockey&quot;&gt;&lt;strong&gt;Game Jam&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

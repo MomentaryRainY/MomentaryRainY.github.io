@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Personal Website - Reimplementation</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/reimplementation/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-05-02T08:20:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/reimplementation/atom.xml</id>
+    <entry xml:lang="en">
+        <title>tiny renderer</title>
+        <published>2024-05-02T08:20:35+00:00</published>
+        <updated>2024-05-02T08:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/projects/tinyrenderer/"/>
+        <id>https://momentaryrainy.github.io/projects/tinyrenderer/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/projects/tinyrenderer/">&lt;p&gt;including SSAO, shadow, indirect lighting, ambient occlusion and so on, personal code link &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;tinyRenderer&quot;&gt;&lt;strong&gt;tinyRenderer&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Learn OpenGL</title>
+        <published>2024-04-03T05:30:35+00:00</published>
+        <updated>2024-04-03T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/projects/learnopengl/"/>
+        <id>https://momentaryrainy.github.io/projects/learnopengl/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/projects/learnopengl/">&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;opengl.gif&quot; alt=&quot;path tracing&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;personal github Link &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;learnOpenGL&quot;&gt;&lt;strong&gt;learnOpenGL&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Real-time High Quality Rendering</title>
+        <published>2024-03-06T07:30:35+00:00</published>
+        <updated>2024-03-06T07:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/projects/raytracing/"/>
+        <id>https://momentaryrainy.github.io/projects/raytracing/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/projects/raytracing/">&lt;p&gt;Original work is from Graphics And Mixed Environment Symposium (http:&#x2F;&#x2F;webinar.games-cn.org&#x2F;games202), instructor Lingqi Yan, UC Santa Barbara&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;house-sequence.gif&quot; alt=&quot;House Sequence&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;original render sequence output&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;denoised-house-sequence.gif&quot; alt=&quot;Denoised House Sequence&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;denoised render sequence output&lt;&#x2F;p&gt;
+&lt;p&gt;Personal github Link &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;RayTracing&quot;&gt;&lt;strong&gt;games202&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Introduction to Computer Graphics</title>
+        <published>2024-02-09T05:30:35+00:00</published>
+        <updated>2024-02-09T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/projects/pathtracing/"/>
+        <id>https://momentaryrainy.github.io/projects/pathtracing/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/projects/pathtracing/">&lt;p&gt;Original work is from Graphics And Mixed Environment Symposium (http:&#x2F;&#x2F;webinar.games-cn.org&#x2F;games202), instructor Lingqi Yan, UC Santa Barbara&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;games101.png&quot; alt=&quot;path tracing&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;BVH accelerated path tracing, personal github Link &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;RayTracing&quot;&gt;&lt;strong&gt;games202&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Physics-Based Animation</title>
+        <published>2024-01-10T05:20:35+00:00</published>
+        <updated>2024-01-10T05:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/projects/pbanimation/"/>
+        <id>https://momentaryrainy.github.io/projects/pbanimation/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/projects/pbanimation/">&lt;p&gt;Original work is from Graphics And Mixed Environment Symposium (http:&#x2F;&#x2F;webinar.games-cn.org&#x2F;games103), instructor Huamin Wang(games103@style3D.com)&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;house.gif&quot; alt=&quot;Bouncing House&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Rigid body Dynamics&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;cloth.gif&quot; alt=&quot;Cloth Simulation&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Physics-based Cloth Simulation&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;pool.gif&quot; alt=&quot;Pool Simulation&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Fluids, Pool Ripples Simulation&lt;&#x2F;p&gt;
+&lt;p&gt;Personal github Link &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;PBAnimation&quot;&gt;&lt;strong&gt;games103&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

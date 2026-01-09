@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Personal Website - GJ</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/gj/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-11-25T05:30:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/gj/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Game Jam</title>
+        <published>2025-11-25T05:30:35+00:00</published>
+        <updated>2025-11-25T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/projects/pinballairhockey/"/>
+        <id>https://momentaryrainy.github.io/projects/pinballairhockey/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/projects/pinballairhockey/">&lt;p&gt;&lt;strong&gt;Game Design&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The main idea to make game frantic is promoting competition between two players. Game prototype is traditional pinball, but supporting two players. Game has two modes, two player playing in their own area, get buffer by hitting monsters to get points, or increasing opponents&#x27;s difficulty by hitting items, making them losing health. There are five kinds of collision items, effects are size+, size-, speed+, count+, and teleport. In two modes, items affect local&#x2F;opponent area.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;split.png&quot; alt=&quot;Split&quot; &#x2F;&gt;
+split mode&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;joint.png&quot; alt=&quot;Joint&quot; &#x2F;&gt;
+joint mode&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Assets Annoucement&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;All Assets are from itch.io, free assets.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Play&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Game is published in itch.io &lt;a href=&quot;https:&#x2F;&#x2F;hypersycos.itch.io&#x2F;frantic-pinball&quot;&gt;link&lt;&#x2F;a&gt;, supporting playing online. Game require two handles.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Awards&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Most Frantic&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;personal github Link &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Games-Engineering-Grp-Game-Jam&#x2F;PinballAirHockey&quot;&gt;&lt;strong&gt;Game Jam&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
