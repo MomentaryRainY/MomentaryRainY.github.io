@@ -1,26 +1,24 @@
 +++
 date = "2024-01-10 05:20:35"
 draft = false
-title = "Physics-Based Animation"
-description = "Games103, Physics-Based Animation implementation in Unity"
+title = "物理动画"
+description = "Games103, 基于物理的动画模拟复刻"
 [taxonomies]
-tags = ["reimplementation", "project"]
+tags = ["复刻", "个人项目", "流体模拟"]
 [extra]
 image = '/images/games103.png'
 +++
-Original work is from Graphics And Mixed Environment Symposium (http://webinar.games-cn.org/games103), instructor Huamin Wang(games103@style3D.com)
 
 ![Bouncing House](/images/house.gif)
 
-Rigid body Dynamics
+刚体动力学
 
 ![Cloth Simulation](/images/cloth.gif)
 
-Physics-based Cloth Simulation
+基于物理的布料模拟
 
 ![Pool Simulation](/images/pool.gif)
 
-Fluids, Pool Ripples Simulation
-
+流体模拟
 
 Personal github Link [<strong>games103</strong>](https://github.com/MomentaryRainY/PBAnimation)

@@ -4,7 +4,10 @@ sort_by = "date"
 page_template = "project.html"
 [[extra.content_blocks]]
 block = "page-heading"
-title = "My works2"
-description = "I show only my best works built completely with passion, simplicity, and creativity!"
-
+title = "个人项目"
+description = "兴趣爱好驱动"
+[[extra.content_blocks]]
+block = "projects-list"
+section_path = "techart/_index.md"
+show_projects = true
 +++

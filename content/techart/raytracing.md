@@ -1,22 +1,23 @@
 +++
 date = "2024-03-06 07:30:35"
 draft = false
-title = "Real-time High Quality Rendering"
-description = "real-time rendering technologies, including global illumination and ray tracing, denosing"
+title = "高质量实时渲染"
+description = "全局光照、路径追踪、降噪"
 [taxonomies]
-tags = ["Reimplementation", "Project"]
+tags = ["复刻", "个人项目"]
 [extra]
-image = '/images/games202.png'
+image = '/images/games101.png'
 +++
 
-Original work is from Graphics And Mixed Environment Symposium (http://webinar.games-cn.org/games202), instructor Lingqi Yan, UC Santa Barbara
+静态路径追踪渲染，bvh、多线程加速
 
 ![House Sequence](/images/house-sequence.gif)
 
-original render sequence output
+降噪前
 
 ![Denoised House Sequence](/images/denoised-house-sequence.gif)
 
-denoised render sequence output
+降噪后
 
-Personal github Link [<strong>games202</strong>](https://github.com/MomentaryRainY/RayTracing)
+Github Link [<strong>路径追踪</strong>](https://github.com/MomentaryRainY/RayTracing)
+Github Link [<strong>降噪</strong>](https://github.com/MomentaryRainY/RTDenosier)

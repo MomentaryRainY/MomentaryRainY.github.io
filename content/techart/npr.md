@@ -1,12 +1,13 @@
 +++
-date = "2024-05-02 08:20:35"
+date = "2024-07-02 08:20:35"
 draft = false
-title = "tiny renderer"
-description = "c++ rasterizer within 500 lines code, famous github project (https://github.com/ssloy/tinyrenderer)"
+title = "原神渲染"
+description = "b站+知乎原神渲染复刻"
 [taxonomies]
-tags = ["Reimplementation", "Project"]
+tags = ["复刻", "个人项目"]
 [extra]
-image = '/images/renderer.png'
+image = '/images/furina.png'
 +++
 
-including SSAO, shadow, indirect lighting, ambient occlusion and so on, personal code link [<strong>tinyRenderer</strong>](https://github.com/MomentaryRainY/tinyRenderer)
+原神划时代的？特殊的ramp贴图光照采样以及SDF面部阴影平滑舒适过度，以及描边研究、复刻
+![Furina](https://github.com/MomentaryRainY/FurinaRender)
