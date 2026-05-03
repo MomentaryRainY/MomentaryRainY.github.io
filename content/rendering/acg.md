@@ -4,7 +4,7 @@ draft = false
 title = "高级图形学"
 description = "光线追踪、路线追踪，材质，分块渲染，多线程加速，环境光照到全局光照的C++ CPU端实现"
 [taxonomies]
-tags = ["3D", "C++", "光线追踪", "学校项目", "CPU端"]
+tags = ["3D", "C++", "光线追踪", "学校项目", "CPU"]
 [extra]
 image = '/images/cornellbox.png'
 +++
