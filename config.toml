@@ -31,14 +31,14 @@ disqus_identifier = ""
 google_analytics = ""
 twitter_handle = ""
 
-author_image = '/images/avatar.jpg'
+author_image = '/images/01.jpg'
 
 navigation = [
-    { url = "$BASE_URL", title = "Home" },
-    { url = "$BASE_URL/projects", title = "Projects" },
+    { url = "$BASE_URL", title = "主页" },
+    #{ url = "$BASE_URL/projects", title = "Projects" },
     # { url = "$BASE_URL/posts", title = "Blog" },
-    { url = "$BASE_URL/tags", title = "Tags" },
-    { url = "$BASE_URL/about", title = "About" }
+    { url = "$BASE_URL/tags", title = "项目标签" },
+    #{ url = "$BASE_URL/about", title = "关于我" }
     #{ url = "", title = "Pages", submenu = [
         #{ url = "$BASE_URL/about", title = "About" },
         #{ url = "$BASE_URL/elements", title = "Elements" }
@@ -63,7 +63,7 @@ keywords = ["keyword1", "keyword2", "keyword3"]
 [extra.footer]
 menu = [
     { url = "$BASE_URL", title = "Home" },
-    { url = "$BASE_URL/projects/", title = "Projects" },
+    #{ url = "$BASE_URL/projects/", title = "Projects" },
     { url = "$BASE_URL/elements/", title = "Elements" },
     { url = "$BASE_URL/about/", title = "About" },
     # { url = "$BASE_URL/posts/", title = "Blog" },
@@ -73,27 +73,58 @@ menu = [
 
 [[extra.content_blocks]]
 block = "hero"
-title = "Hi there, I am Shunyu Yang"
-description_html = "<strong>Graphics Programmer</strong> but more an <strong> Artist </strong>!"
+title = "这里是Momentary Rainy的个人作品网站"
+description_html = "自称艺术家，目标是游戏引擎、图形、技美糕手，未来某天成为游戏制作人"
 image = "/images/01.jpg"
-image_alt = "Vanessa Marley's picture"
-# cta_button_link = "#contact"
-# cta_button = "Get in touch"
+image_alt = "picture"
+cta_button_link = "about"
+cta_button = "关于我"
 works_button_link = "#projects"
-works_button = "See my works"
+works_button = "我的作品"
+
+#[[extra.content_blocks]]
+#block = "projects-section"
+#title = "Latest Works"
+#description_html = """
+#    <p>I show only my best works built completely with passion, simplicity,
+#    and creativity!</p>"""
+#link_url = "/projects"
+#show_projects = true
+
 [[extra.content_blocks]]
 block = "projects-section"
-title = "Latest Works"
+title = "学校项目"
+section_path = "rendering/_index.md"
 description_html = """
-    <p>I show only my best works built completely with passion, simplicity,
-    and creativity!</p>"""
-link_url = "/projects"
+    <p>华威大学期间课程项目</p>"""
+link_url = "/rendering"
 show_projects = true
+
+[[extra.content_blocks]]
+block = "projects-section"
+title = "个人项目"
+section_path = "techart/_index.md"
+description_html = """
+    <p>兴趣爱好</p>"""
+link_url = "/techart"
+show_projects = true
+
+[[extra.content_blocks]]
+block = "projects-section"
+title = "论文"
+section_path = "research/_index.md"
+description_html = """
+    <p>学术研究</p>"""
+link_url = "/research"
+show_projects = true
+
 #[[extra.content_blocks]]
 #block = "testimonials-section"
 #title = "Happy Clients"
 #description_html = ""
 #show_testimonials = true
+
+
 #[[extra.content_blocks]]
 #block = "blog-section"
 #title = "Recent Posts"
@@ -103,12 +134,16 @@ show_projects = true
     #yours even better!</p>"""
 #link_url = "/posts"
 #show_posts = true
+
+
 #[[extra.content_blocks]]
 #block = "newsletter"
 #newsletter_title = "Join my mailing list"
 #newsletter_description = "Get inspiration, updates and, cool stuff!"
 #newsletter_identifier = ""
 #newsletter_button = "Subscribe"
+
+
 #[[extra.content_blocks]]
 #block = "contact-form"
 #form_title = "Get in touch"

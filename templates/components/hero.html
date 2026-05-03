@@ -1,26 +1,52 @@
 {% macro hero(data) %}
 <!-- begin hero -->
 {% set c = 'c-hero' %}
-<section class="{{c}} animate">
+
+<section class="{{c}} animate" id="hero">
   <div class="container">
     <div class="row">
       <div class="col col-12">
         <div class="{{c}}__inner">
 
+          <!-- LEFT -->
           <div class="{{c}}__left">
             <h1 class="{{c}}__title">{{ data.title }}</h1>
-            <div class="{{c}}__description">{{ data.description_html | safe }}</div>
+
+            <div class="{{c}}__description">
+              {{ data.description_html | safe }}
+            </div>
+
+            <!-- BUTTONS -->
             <div class="{{c}}__btn">
 
-              <a class="works-button c-button c-button--secondary c-button--small" href="{{ data.works_button_link }}">
-                <span class="circle-bg"><i class="ion ion-md-arrow-down button-arrow"></i></span> {{ data.works_button }}
+              {# ===== Works Button ===== #}
+              {% if data.works_button is defined and data.works_button_link is defined %}
+              <a class="works-button c-button c-button--secondary c-button--small"
+                 href="{{ data.works_button_link }}">
+                <span class="circle-bg">
+                  <i class="ion ion-md-arrow-down button-arrow"></i>
+                </span>
+                {{ data.works_button }}
               </a>
+              {% endif %}
+
+              {# ===== CTA Button（新增） ===== #}
+              {% if data.cta_button is defined and data.cta_button_link is defined %}
+              <a class="cta-button c-button c-button--primary c-button--small"
+                 href="{{ data.cta_button_link }}">
+                {{ data.cta_button }}
+              </a>
+              {% endif %}
+
             </div>
           </div>
 
+          <!-- RIGHT -->
           <div class="{{c}}__right">
             <div class="{{c}}__image">
-              <img loading="lazy" src="{{ get_url(path=data.image) }}" alt="{{ data.image_alt }}">
+              <img loading="lazy"
+                   src="{{ get_url(path=data.image) }}"
+                   alt="{{ data.image_alt }}">
             </div>
           </div>
 
@@ -29,5 +55,6 @@
     </div>
   </div>
 </section>
+
 <!-- end hero -->
 {% endmacro hero %}

@@ -79,15 +79,27 @@ document.addEventListener("DOMContentLoaded", function () {
   /* ============================
   // Smooth scrolling to section
   ============================ */
-  document.querySelectorAll(".works-button").forEach(anchor => {
-    anchor.addEventListener("click", function (e) {
+document.querySelectorAll(".works-button").forEach(anchor => {
+  anchor.addEventListener("click", function (e) {
+
+    const href = this.getAttribute("href");
+
+    // 只处理锚点链接
+    if (href && href.startsWith("#")) {
       e.preventDefault();
 
-      document.querySelector(this.getAttribute("href")).scrollIntoView({
-        behavior: "smooth"
-      });
-    });
+      const target = document.querySelector(href);
+
+      if (target) {
+        target.scrollIntoView({
+          behavior: "smooth"
+        });
+      }
+    }
+
+    // 如果是 /about 或外链 → 不拦截，正常跳转
   });
+});
 
 
   /* ============================

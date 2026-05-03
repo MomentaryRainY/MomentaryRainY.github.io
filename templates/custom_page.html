@@ -4,4 +4,7 @@
 {% if page.extra.content_blocks %}
 {{ components::content_blocks(data = page.extra.content_blocks) }}
 {% endif %}
+  <div class="container">
+    {{ page.content | safe }}
+  </div>
 {% endblock %}

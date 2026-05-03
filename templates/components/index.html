@@ -40,7 +40,7 @@
     {{ project_card::project_card(data = block) }}
     {% elif block.block == "projects-list" %}
     {{ projects_list::projects_list(data = block) }}
-    {% elif block.block == "projects-section" %}
+    {% elif block.block is starting_with("projects") %}
     {{ projects_section::projects_section(data = block) }}
     {% elif block.block == "tags-list" %}
     {{ tags_list::tags_list(data = block) }}

@@ -1,4 +1,5 @@
 {% import "components/project-card.html" as project_card %}
+
 {% macro projects_section(data) %}
 <!-- begin projects -->
 <section class="section projects" id="projects">
@@ -10,20 +11,50 @@
           <div class="section__info">
             <div class="section__head">
               <h2 class="section__title">{{ data.title }}</h2>
-              <a class="section__link" href="{{ data.link_url }}">View all <i class="ion ion-md-arrow-forward"></i></a>
+              <a class="section__link" href="{{ data.link_url }}">
+                View all <i class="ion ion-md-arrow-forward"></i>
+              </a>
             </div>
-            <div class="section__description">{{ data.description_html | safe }}</div>
+
+            <div class="section__description">
+              {{ data.description_html | safe }}
+            </div>
           </div>
 
           {% if data.show_projects %}
           <div class="row">
-            {% set section = get_section(path="projects/_index.md") %}
-            {% for i in range(end=6) %}
+
+            {# ---------------------------------- #}
+            {# Choose section dynamically        #}
+            {# ---------------------------------- #}
+
+            {% if data.section_path is defined %}
+              {% set section = get_section(path=data.section_path) %}
+            {% else %}
+              {% set section = get_section(path="projects/_index.md") %}
+            {% endif %}
+
+            {# ---------------------------------- #}
+            {# Choose max items                  #}
+            {# ---------------------------------- #}
+
+            {% if data.max_items is defined %}
+              {% set max_items = data.max_items %}
+            {% else %}
+              {% set max_items = 6 %}
+            {% endif %}
+
+            {# ---------------------------------- #}
+            {# Render cards                      #}
+            {# ---------------------------------- #}
+
+            {% for i in range(end=max_items) %}
               {% if i < section.pages | length %}
-              {% set post = section.pages | nth(n=i) %}
-              {{ project_card::project_card(data = post) }}
+                {% set post = section.pages | nth(n=i) %}
+                {{ project_card::project_card(data=post) }}
               {% endif %}
             {% endfor %}
+
           </div>
           {% endif %}
 
