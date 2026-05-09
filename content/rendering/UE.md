@@ -10,7 +10,15 @@ image = '/images/team.png'
 +++
 锐意制作中...
 
-随机分组+随机关卡，作者负责Level3水面战争，在队内选择了水面模拟。继Gerstner wave，计划使用compute shader实时计算FFT，配合此表面反射水体渲染，课程规定于5.23前完成
+### 项目描述
+对于班级进行随机分组，分配随机关卡，要求UE引擎，最终全班关卡组合成为成品游戏。
+作者被分配到了海战部分，在组内自行选择了海面模拟。
+
+### 计划 & 进展
+
+计划使用FFT制作无限海面，在玩家近处lerp Gerstner waves，再配合海面、船体交碰撞，生成最终实时海面
 
 ![Water](/images/water.png)
-当前进度，简单单轴shader计算顶点位移
+当前进度，简单三个Gerstner waves, 以及简单的噪声海面着色。
+
+compute shader在UE内的配置完毕，制作具体shader内容中...
