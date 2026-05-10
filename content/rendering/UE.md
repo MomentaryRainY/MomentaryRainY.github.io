@@ -1,7 +1,7 @@
 +++
 date = "2026-05-22 05:30:35"
 draft = false
-title = "UE"
+title = "UE小组项目(进行中)"
 description = "小组作业，长游戏逻辑线，每个小组负责一个场景"
 [taxonomies]
 tags = ["3D", "C++", "UE", "学校项目", "流体模拟"]
@@ -21,4 +21,4 @@ image = '/images/team.png'
 ![Water](/images/water.png)
 当前进度，简单三个Gerstner waves, 以及简单的噪声海面着色。
 
-compute shader在UE内的配置完毕，制作具体shader内容中...
+compute shader在UE内的配置完毕，暴力IFFT生成基本海浪高度完毕，优化butterfly中...

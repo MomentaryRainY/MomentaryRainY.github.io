@@ -74,7 +74,7 @@ menu = [
 [[extra.content_blocks]]
 block = "hero"
 title = "这里是Momentary Rainy的个人作品网站"
-description_html = "自称艺术家，目标是游戏引擎、图形、技美糕手，未来某天成为游戏制作人"
+description_html = "更愿自称艺术家，目标是游戏引擎、图形、技美糕手"
 image = "/images/01.jpg"
 image_alt = "picture"
 cta_button_link = "about"

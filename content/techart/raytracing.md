@@ -1,23 +1,34 @@
 +++
-date = "2024-03-06 07:30:35"
+date = "2024-07-06 07:30:35"
 draft = false
-title = "高质量实时渲染"
-description = "全局光照、路径追踪、降噪"
+title = "Games101 现代图形学入门"
+description = "基本图形学知识"
 [taxonomies]
 tags = ["复刻", "个人项目"]
 [extra]
 image = '/images/games101.png'
 +++
 
-静态路径追踪渲染，bvh、多线程加速
+### 项目描述
 
-![House Sequence](/images/house-sequence.gif)
+从基本数学原理，到矩阵变换、光栅化、着色、几何、光线追踪、材质再到动画，讲述基本图形学知识
 
-降噪前
+### 结果
 
-![Denoised House Sequence](/images/denoised-house-sequence.gif)
+![101](/images/games101.png)
+路径追踪的直接光照部分
 
-降噪后
+![rabbit](/images/rabbit.png)
+bvh加速光栅化
 
-Github Link [<strong>路径追踪</strong>](https://github.com/MomentaryRainY/RayTracing)
-Github Link [<strong>降噪</strong>](https://github.com/MomentaryRainY/RTDenosier)
+Github Link [<strong>光栅化</strong>](https://github.com/MomentaryRainY/RayTracing)
+
+Github Link [<strong>路径追踪</strong>](https://github.com/MomentaryRainY/PathTracing)
+
+### 成长 & 反思 & 未来 
+
+理解并熟悉基本图形学知识，以及线性代数知识
+
+梦开始的地方
+
+还需要多次实践，重复记忆才可以真正融汇贯通

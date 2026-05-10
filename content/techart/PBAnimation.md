@@ -1,5 +1,5 @@
 +++
-date = "2024-01-10 05:20:35"
+date = "2024-08-10 05:20:35"
 draft = false
 title = "物理动画"
 description = "Games103, 基于物理的动画模拟复刻"
@@ -8,6 +8,12 @@ tags = ["复刻", "个人项目", "流体模拟"]
 [extra]
 image = '/images/games103.png'
 +++
+
+### 项目描述
+
+基于Unity实现的入门物理动画模拟
+
+### 结果
 
 ![Bouncing House](/images/house.gif)
 
@@ -21,4 +27,10 @@ image = '/images/games103.png'
 
 流体模拟
 
-Personal github Link [<strong>games103</strong>](https://github.com/MomentaryRainY/PBAnimation)
+Github Link [<strong>games103</strong>](https://github.com/MomentaryRainY/PBAnimation)
+
+### 成长 & 未来
+
+了解并熟悉了基本的物理算法解决复杂现实符合物理的运动解析，了解基本的unity运行逻辑
+
+实现游戏引擎内简单碰撞系统

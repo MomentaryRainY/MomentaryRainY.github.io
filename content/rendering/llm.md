@@ -1,7 +1,7 @@
 +++
 date = "2026-07-05 05:30:35"
 draft = false
-title = "毕设"
+title = "毕设(未开始)"
 description = "一个可实时嵌入游戏的有长期记忆的本地 Boss NPC 对话模型研究"
 [taxonomies]
 tags = ["C++", "学校项目"]
@@ -9,6 +9,8 @@ tags = ["C++", "学校项目"]
 image = '/images/ED.png'
 +++
 闲了练练梦幻连，都成功过，训练室玩家
+
+于2026.7月开始
 
 ### 计划
 

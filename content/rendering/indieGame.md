@@ -1,7 +1,7 @@
 +++
 date = "2026-5-23 05:30:35"
 draft = false
-title = "独立游戏"
+title = "独立游戏(未开始)"
 description = "详见设计与论文，课程设置于6.29前完成"
 [taxonomies]
 tags = ["2D", "C++", "游戏", "学校项目"]
@@ -11,6 +11,8 @@ image = '/images/ready.png'
 
 ![Ready](/images/electronic.png)
 启动中....
+
+于2026.6开始
 
 ### 计划
 

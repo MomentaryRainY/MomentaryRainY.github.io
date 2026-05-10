@@ -9,6 +9,12 @@ tags = ["2D", "C#", "游戏", "团队项目"]
 image = '/images/frantic.png'
 +++
 
+### 项目描述
+
+在华威大学，参加的由游戏开发社团举办的两日game jam
+
+### 结果
+
 **游戏设计**
 
 这款游戏的核心理念在于通过鼓励两名玩家之间的竞争来营造紧张刺激的氛围。游戏原型是传统的弹珠台，但支持双人游戏。
@@ -26,8 +32,12 @@ image = '/images/frantic.png'
 
 已经发表至 [link](https://hypersycos.itch.io/frantic-pinball), 需要两个手柄，支持在线游玩
 
-**获奖**
-
-**最疯狂**
+**获奖：最疯狂奖**
 
 Github Link [<strong>Game Jam</strong>](https://github.com/Games-Engineering-Grp-Game-Jam/PinballAirHockey)
+
+### 成长 & 反思 & 未来
+
+实践游戏从设计、开发全过程，这辈子开发的第二款游戏 XD，比第一款虽小但是更精致，游戏在设计方面获奖
+
+美术资源找的有些随意，日常需要积累一些喜欢的资源
