@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Personal Website</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-07-05T05:30:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/atom.xml</id>
+    <entry xml:lang="en">
+        <title>毕设(未开始)</title>
+        <published>2026-07-05T05:30:35+00:00</published>
+        <updated>2026-07-05T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/rendering/llm/"/>
+        <id>https://momentaryrainy.github.io/rendering/llm/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/rendering/llm/">&lt;p&gt;闲了练练梦幻连，都成功过，训练室玩家&lt;&#x2F;p&gt;
+&lt;p&gt;于2026.7月开始&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;ji-hua&quot;&gt;计划&lt;&#x2F;h3&gt;
+&lt;p&gt;本项目计划探索游戏中用于首领NPC的实时、记忆增强型对话系统的设计与实现。系统的核心是一个本地部署的语言模型，并辅以结构化记忆模块。
+该记忆设计将瞬态对话历史记录与基于检索的机制相结合，允许将相关的历史互动动态地注入到模型的上下文中，使NPC能够参考先前的事件、玩家行为和不断变化的叙事状态。&lt;&#x2F;p&gt;
+&lt;p&gt;计划应用于前置独立游戏项目（回合制类型）中，效果例如：看起来你比上次更强了啊，要结束了（玩家低血量）等等&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>自研引擎（未开始）</title>
+        <published>2026-07-02T08:20:35+00:00</published>
+        <updated>2026-07-02T08:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/techart/engine/"/>
+        <id>https://momentaryrainy.github.io/techart/engine/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/techart/engine/">&lt;h3 id=&quot;ji-hua&quot;&gt;计划&lt;&#x2F;h3&gt;
+&lt;p&gt;逐日的学习，每一次学习到新的引擎相关知识就蠢蠢欲动自研一个。计划于毕设抽空并行，预计秋招前完成。&lt;&#x2F;p&gt;
+&lt;p&gt;底层实现会配合基本库如数学GLM，窗口SDL，物理physicX，图形vulkan，模型加载Assimp，图像stb_image&lt;&#x2F;p&gt;
+&lt;p&gt;逐步实现渲染器、ECS系统、资源管理、场景管理、任务系统等&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>独立游戏(未开始)</title>
+        <published>2026-05-23T05:30:35+00:00</published>
+        <updated>2026-05-23T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/rendering/indiegame/"/>
+        <id>https://momentaryrainy.github.io/rendering/indiegame/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/rendering/indiegame/">&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;electronic.png&quot; alt=&quot;Ready&quot; &#x2F;&gt;
+启动中....&lt;&#x2F;p&gt;
+&lt;p&gt;于2026.6开始&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;ji-hua&quot;&gt;计划&lt;&#x2F;h3&gt;
+&lt;p&gt;课程要求产出的游戏必须与前置论文项目研究的技术相关，作者计划同时使用PCG与NPR，同时配合游戏设计课程结果进行制作, 详见游戏设计项目。&lt;&#x2F;p&gt;
+&lt;p&gt;将于5.23开始&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>UE小组项目(进行中)</title>
+        <published>2026-05-22T05:30:35+00:00</published>
+        <updated>2026-05-22T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/rendering/ue/"/>
+        <id>https://momentaryrainy.github.io/rendering/ue/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/rendering/ue/">&lt;p&gt;锐意制作中...&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;对于班级进行随机分组，分配随机关卡，要求UE引擎，最终全班关卡组合成为成品游戏。
+作者被分配到了海战部分，在组内自行选择了海面模拟。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;ji-hua-jin-zhan&quot;&gt;计划 &amp;amp; 进展&lt;&#x2F;h3&gt;
+&lt;p&gt;计划使用FFT制作无限海面，在玩家近处lerp Gerstner waves，再配合海面、船体交碰撞，生成最终实时海面&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;water.png&quot; alt=&quot;Water&quot; &#x2F;&gt;
+当前进度，简单三个Gerstner waves, 以及简单的噪声海面着色。&lt;&#x2F;p&gt;
+&lt;p&gt;compute shader在UE内的配置完毕，暴力IFFT生成基本海浪高度完毕，优化butterfly中...&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>高级图形学</title>
+        <published>2026-04-27T05:30:35+00:00</published>
+        <updated>2026-04-27T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/rendering/acg/"/>
+        <id>https://momentaryrainy.github.io/rendering/acg/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/rendering/acg/">&lt;h3 id=&quot;ke-cheng-miao-shu&quot;&gt;课程描述&lt;&#x2F;h3&gt;
+&lt;p&gt;从光线追踪出发、到滤波后处理、空间数据结构、随机数、蒙特卡洛积分、光线追踪、真实相机、体积渲染、材质、
+进阶实时渲染算法如辐照度缓存、光子映射等&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;在C++端产出正确的路径渲染结果，实现正确的材质函数，拥有一定的渲染加速，路径追踪内补充环境光照。
+具体包含计算直接光照，间接光照，多重重要性采样；GGX微表面金属BRDF，玻璃BRDF，漫反射、镜面材质:
+分块+多线程渲染加速，BVH，矩形环境贴图采样等。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;图像均为低SPP产出，未降噪。侵入式渲染，&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;cornellbox.png&quot; alt=&quot;Cornellbox&quot; &#x2F;&gt;
+多线程配合BVH8倍加速
+&lt;img src=&quot;&#x2F;images&#x2F;bathroom.png&quot; alt=&quot;Bathroom&quot; &#x2F;&gt;
+包含了镜面反射，不使用BVH渲染时间超过5分钟
+&lt;img src=&quot;&#x2F;images&#x2F;material.png&quot; alt=&quot;Material&quot; &#x2F;&gt;
+包含了玻璃材质与微表面金属，25倍加速&lt;&#x2F;p&gt;
+&lt;p&gt;降噪效果,使用了intel降噪库，输入了法向、基本色作为参考&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;dcornellbox.png&quot; alt=&quot;Cornellbox&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;images&#x2F;dbathroom.png&quot; alt=&quot;Bathroom&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;images&#x2F;dmaterial.png&quot; alt=&quot;Material&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;AdvancedCG&quot;&gt;&lt;strong&gt;path&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;对基本路径追踪、材质、光照、滤波算法以及相关加速的综合掌握，渲染各流程的数学理论掌握，以及对横向技术分类的认识与理解&lt;&#x2F;p&gt;
+&lt;p&gt;对于基本渲染算法准确的数学表达，数值收敛以及边缘情况处理的综合运用&lt;&#x2F;p&gt;
+&lt;p&gt;很多开发时间浪费到了没有了解算法细节，如特殊情况处理、常数合理性，编写代码途中多次回顾和尝试。&lt;&#x2F;p&gt;
+&lt;p&gt;短时间内没有进一步研究的计划。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>PCG与NPR简单综述</title>
+        <published>2026-03-02T08:20:35+00:00</published>
+        <updated>2026-03-02T08:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/rendering/pcgnpr/"/>
+        <id>https://momentaryrainy.github.io/rendering/pcgnpr/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/rendering/pcgnpr/">&lt;p&gt;终末地的PBR渲染，豪堪，计划在游戏项目内进行复刻尝试&#x2F;学习。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-nei-rong&quot;&gt;项目内容&lt;&#x2F;h3&gt;
+&lt;p&gt;自选游戏&#x2F;图形学相关方向产出批判性综述，上限2400字&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;Critical_Review.pdf&quot;&gt;&lt;strong&gt;review&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;对于NPR和PCG有了更全面的认知。对于学术写作以及学术阅读有了深度的理解，能做到对相关技术的筛选、有效性辨认。&lt;&#x2F;p&gt;
+&lt;p&gt;由于字数限制，很多认知到的点未能展开、放入文中，英文写作也还有提升空间。&lt;&#x2F;p&gt;
+&lt;p&gt;再进一步理解游戏引擎后，计划尝试最新技术论文在现代&#x2F;自研引擎内的复刻&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>PCG与NPR简单综述</title>
+        <published>2026-03-02T08:20:35+00:00</published>
+        <updated>2026-03-02T08:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/research/pcgnpr/"/>
+        <id>https://momentaryrainy.github.io/research/pcgnpr/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/research/pcgnpr/">&lt;p&gt;终末地的PBR渲染，豪堪，计划在游戏项目内进行复刻尝试&#x2F;学习。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-nei-rong&quot;&gt;项目内容&lt;&#x2F;h3&gt;
+&lt;p&gt;自选游戏&#x2F;图形学相关方向产出批判性综述，上限2400字&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;Critical_Review.pdf&quot;&gt;&lt;strong&gt;review&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;对于NPR和PCG有了更全面的认知。对于学术写作以及学术阅读有了深度的理解，能做到对相关技术的筛选、有效性辨认。&lt;&#x2F;p&gt;
+&lt;p&gt;由于字数限制，很多认知到的点未能展开、放入文中，英文写作也还有提升空间。&lt;&#x2F;p&gt;
+&lt;p&gt;再进一步理解游戏引擎后，计划尝试最新技术论文在现代&#x2F;自研引擎内的复刻&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>游戏设计</title>
+        <published>2026-01-15T05:30:35+00:00</published>
+        <updated>2026-01-15T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/rendering/design/"/>
+        <id>https://momentaryrainy.github.io/rendering/design/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/rendering/design/">&lt;h3 id=&quot;ke-cheng-miao-shu&quot;&gt;课程描述&lt;&#x2F;h3&gt;
+&lt;p&gt;课程包括设计性思考、游戏可用性、结构与叙事、游戏开发相关技术、视觉传递、市场分析、众筹集资、原型测试&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;根据课程理论，产出游戏设计梗概，提供游戏游玩教程，以及理论使用阐述，限制共3000字&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;battle.png&quot; alt=&quot;Dialogue&quot; &#x2F;&gt;
+战斗概念图&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;flow.png&quot; alt=&quot;Dialogue&quot; &#x2F;&gt;
+游戏流程图&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;schedule.png&quot; alt=&quot;Dialogue&quot; &#x2F;&gt;
+开发时间规划&lt;&#x2F;p&gt;
+&lt;p&gt;剧情有点太直接了，再润色一下。&lt;&#x2F;p&gt;
+&lt;p&gt;游戏机制仿照火山的女儿的模拟游戏以及杀戮尖塔的卡牌+战棋战斗机制，特色在于符合剧情的代入感，卡牌符合剧情的效果设计，以及战斗体验。&lt;&#x2F;p&gt;
+&lt;p&gt;SLG阶段培养各项属性，如力量，敏捷，智力，感知有一定初始值。存在认知与专注属性，增长极慢，认知决定每回合抽牌数，专注决定弃牌数。
+通过课程选择可以增加不同数值的属性。其中精灵语增加感知和智力，体能会增加力量和敏捷，精灵术基础会增加智力和敏捷，自然识别会增加敏捷和感知
+玩家会有多套自己的牌库，每一门课初次会提供一套牌库，累计上课会不断提供数值以及该体系下的进阶牌。也可根据事件获得通用牌。&lt;&#x2F;p&gt;
+&lt;p&gt;为降低入门难度，战斗曲线增长并不陡峭，突出主角成长感，适应游戏体验曲线。示例代表游戏终期设计。设计具有高度扩展性，为续作提供创作空间。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;qia-pai-shi-li&quot;&gt;卡牌示例：&lt;&#x2F;h3&gt;
+&lt;p&gt;踢击：来自于父亲的教导，近战：造成等同于攻击力的伤害，攻击者同时后退 基于敏捷的 格数，并使攻击者的体力减少反比于敏捷点数。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;boss-shi-li&quot;&gt;Boss 示例：&lt;&#x2F;h3&gt;
+&lt;p&gt;课程考试：10x10 固定棋盘。老师使用高级自然魔法以及精灵创造的特殊生物。这些生物攻击力极强，只使用近战攻击，且伤害相对较高，主角设定为精灵种族，考验战斗期间敏捷和体力规划&lt;&#x2F;p&gt;
+&lt;h5 id=&quot;shi-jian-shi-li&quot;&gt;事件示例：&lt;&#x2F;h5&gt;
+&lt;p&gt;父亲在村外的朋友，一位剑术高超的剑士，前来拜访。他观察了主角目前的剑术，给予了鼓励，并获得了“剑柄打击”卡牌：造成少量伤害并抽取一张卡牌。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;学会了将模糊想法连接、调整、迭代成可执行方案，从玩家心态推导玩家行为到具体游戏机制的分析，多维度的机制分析权衡。&lt;&#x2F;p&gt;
+&lt;p&gt;设计过程也是类似项目迭代过程，应该做到粗略层和细节层刻意不随意切换，最后回顾再互相反馈，再进行下一次迭代，否则思考极易陷入僵局或者疲惫。&lt;&#x2F;p&gt;
+&lt;p&gt;该设计将于2026年5月底开始实现&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>优化</title>
+        <published>2025-12-23T05:30:35+00:00</published>
+        <updated>2025-12-23T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/projects/design/"/>
+        <id>https://momentaryrainy.github.io/projects/design/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/projects/design/">&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;dialogue.png&quot; alt=&quot;Dialogue&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Game Design&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The template game level called After Interstellar, basically explains what cooper (main character of movie &quot;Interstellar&quot; have met after into the black hole. There are instanced trees and a sea being affect by the black hole and a 4D creature (TRex, who saved copper) is able to talks to you. Player, as first person of copper, can only move forward (limited by collision), talk to TRex and exit.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Techniques&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Besides the given use of DX12 APIs, the game incorporates Bidirectional Reflection Distance Field, attenuation in lighting, transparent mesh, texture mapping for opaque mesh, alpha-tested leaves, vertex-animated leaves and sea, instancing of trees with simple procedural generation, TRex interaction by animation controller, simple AABB collision, normal mapping, faked displacement mapping, Gerstner-based water flowing and a fixed Sky Sphere and so on.&lt;&#x2F;p&gt;
+&lt;p&gt;personal github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;DX12&quot;&gt;&lt;strong&gt;3D Game&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>DX12</title>
+        <published>2025-12-23T05:30:35+00:00</published>
+        <updated>2025-12-23T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/rendering/dx12/"/>
+        <id>https://momentaryrainy.github.io/rendering/dx12/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/rendering/dx12/">&lt;h3 id=&quot;ke-cheng-miao-shu&quot;&gt;课程描述&lt;&#x2F;h3&gt;
+&lt;p&gt;讲述基本图形学数学、光栅化流程、基本GPU概念、GPU管线、DX12接口、几何、动画、纹理采样、游戏图像、碰撞&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;自行利用C++与DX12库构建DX12渲染管线，要求构建、渲染一个游戏场景。其中包括数据驱动型场景加载，具有纹理的几何，需要透明度测试的网格体，具有顶点位移动画的网格体，实例化构建的网格体。
+具有动画以及动画融合过度的网格体，第一人称的相机移动，简单碰撞，法向映射，特殊效果(天空盒、粒子系统、水体）&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;dialogue.png&quot; alt=&quot;Dialogue&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;DX12管线C++配置，shader，场景，Gerstner wave模拟(材质有点塑料)，简单PCG树摆放，相机运动等等&lt;&#x2F;p&gt;
+&lt;p&gt;游戏概念为名为“星际穿越之后”的游戏关卡，主要讲述了库珀（电影《星际穿越》的主角）在进入黑洞后遇到的景象。&lt;&#x2F;p&gt;
+&lt;p&gt;这里有实例化的树木，一片受黑洞影响的海洋，以及一个可以与你对话的4D生物（霸王龙，它救了库珀）。玩家以库珀的第一人称视角，只能向前移动（受碰撞限制），与霸王龙对话，然后离开。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;speech.png&quot; alt=&quot;Speech&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;字体选的有点难看...&lt;&#x2F;p&gt;
+&lt;p&gt;对话内容为：&lt;&#x2F;p&gt;
+&lt;p&gt;&quot;Hi, cooper, i know you have many questions.&quot;,
+&quot;You probably already figured it out, reaching the endpoint of 3D loop, you can become 4D creature.&quot;,
+&quot;But i cannot let you do that, for an untelling reason.&quot;,
+&quot;Enjoy your moments, I&#x27;ve seperated your time flowing here.&quot;,
+&quot;I will send you back whenever you want .press ESC. You won&#x27;t recall anything.&quot;&lt;&#x2F;p&gt;
+&lt;p&gt;随即动画融合器使得恐龙转头&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;DX12&quot;&gt;&lt;strong&gt;3D Game&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;综合掌握了基本C++DX12管线配置流程，进一步熟悉精通了基本图形学相关数学概念，对基本游戏渲染技术有了深度理解。&lt;&#x2F;p&gt;
+&lt;p&gt;代码框架设计有一定优化空间，未来需要多考虑代码可扩展性&lt;&#x2F;p&gt;
+&lt;p&gt;在未来的引擎构建内尝试Vulkan，以及cuda的构建。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>优化</title>
+        <published>2025-12-23T05:30:35+00:00</published>
+        <updated>2025-12-23T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/rendering/optimization/"/>
+        <id>https://momentaryrainy.github.io/rendering/optimization/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/rendering/optimization/">&lt;h3 id=&quot;ke-cheng-miao-shu&quot;&gt;课程描述&lt;&#x2F;h3&gt;
+&lt;p&gt;课程重点在于游戏相关各种技术的综合应用。其中包括游戏音频，游戏AI，数据库，图论，GPGPU，多线程，移动语法，网络，优化，SIMD，测试驱动开发，游戏窗口。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;项目要求使用多线程以及SIMD优化C++光栅化渲染器，以及使用ImGui和网络构建简单的在线聊天室。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;after.png&quot; alt=&quot;After&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;如图经过优化，超出了CPU读写极限，出现规则性渲染失败, 高密度几何区域z-fight严重，需要提升至GPU或者更换渲染策略如分块渲染等，超出原本渲染逻辑极限&lt;&#x2F;p&gt;
+&lt;p&gt;简单网络聊天室的，使用了Imgui作为聊天面板，客户端、服务端的C++实现,包括公共聊天以及私聊。使用了简单的网络协议。
+&lt;img src=&quot;&#x2F;images&#x2F;connecting.png&quot; alt=&quot;Connecting&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;images&#x2F;chatroom.png&quot; alt=&quot;Chatroom&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;Optimization&quot;&gt;&lt;strong&gt;opt&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;Server&quot;&gt;&lt;strong&gt;server&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;Client&quot;&gt;&lt;strong&gt;client&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;对游戏相关技术领域有了初步理解，掌握了对于简单游戏架构的优化。&lt;&#x2F;p&gt;
+&lt;p&gt;对于多线程的数据管理略显生疏，实际执行前的设计规划不足。&lt;&#x2F;p&gt;
+&lt;p&gt;对于复杂游戏架构，如现代游戏引擎的优化还需进一步理解+学习。各种游戏概念在课程内只停留在了初步，进阶内容如GPGPU仍缺少实践。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>类吸血鬼幸存者</title>
+        <published>2025-12-05T05:30:35+00:00</published>
+        <updated>2025-12-05T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/rendering/vamipresurvival/"/>
+        <id>https://momentaryrainy.github.io/rendering/vamipresurvival/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/rendering/vamipresurvival/">&lt;h3 id=&quot;ke-cheng-miao-shu&quot;&gt;课程描述&lt;&#x2F;h3&gt;
+&lt;p&gt;讲解C++基础，包括基础语法、指针、面对对象、IO、模板、智能指针、现代语法、STL、异常处理、算法、排序、数据结构、分治等&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;2DC++游戏开发，包括跟踪式相机、视野外生成五种以上NPC、生成频率随时间增加、跟踪+直接攻击玩家的AI行为、投射物碰撞检测、
+玩家自动间隔时间自动索敌攻击、按键触发AOE攻击Top N血量敌人的技能、可捡拾的强化道具、至少四种地形、数据驱动式关卡加载、
+无限式+固定式两张地图、显示游戏运行FPS、支持保存当前游戏&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;strong&gt;设计&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;玩家可以利用山地地形有效地躲避或击杀其他三种类型的敌人。然而，法师的光球会迫使玩家奔跑、寻找并击杀法师。这种设计部分继承了通过特定策略消灭大量敌人的乐趣，同时也增加了生存压力，使游戏更具挑战性，类似于《吸血鬼幸存者》。&lt;&#x2F;p&gt;
+&lt;p&gt;玩家的生命值设定为10点，每次与敌人碰撞或被法师（一种NPC）攻击时，玩家都会损失1点生命值。生命值降至0时，玩家死亡。被碰撞的敌人也会死亡。玩家可以使用WASD键移动，按下R键可以对范围内最近的3个敌人造成5点伤害的范围攻击，如果担心死亡，可以按下B键保存。玩家会自动向最近的敌人射出一支箭，这支箭可以穿透敌人造成大量伤害（如果敌人在一条直线上）。玩家的范围攻击和箭矢攻击都是远程攻击，射程约为屏幕的一半。&lt;&#x2F;p&gt;
+&lt;p&gt;游戏共有四种地形：道路、草地、水域和山地。水和山地地形会阻碍玩家移动，但水无法阻挡NPC。草地会降低所有角色的移动速度。此外，物品可以增加玩家AOE技能的目标数量或减少箭矢攻击的冷却时间。山地地形非常独特，它与角色之间有特殊的互动。&lt;&#x2F;p&gt;
+&lt;p&gt;敌人也分为四种类型：法师、奔跑者、坦克和普通敌人。法师拥有5点生命值，能够发射可以穿透山体的光球，但玩家的箭矢无法穿透。法师的攻击范围覆盖整个屏幕。奔跑者移动速度更快，同样拥有5点生命值，会试图直接与玩家碰撞。坦克拥有15点生命值，移动速度比普通敌人慢。普通敌人的属性与玩家相同。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;infinite.png&quot; alt=&quot;Infinite&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;玩法&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;需要 Visual Studio，从 GitHub 下载 zip 文件，解压后直接在 Visual Studio 中运行。控制台选择新建&#x2F;加载地图、固定地图和无限地图选项。&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;Game_VampireSurvivors&quot;&gt;&lt;strong&gt;2D Game&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;综合掌握C++基础以及基本游戏开发流程、模块、运行逻辑&lt;&#x2F;p&gt;
+&lt;p&gt;相比java，c++的语法以及指针的控制、包括对象的生命周期管理还不够熟练，游戏架构也有些死板，只限定在了最小可行。&lt;&#x2F;p&gt;
+&lt;p&gt;向games104学习，实践产出一个游戏引擎。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Game Jam</title>
+        <published>2025-11-25T05:30:35+00:00</published>
+        <updated>2025-11-25T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/techart/pinballairhockey/"/>
+        <id>https://momentaryrainy.github.io/techart/pinballairhockey/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/techart/pinballairhockey/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;在华威大学，参加的由游戏开发社团举办的两日game jam&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;strong&gt;游戏设计&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;这款游戏的核心理念在于通过鼓励两名玩家之间的竞争来营造紧张刺激的氛围。游戏原型是传统的弹珠台，但支持双人游戏。
+游戏有两种模式：双人各自在自己的区域内进行游戏，玩家可以通过击中怪物来获得分数，从而积累优势；
+或者通过击中道具来增加对手的难度，使其损失生命值。游戏中有五种碰撞道具，效果分别为：增大、减小、加速、增加数量和传送。
+在两种模式下，道具都会影响玩家自身区域和对手区域。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;split.png&quot; alt=&quot;Split&quot; &#x2F;&gt;
+分散模式&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;joint.png&quot; alt=&quot;Joint&quot; &#x2F;&gt;
+合并模式&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;游玩方式&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;已经发表至 &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;hypersycos.itch.io&#x2F;frantic-pinball&quot;&gt;link&lt;&#x2F;a&gt;, 需要两个手柄，支持在线游玩&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;获奖：最疯狂奖&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Games-Engineering-Grp-Game-Jam&#x2F;PinballAirHockey&quot;&gt;&lt;strong&gt;Game Jam&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;实践游戏从设计、开发全过程，这辈子开发的第二款游戏 XD，比第一款虽小但是更精致，游戏在设计方面获奖&lt;&#x2F;p&gt;
+&lt;p&gt;美术资源找的有些随意，日常需要积累一些喜欢的资源&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Learn OpenGL</title>
+        <published>2025-06-03T05:30:35+00:00</published>
+        <updated>2025-06-03T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/techart/learnopengl/"/>
+        <id>https://momentaryrainy.github.io/techart/learnopengl/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/techart/learnopengl/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;OpenGL官方教学网站，基础内容包括基本OpenGL语法，创建渲染窗口，绘制三角形，纹理，相机，光照，材质，模型&lt;&#x2F;p&gt;
+&lt;p&gt;进阶内容包括深度测试，模板测试，面剔除，帧缓存，批数据处理，GLSL语法，几何shader，实例化，反锯齿，阴影，后处理，法线贴图等&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;opengl.gif&quot; alt=&quot;path tracing&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;包含了所有基础内容，大部分进阶内容的实践&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;learnOpenGL&quot;&gt;learnOpenGL&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;了解基本光栅化渲染逻辑，熟悉图形学在实际渲染内的实践方法，以及进阶渲染概念&lt;&#x2F;p&gt;
+&lt;p&gt;模块化编程概念浅薄...写到最后代码低内聚，高耦合，大项目经验匮乏...shit mountain&lt;&#x2F;p&gt;
+&lt;p&gt;分散各功能的模块，彼此独立。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>原神渲染</title>
+        <published>2025-05-02T08:20:35+00:00</published>
+        <updated>2025-05-02T08:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/techart/npr/"/>
+        <id>https://momentaryrainy.github.io/techart/npr/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/techart/npr/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;学习b站项目，原视频链接 &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.bilibili.com&#x2F;video&#x2F;BV1HN4y1X7uS&#x2F;&quot;&gt;learnOpenGL&lt;&#x2F;a&gt;，同时参考了部分知乎文章&lt;&#x2F;p&gt;
+&lt;p&gt;参照纳西妲渲染复刻芙宁娜在Unity中URP管线的渲染&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;furina.png&quot; alt=&quot;Furina&quot; &#x2F;&gt;
+没有原神的全局光照效果，缺少一定暖色调&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;FurinaRender&quot;&gt;learnOpenGL&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;理解并熟悉了原神划特殊的ramp贴图光照采样，SDF面部阴影平滑舒适过度，描边技术，以及进阶shader编写方法&lt;&#x2F;p&gt;
+&lt;p&gt;过去只会编写简单shader语法，并没有处理复杂逻辑的思路&lt;&#x2F;p&gt;
+&lt;p&gt;在自己引擎里构筑一套专门NPR管线&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Games202 高质量实时渲染</title>
+        <published>2024-09-09T05:30:35+00:00</published>
+        <updated>2024-09-09T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/techart/pathtracing/"/>
+        <id>https://momentaryrainy.github.io/techart/pathtracing/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/techart/pathtracing/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;进阶图形学知识包括实时阴影，实时环境光照，实时全局光照，实时物理材质，实时光线追踪&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;games202.png&quot; alt=&quot;webgl&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;简单blinn phong着色模型&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;house-sequence.gif&quot; alt=&quot;House Sequence&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;实时降噪前&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;denoised-house-sequence.gif&quot; alt=&quot;Denoised House Sequence&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;降噪后&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;RTDenosier&quot;&gt;&lt;strong&gt;games202&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si&quot;&gt;成长 &amp;amp; 反思&lt;&#x2F;h3&gt;
+&lt;p&gt;了解了进阶图形学算法及其数学模型&lt;&#x2F;p&gt;
+&lt;p&gt;数学模型到代码实践的精准翻译，复刻需要足够深刻的理解&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Games103 物理动画入门</title>
+        <published>2024-08-10T05:20:35+00:00</published>
+        <updated>2024-08-10T05:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/techart/pbanimation/"/>
+        <id>https://momentaryrainy.github.io/techart/pbanimation/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/techart/pbanimation/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;基于Unity实现的入门物理动画模拟&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;house.gif&quot; alt=&quot;Bouncing House&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;刚体动力学&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;cloth.gif&quot; alt=&quot;Cloth Simulation&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;基于物理的布料模拟&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;pool.gif&quot; alt=&quot;Pool Simulation&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;流体模拟&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;PBAnimation&quot;&gt;&lt;strong&gt;games103&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-wei-lai&quot;&gt;成长 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;了解并熟悉了基本的物理算法解决复杂现实符合物理的运动解析，了解基本的unity运行逻辑&lt;&#x2F;p&gt;
+&lt;p&gt;实现游戏引擎内简单碰撞系统&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Games101 现代图形学入门</title>
+        <published>2024-07-06T07:30:35+00:00</published>
+        <updated>2024-07-06T07:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/techart/raytracing/"/>
+        <id>https://momentaryrainy.github.io/techart/raytracing/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/techart/raytracing/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;从基本数学原理，到矩阵变换、光栅化、着色、几何、光线追踪、材质再到动画，讲述基本图形学知识&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;games101.png&quot; alt=&quot;101&quot; &#x2F;&gt;
+路径追踪的直接光照部分&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;rabbit.png&quot; alt=&quot;rabbit&quot; &#x2F;&gt;
+bvh加速光栅化&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;RayTracing&quot;&gt;&lt;strong&gt;光栅化&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;PathTracing&quot;&gt;&lt;strong&gt;路径追踪&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;理解并熟悉基本图形学知识，以及线性代数知识&lt;&#x2F;p&gt;
+&lt;p&gt;梦开始的地方&lt;&#x2F;p&gt;
+&lt;p&gt;还需要多次实践，重复记忆才可以真正融汇贯通&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>基于 NeRF 的实时真实感渲染方法综述</title>
+        <published>2024-05-02T08:20:35+00:00</published>
+        <updated>2024-05-02T08:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/research/nerf/"/>
+        <id>https://momentaryrainy.github.io/research/nerf/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/research/nerf/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;对进一步从事学术研究的尝试，对Neural radiance field在游戏实时应用的分析综述&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-guo&quot;&gt;成果&lt;&#x2F;h3&gt;
+&lt;p&gt;被收录于 &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.62051&#x2F;26c21r61&quot;&gt;&lt;strong&gt;paper&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;第一篇发表的论文，进一步精通学术写作、阅读&lt;&#x2F;p&gt;
+&lt;p&gt;发现了自己在阅读和技术基础的薄弱点：需要全局视野的论文分析对比，带着和xx对比的问题进行阅读，再详细记录&lt;&#x2F;p&gt;
+&lt;p&gt;阅读更多技术论文，尝试复刻最新技术&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>tiny renderer</title>
+        <published>2024-05-02T08:20:35+00:00</published>
+        <updated>2024-05-02T08:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/techart/tinyrenderer/"/>
+        <id>https://momentaryrainy.github.io/techart/tinyrenderer/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/techart/tinyrenderer/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;类似Games101，但聚焦于图形接口的应用，包括线条绘制、光栅化三角形，背面剔除，相机控制，着色，数据处理，法相映射，阴影映射，间接光照&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;renderer.png&quot; alt=&quot;black&quot; &#x2F;&gt;
+未实现间接光照&lt;&#x2F;p&gt;
+&lt;p&gt;Github link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;tinyRenderer&quot;&gt;&lt;strong&gt;tinyRenderer&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;进一步熟悉OpenGL编写，巩固了图形学知识。&lt;&#x2F;p&gt;
+&lt;p&gt;使用了与101不同的坐标系定义，经验搬运不完全有效&lt;&#x2F;p&gt;
+&lt;p&gt;要进行有全局视野的设计，记录，验证&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

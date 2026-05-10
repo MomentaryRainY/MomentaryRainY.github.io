@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Personal Website - 个人项目</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/ge-ren-xiang-mu/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-06-03T05:30:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/ge-ren-xiang-mu/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Learn OpenGL</title>
+        <published>2025-06-03T05:30:35+00:00</published>
+        <updated>2025-06-03T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/techart/learnopengl/"/>
+        <id>https://momentaryrainy.github.io/techart/learnopengl/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/techart/learnopengl/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;OpenGL官方教学网站，基础内容包括基本OpenGL语法，创建渲染窗口，绘制三角形，纹理，相机，光照，材质，模型&lt;&#x2F;p&gt;
+&lt;p&gt;进阶内容包括深度测试，模板测试，面剔除，帧缓存，批数据处理，GLSL语法，几何shader，实例化，反锯齿，阴影，后处理，法线贴图等&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;opengl.gif&quot; alt=&quot;path tracing&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;包含了所有基础内容，大部分进阶内容的实践&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;learnOpenGL&quot;&gt;learnOpenGL&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;了解基本光栅化渲染逻辑，熟悉图形学在实际渲染内的实践方法，以及进阶渲染概念&lt;&#x2F;p&gt;
+&lt;p&gt;模块化编程概念浅薄...写到最后代码低内聚，高耦合，大项目经验匮乏...shit mountain&lt;&#x2F;p&gt;
+&lt;p&gt;分散各功能的模块，彼此独立。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>原神渲染</title>
+        <published>2025-05-02T08:20:35+00:00</published>
+        <updated>2025-05-02T08:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/techart/npr/"/>
+        <id>https://momentaryrainy.github.io/techart/npr/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/techart/npr/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;学习b站项目，原视频链接 &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.bilibili.com&#x2F;video&#x2F;BV1HN4y1X7uS&#x2F;&quot;&gt;learnOpenGL&lt;&#x2F;a&gt;，同时参考了部分知乎文章&lt;&#x2F;p&gt;
+&lt;p&gt;参照纳西妲渲染复刻芙宁娜在Unity中URP管线的渲染&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;furina.png&quot; alt=&quot;Furina&quot; &#x2F;&gt;
+没有原神的全局光照效果，缺少一定暖色调&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;FurinaRender&quot;&gt;learnOpenGL&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;理解并熟悉了原神划特殊的ramp贴图光照采样，SDF面部阴影平滑舒适过度，描边技术，以及进阶shader编写方法&lt;&#x2F;p&gt;
+&lt;p&gt;过去只会编写简单shader语法，并没有处理复杂逻辑的思路&lt;&#x2F;p&gt;
+&lt;p&gt;在自己引擎里构筑一套专门NPR管线&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Games202 高质量实时渲染</title>
+        <published>2024-09-09T05:30:35+00:00</published>
+        <updated>2024-09-09T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/techart/pathtracing/"/>
+        <id>https://momentaryrainy.github.io/techart/pathtracing/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/techart/pathtracing/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;进阶图形学知识包括实时阴影，实时环境光照，实时全局光照，实时物理材质，实时光线追踪&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;games202.png&quot; alt=&quot;webgl&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;简单blinn phong着色模型&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;house-sequence.gif&quot; alt=&quot;House Sequence&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;实时降噪前&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;denoised-house-sequence.gif&quot; alt=&quot;Denoised House Sequence&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;降噪后&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;RTDenosier&quot;&gt;&lt;strong&gt;games202&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si&quot;&gt;成长 &amp;amp; 反思&lt;&#x2F;h3&gt;
+&lt;p&gt;了解了进阶图形学算法及其数学模型&lt;&#x2F;p&gt;
+&lt;p&gt;数学模型到代码实践的精准翻译，复刻需要足够深刻的理解&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Games103 物理动画入门</title>
+        <published>2024-08-10T05:20:35+00:00</published>
+        <updated>2024-08-10T05:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/techart/pbanimation/"/>
+        <id>https://momentaryrainy.github.io/techart/pbanimation/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/techart/pbanimation/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;基于Unity实现的入门物理动画模拟&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;house.gif&quot; alt=&quot;Bouncing House&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;刚体动力学&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;cloth.gif&quot; alt=&quot;Cloth Simulation&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;基于物理的布料模拟&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;pool.gif&quot; alt=&quot;Pool Simulation&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;流体模拟&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;PBAnimation&quot;&gt;&lt;strong&gt;games103&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-wei-lai&quot;&gt;成长 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;了解并熟悉了基本的物理算法解决复杂现实符合物理的运动解析，了解基本的unity运行逻辑&lt;&#x2F;p&gt;
+&lt;p&gt;实现游戏引擎内简单碰撞系统&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Games101 现代图形学入门</title>
+        <published>2024-07-06T07:30:35+00:00</published>
+        <updated>2024-07-06T07:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/techart/raytracing/"/>
+        <id>https://momentaryrainy.github.io/techart/raytracing/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/techart/raytracing/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;从基本数学原理，到矩阵变换、光栅化、着色、几何、光线追踪、材质再到动画，讲述基本图形学知识&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;games101.png&quot; alt=&quot;101&quot; &#x2F;&gt;
+路径追踪的直接光照部分&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;rabbit.png&quot; alt=&quot;rabbit&quot; &#x2F;&gt;
+bvh加速光栅化&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;RayTracing&quot;&gt;&lt;strong&gt;光栅化&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;PathTracing&quot;&gt;&lt;strong&gt;路径追踪&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;理解并熟悉基本图形学知识，以及线性代数知识&lt;&#x2F;p&gt;
+&lt;p&gt;梦开始的地方&lt;&#x2F;p&gt;
+&lt;p&gt;还需要多次实践，重复记忆才可以真正融汇贯通&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

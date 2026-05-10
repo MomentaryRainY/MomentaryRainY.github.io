@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Personal Website - 项目</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/xiang-mu/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-07-02T08:20:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/xiang-mu/atom.xml</id>
+    <entry xml:lang="en">
+        <title>自研引擎（未开始）</title>
+        <published>2026-07-02T08:20:35+00:00</published>
+        <updated>2026-07-02T08:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/techart/engine/"/>
+        <id>https://momentaryrainy.github.io/techart/engine/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/techart/engine/">&lt;h3 id=&quot;ji-hua&quot;&gt;计划&lt;&#x2F;h3&gt;
+&lt;p&gt;逐日的学习，每一次学习到新的引擎相关知识就蠢蠢欲动自研一个。计划于毕设抽空并行，预计秋招前完成。&lt;&#x2F;p&gt;
+&lt;p&gt;底层实现会配合基本库如数学GLM，窗口SDL，物理physicX，图形vulkan，模型加载Assimp，图像stb_image&lt;&#x2F;p&gt;
+&lt;p&gt;逐步实现渲染器、ECS系统、资源管理、场景管理、任务系统等&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>tiny renderer</title>
+        <published>2024-05-02T08:20:35+00:00</published>
+        <updated>2024-05-02T08:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/techart/tinyrenderer/"/>
+        <id>https://momentaryrainy.github.io/techart/tinyrenderer/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/techart/tinyrenderer/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;类似Games101，但聚焦于图形接口的应用，包括线条绘制、光栅化三角形，背面剔除，相机控制，着色，数据处理，法相映射，阴影映射，间接光照&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;renderer.png&quot; alt=&quot;black&quot; &#x2F;&gt;
+未实现间接光照&lt;&#x2F;p&gt;
+&lt;p&gt;Github link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;tinyRenderer&quot;&gt;&lt;strong&gt;tinyRenderer&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;进一步熟悉OpenGL编写，巩固了图形学知识。&lt;&#x2F;p&gt;
+&lt;p&gt;使用了与101不同的坐标系定义，经验搬运不完全有效&lt;&#x2F;p&gt;
+&lt;p&gt;要进行有全局视野的设计，记录，验证&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

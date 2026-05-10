@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Personal Website - 团队项目</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/tuan-dui-xiang-mu/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-11-25T05:30:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/tuan-dui-xiang-mu/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Game Jam</title>
+        <published>2025-11-25T05:30:35+00:00</published>
+        <updated>2025-11-25T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/techart/pinballairhockey/"/>
+        <id>https://momentaryrainy.github.io/techart/pinballairhockey/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/techart/pinballairhockey/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;在华威大学，参加的由游戏开发社团举办的两日game jam&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;strong&gt;游戏设计&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;这款游戏的核心理念在于通过鼓励两名玩家之间的竞争来营造紧张刺激的氛围。游戏原型是传统的弹珠台，但支持双人游戏。
+游戏有两种模式：双人各自在自己的区域内进行游戏，玩家可以通过击中怪物来获得分数，从而积累优势；
+或者通过击中道具来增加对手的难度，使其损失生命值。游戏中有五种碰撞道具，效果分别为：增大、减小、加速、增加数量和传送。
+在两种模式下，道具都会影响玩家自身区域和对手区域。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;split.png&quot; alt=&quot;Split&quot; &#x2F;&gt;
+分散模式&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;joint.png&quot; alt=&quot;Joint&quot; &#x2F;&gt;
+合并模式&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;游玩方式&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;已经发表至 &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;hypersycos.itch.io&#x2F;frantic-pinball&quot;&gt;link&lt;&#x2F;a&gt;, 需要两个手柄，支持在线游玩&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;获奖：最疯狂奖&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Games-Engineering-Grp-Game-Jam&#x2F;PinballAirHockey&quot;&gt;&lt;strong&gt;Game Jam&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;实践游戏从设计、开发全过程，这辈子开发的第二款游戏 XD，比第一款虽小但是更精致，游戏在设计方面获奖&lt;&#x2F;p&gt;
+&lt;p&gt;美术资源找的有些随意，日常需要积累一些喜欢的资源&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

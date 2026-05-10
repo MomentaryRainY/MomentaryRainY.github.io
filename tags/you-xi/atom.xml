@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Personal Website - 游戏</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/you-xi/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-05-23T05:30:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/you-xi/atom.xml</id>
+    <entry xml:lang="en">
+        <title>独立游戏(未开始)</title>
+        <published>2026-05-23T05:30:35+00:00</published>
+        <updated>2026-05-23T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/rendering/indiegame/"/>
+        <id>https://momentaryrainy.github.io/rendering/indiegame/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/rendering/indiegame/">&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;electronic.png&quot; alt=&quot;Ready&quot; &#x2F;&gt;
+启动中....&lt;&#x2F;p&gt;
+&lt;p&gt;于2026.6开始&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;ji-hua&quot;&gt;计划&lt;&#x2F;h3&gt;
+&lt;p&gt;课程要求产出的游戏必须与前置论文项目研究的技术相关，作者计划同时使用PCG与NPR，同时配合游戏设计课程结果进行制作, 详见游戏设计项目。&lt;&#x2F;p&gt;
+&lt;p&gt;将于5.23开始&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>类吸血鬼幸存者</title>
+        <published>2025-12-05T05:30:35+00:00</published>
+        <updated>2025-12-05T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/rendering/vamipresurvival/"/>
+        <id>https://momentaryrainy.github.io/rendering/vamipresurvival/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/rendering/vamipresurvival/">&lt;h3 id=&quot;ke-cheng-miao-shu&quot;&gt;课程描述&lt;&#x2F;h3&gt;
+&lt;p&gt;讲解C++基础，包括基础语法、指针、面对对象、IO、模板、智能指针、现代语法、STL、异常处理、算法、排序、数据结构、分治等&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;2DC++游戏开发，包括跟踪式相机、视野外生成五种以上NPC、生成频率随时间增加、跟踪+直接攻击玩家的AI行为、投射物碰撞检测、
+玩家自动间隔时间自动索敌攻击、按键触发AOE攻击Top N血量敌人的技能、可捡拾的强化道具、至少四种地形、数据驱动式关卡加载、
+无限式+固定式两张地图、显示游戏运行FPS、支持保存当前游戏&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;strong&gt;设计&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;玩家可以利用山地地形有效地躲避或击杀其他三种类型的敌人。然而，法师的光球会迫使玩家奔跑、寻找并击杀法师。这种设计部分继承了通过特定策略消灭大量敌人的乐趣，同时也增加了生存压力，使游戏更具挑战性，类似于《吸血鬼幸存者》。&lt;&#x2F;p&gt;
+&lt;p&gt;玩家的生命值设定为10点，每次与敌人碰撞或被法师（一种NPC）攻击时，玩家都会损失1点生命值。生命值降至0时，玩家死亡。被碰撞的敌人也会死亡。玩家可以使用WASD键移动，按下R键可以对范围内最近的3个敌人造成5点伤害的范围攻击，如果担心死亡，可以按下B键保存。玩家会自动向最近的敌人射出一支箭，这支箭可以穿透敌人造成大量伤害（如果敌人在一条直线上）。玩家的范围攻击和箭矢攻击都是远程攻击，射程约为屏幕的一半。&lt;&#x2F;p&gt;
+&lt;p&gt;游戏共有四种地形：道路、草地、水域和山地。水和山地地形会阻碍玩家移动，但水无法阻挡NPC。草地会降低所有角色的移动速度。此外，物品可以增加玩家AOE技能的目标数量或减少箭矢攻击的冷却时间。山地地形非常独特，它与角色之间有特殊的互动。&lt;&#x2F;p&gt;
+&lt;p&gt;敌人也分为四种类型：法师、奔跑者、坦克和普通敌人。法师拥有5点生命值，能够发射可以穿透山体的光球，但玩家的箭矢无法穿透。法师的攻击范围覆盖整个屏幕。奔跑者移动速度更快，同样拥有5点生命值，会试图直接与玩家碰撞。坦克拥有15点生命值，移动速度比普通敌人慢。普通敌人的属性与玩家相同。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;infinite.png&quot; alt=&quot;Infinite&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;玩法&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;需要 Visual Studio，从 GitHub 下载 zip 文件，解压后直接在 Visual Studio 中运行。控制台选择新建&#x2F;加载地图、固定地图和无限地图选项。&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;Game_VampireSurvivors&quot;&gt;&lt;strong&gt;2D Game&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;综合掌握C++基础以及基本游戏开发流程、模块、运行逻辑&lt;&#x2F;p&gt;
+&lt;p&gt;相比java，c++的语法以及指针的控制、包括对象的生命周期管理还不够熟练，游戏架构也有些死板，只限定在了最小可行。&lt;&#x2F;p&gt;
+&lt;p&gt;向games104学习，实践产出一个游戏引擎。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Game Jam</title>
+        <published>2025-11-25T05:30:35+00:00</published>
+        <updated>2025-11-25T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/techart/pinballairhockey/"/>
+        <id>https://momentaryrainy.github.io/techart/pinballairhockey/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/techart/pinballairhockey/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;在华威大学，参加的由游戏开发社团举办的两日game jam&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;strong&gt;游戏设计&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;这款游戏的核心理念在于通过鼓励两名玩家之间的竞争来营造紧张刺激的氛围。游戏原型是传统的弹珠台，但支持双人游戏。
+游戏有两种模式：双人各自在自己的区域内进行游戏，玩家可以通过击中怪物来获得分数，从而积累优势；
+或者通过击中道具来增加对手的难度，使其损失生命值。游戏中有五种碰撞道具，效果分别为：增大、减小、加速、增加数量和传送。
+在两种模式下，道具都会影响玩家自身区域和对手区域。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;split.png&quot; alt=&quot;Split&quot; &#x2F;&gt;
+分散模式&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;joint.png&quot; alt=&quot;Joint&quot; &#x2F;&gt;
+合并模式&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;游玩方式&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;已经发表至 &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;hypersycos.itch.io&#x2F;frantic-pinball&quot;&gt;link&lt;&#x2F;a&gt;, 需要两个手柄，支持在线游玩&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;获奖：最疯狂奖&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Games-Engineering-Grp-Game-Jam&#x2F;PinballAirHockey&quot;&gt;&lt;strong&gt;Game Jam&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;实践游戏从设计、开发全过程，这辈子开发的第二款游戏 XD，比第一款虽小但是更精致，游戏在设计方面获奖&lt;&#x2F;p&gt;
+&lt;p&gt;美术资源找的有些随意，日常需要积累一些喜欢的资源&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

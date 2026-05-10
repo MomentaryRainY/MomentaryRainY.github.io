@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Personal Website - UE</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/ue/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-05-22T05:30:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/ue/atom.xml</id>
+    <entry xml:lang="en">
+        <title>UE小组项目(进行中)</title>
+        <published>2026-05-22T05:30:35+00:00</published>
+        <updated>2026-05-22T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/rendering/ue/"/>
+        <id>https://momentaryrainy.github.io/rendering/ue/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/rendering/ue/">&lt;p&gt;锐意制作中...&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;对于班级进行随机分组，分配随机关卡，要求UE引擎，最终全班关卡组合成为成品游戏。
+作者被分配到了海战部分，在组内自行选择了海面模拟。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;ji-hua-jin-zhan&quot;&gt;计划 &amp;amp; 进展&lt;&#x2F;h3&gt;
+&lt;p&gt;计划使用FFT制作无限海面，在玩家近处lerp Gerstner waves，再配合海面、船体交碰撞，生成最终实时海面&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;water.png&quot; alt=&quot;Water&quot; &#x2F;&gt;
+当前进度，简单三个Gerstner waves, 以及简单的噪声海面着色。&lt;&#x2F;p&gt;
+&lt;p&gt;compute shader在UE内的配置完毕，暴力IFFT生成基本海浪高度完毕，优化butterfly中...&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Personal Website - GPU</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/gpu/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-12-23T05:30:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/gpu/atom.xml</id>
+    <entry xml:lang="en">
+        <title>DX12</title>
+        <published>2025-12-23T05:30:35+00:00</published>
+        <updated>2025-12-23T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/rendering/dx12/"/>
+        <id>https://momentaryrainy.github.io/rendering/dx12/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/rendering/dx12/">&lt;h3 id=&quot;ke-cheng-miao-shu&quot;&gt;课程描述&lt;&#x2F;h3&gt;
+&lt;p&gt;讲述基本图形学数学、光栅化流程、基本GPU概念、GPU管线、DX12接口、几何、动画、纹理采样、游戏图像、碰撞&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;自行利用C++与DX12库构建DX12渲染管线，要求构建、渲染一个游戏场景。其中包括数据驱动型场景加载，具有纹理的几何，需要透明度测试的网格体，具有顶点位移动画的网格体，实例化构建的网格体。
+具有动画以及动画融合过度的网格体，第一人称的相机移动，简单碰撞，法向映射，特殊效果(天空盒、粒子系统、水体）&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;dialogue.png&quot; alt=&quot;Dialogue&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;DX12管线C++配置，shader，场景，Gerstner wave模拟(材质有点塑料)，简单PCG树摆放，相机运动等等&lt;&#x2F;p&gt;
+&lt;p&gt;游戏概念为名为“星际穿越之后”的游戏关卡，主要讲述了库珀（电影《星际穿越》的主角）在进入黑洞后遇到的景象。&lt;&#x2F;p&gt;
+&lt;p&gt;这里有实例化的树木，一片受黑洞影响的海洋，以及一个可以与你对话的4D生物（霸王龙，它救了库珀）。玩家以库珀的第一人称视角，只能向前移动（受碰撞限制），与霸王龙对话，然后离开。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;speech.png&quot; alt=&quot;Speech&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;字体选的有点难看...&lt;&#x2F;p&gt;
+&lt;p&gt;对话内容为：&lt;&#x2F;p&gt;
+&lt;p&gt;&quot;Hi, cooper, i know you have many questions.&quot;,
+&quot;You probably already figured it out, reaching the endpoint of 3D loop, you can become 4D creature.&quot;,
+&quot;But i cannot let you do that, for an untelling reason.&quot;,
+&quot;Enjoy your moments, I&#x27;ve seperated your time flowing here.&quot;,
+&quot;I will send you back whenever you want .press ESC. You won&#x27;t recall anything.&quot;&lt;&#x2F;p&gt;
+&lt;p&gt;随即动画融合器使得恐龙转头&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;DX12&quot;&gt;&lt;strong&gt;3D Game&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;综合掌握了基本C++DX12管线配置流程，进一步熟悉精通了基本图形学相关数学概念，对基本游戏渲染技术有了深度理解。&lt;&#x2F;p&gt;
+&lt;p&gt;代码框架设计有一定优化空间，未来需要多考虑代码可扩展性&lt;&#x2F;p&gt;
+&lt;p&gt;在未来的引擎构建内尝试Vulkan，以及cuda的构建。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

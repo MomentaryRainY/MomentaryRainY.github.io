@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Personal Website - 优化</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/you-hua/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-12-23T05:30:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/you-hua/atom.xml</id>
+    <entry xml:lang="en">
+        <title>优化</title>
+        <published>2025-12-23T05:30:35+00:00</published>
+        <updated>2025-12-23T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/rendering/optimization/"/>
+        <id>https://momentaryrainy.github.io/rendering/optimization/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/rendering/optimization/">&lt;h3 id=&quot;ke-cheng-miao-shu&quot;&gt;课程描述&lt;&#x2F;h3&gt;
+&lt;p&gt;课程重点在于游戏相关各种技术的综合应用。其中包括游戏音频，游戏AI，数据库，图论，GPGPU，多线程，移动语法，网络，优化，SIMD，测试驱动开发，游戏窗口。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;项目要求使用多线程以及SIMD优化C++光栅化渲染器，以及使用ImGui和网络构建简单的在线聊天室。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;after.png&quot; alt=&quot;After&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;如图经过优化，超出了CPU读写极限，出现规则性渲染失败, 高密度几何区域z-fight严重，需要提升至GPU或者更换渲染策略如分块渲染等，超出原本渲染逻辑极限&lt;&#x2F;p&gt;
+&lt;p&gt;简单网络聊天室的，使用了Imgui作为聊天面板，客户端、服务端的C++实现,包括公共聊天以及私聊。使用了简单的网络协议。
+&lt;img src=&quot;&#x2F;images&#x2F;connecting.png&quot; alt=&quot;Connecting&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;images&#x2F;chatroom.png&quot; alt=&quot;Chatroom&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;Optimization&quot;&gt;&lt;strong&gt;opt&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;Server&quot;&gt;&lt;strong&gt;server&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;Client&quot;&gt;&lt;strong&gt;client&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;对游戏相关技术领域有了初步理解，掌握了对于简单游戏架构的优化。&lt;&#x2F;p&gt;
+&lt;p&gt;对于多线程的数据管理略显生疏，实际执行前的设计规划不足。&lt;&#x2F;p&gt;
+&lt;p&gt;对于复杂游戏架构，如现代游戏引擎的优化还需进一步理解+学习。各种游戏概念在课程内只停留在了初步，进阶内容如GPGPU仍缺少实践。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
