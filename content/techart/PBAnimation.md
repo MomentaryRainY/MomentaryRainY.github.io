@@ -1,7 +1,7 @@
 +++
 date = "2024-08-10 05:20:35"
 draft = false
-title = "物理动画"
+title = "Games103 物理动画入门"
 description = "Games103, 基于物理的动画模拟复刻"
 [taxonomies]
 tags = ["复刻", "个人项目", "流体模拟"]
