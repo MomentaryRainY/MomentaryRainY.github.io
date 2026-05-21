@@ -11,3 +11,14 @@
   display: block;
   margin: 20px auto;
 }
+
+.page-video {
+  margin: 2rem 0;
+}
+
+.page-video video {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  border-radius: 12px;
+}
