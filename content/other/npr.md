@@ -1,7 +1,7 @@
 +++
 date = "2025-05-02 08:20:35"
 draft = false
-title = "原神渲染"
+title = "unity仿原神渲染"
 description = "b站+知乎原神渲染复刻"
 [taxonomies]
 tags = ["复刻", "个人项目"]
@@ -11,7 +11,7 @@ image = '/images/furina.png'
 
 ### 项目描述
 
-学习b站项目，原视频链接 [learnOpenGL](https://www.bilibili.com/video/BV1HN4y1X7uS/)，同时参考了部分知乎文章
+学习b站项目，原视频链接 [learnOpenGL](https://www.bilibili.com/video/BV1HN4y1X7uS/)，同时参考了很多知乎文章(好多都差一些，或者碰到了意料之外的情况...)
 
 参照纳西妲渲染复刻芙宁娜在Unity中URP管线的渲染
 

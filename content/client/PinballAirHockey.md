@@ -1,5 +1,5 @@
 +++
-date = "2025-11-25 05:30:35"
+date = "2026-6-25 05:30:35"
 draft = false
 title = "Game Jam"
 description = "主题: 疯狂, 48h华威大学Game Jam"
@@ -8,6 +8,8 @@ tags = ["2D", "C#", "游戏", "团队项目"]
 [extra]
 image = '/images/frantic.png'
 +++
+
+2025.11
 
 ### 项目描述
 

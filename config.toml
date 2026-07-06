@@ -65,7 +65,7 @@ menu = [
 [[extra.content_blocks]]
 block = "hero"
 title = "这里是Momentary Rainy的个人作品网站"
-description_html = "更愿自称艺术家，目标是游戏引擎、图形、技美糕手"
+description_html = "游戏见识丰富，见解深刻，在游戏客户端和技术美术方向均有研究的i人"
 image = "/images/01.jpg"
 image_alt = "picture"
 cta_button_link = "about"
@@ -76,27 +76,28 @@ works_button = "我的作品"
 
 [[extra.content_blocks]]
 block = "projects-section"
-title = "学校项目"
-section_path = "rendering/_index.md"
+title = "客户端方向"
+section_path = "client/_index.md"
 description_html = """
-    <p>华威大学期间课程项目</p>"""
-link_url = "/rendering"
+    <p>有Unity项目经验、C# / C++ 基础、卡牌系统实现、UI 交互、状态机系统、资源管理、性能优化均有涉猎</p>"""
+link_url = "/client"
+show_projects = true
+#任务系统、背包系统
+
+[[extra.content_blocks]]
+block = "projects-section"
+title = "图形学方向"
+section_path = "graphic/_index.md"
+description_html = """
+    <p>渲染管线、图形 API、DX12 / OpenGL / Vulkan、基本Shader/Compute Shader/Hull Shader、性能优化、数学基础、材质/光照/后处理均有涉猎</p>"""
+link_url = "/graphic"
 show_projects = true
 
 [[extra.content_blocks]]
 block = "projects-section"
-title = "个人尝试"
-section_path = "techart/_index.md"
+title = "较为散乱浅薄的各种尝试"
+section_path = "other/_index.md"
 description_html = """
-    <p>兴趣爱好</p>"""
-link_url = "/techart"
-show_projects = true
-
-[[extra.content_blocks]]
-block = "projects-section"
-title = "论文"
-section_path = "research/_index.md"
-description_html = """
-    <p>学术研究</p>"""
-link_url = "/research"
+    <p>2025及以前的尝试包括NeRF论文、B站Games系列、建模教程、渲染教程等等相关的尝试</p>"""
+link_url = "/other"
 show_projects = true

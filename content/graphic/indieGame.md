@@ -1,13 +1,15 @@
 +++
 date = "2026-5-23 05:30:35"
 draft = false
-title = "独立游戏(制作中)"
+title = "独立游戏(同客户端)"
 description = "详见设计与论文，课程设置于6.29前完成"
 [taxonomies]
 tags = ["2D", "C++", "游戏", "学校项目"]
 [extra]
 image = '/images/ready.png'
 +++
+
+2026.6
 
 ![Ready](/images/electronic.png)
 启动中....

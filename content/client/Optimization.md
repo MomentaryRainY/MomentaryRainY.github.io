@@ -1,5 +1,5 @@
 +++
-date = "2025-12-23 05:30:35"
+date = "2026-5-23 05:30:35"
 draft = false
 title = "优化"
 description = "优化光栅渲染器"
@@ -8,6 +8,8 @@ tags = ["C++", "学校项目", "优化"]
 [extra]
 image = '/images/before.png'
 +++
+
+2025.12
 
 ### 课程描述
 

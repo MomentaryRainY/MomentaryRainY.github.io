@@ -9,6 +9,8 @@ tags = ["论文"]
 image = '/images/nerf.png'
 +++
 
+2024.4
+
 ### 项目描述
 
 围绕 NeRF-based real-time photo-realistic rendering 方法进行文献调研，梳理 volume-based、surface-based 与 hybrid methods 三类技术路线。  
