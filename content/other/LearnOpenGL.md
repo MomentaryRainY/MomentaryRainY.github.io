@@ -2,32 +2,32 @@
 date = "2025-06-03 05:30:35"
 draft = false
 title = "Learn OpenGL"
-description = " https://learnopengl.com/项目学习"
+description = "跟随 LearnOpenGL 完成的 OpenGL 渲染基础与进阶功能练习"
 [taxonomies]
-tags = ["复刻", "个人项目"]
+tags = ["OpenGL", "C++", "实时渲染", "个人项目"]
 [extra]
 image = '/images/opengl.png'
 +++
 
 ### 项目描述
 
-OpenGL官方教学网站，基础内容包括基本OpenGL语法，创建渲染窗口，绘制三角形，纹理，相机，光照，材质，模型
+这是我跟随 [LearnOpenGL](https://learnopengl.com/) 完成的 OpenGL 学习项目，目标是建立实时渲染管线的基础理解，并通过代码实践连接图形学概念和实际 API 使用。
 
-进阶内容包括深度测试，模板测试，面剔除，帧缓存，批数据处理，GLSL语法，几何shader，实例化，反锯齿，阴影，后处理，法线贴图等
+项目覆盖了 OpenGL 基础语法、窗口创建、三角形绘制、纹理、相机、光照、材质和模型加载，也实践了深度测试、模板测试、面剔除、帧缓存、几何 Shader、实例化、反锯齿、阴影、后处理和法线贴图等进阶内容。
 
 ### 结果
 
 ![path tracing](/images/opengl.gif)
 
-包含了所有基础内容，大部分进阶内容的实践
+完成了基础章节和大部分进阶章节的代码实践，形成了一个包含模型、相机、光照和多种渲染效果的 OpenGL 学习工程。
 
 
 Github Link [learnOpenGL](https://github.com/MomentaryRainY/learnOpenGL)
 
 ### 成长 & 反思 & 未来
 
-了解基本光栅化渲染逻辑，熟悉图形学在实际渲染内的实践方法，以及进阶渲染概念
+这个项目让我第一次比较系统地理解实时光栅化渲染流程，也熟悉了图形学概念如何落到具体渲染 API 中。
 
-模块化编程概念浅薄...写到最后代码低内聚，高耦合，大项目经验匮乏...shit mountain
+不足之处在于，早期代码更偏跟随教程逐步堆叠，模块划分和资源管理不够清晰，后期功能之间耦合较高。
 
-分散各功能的模块，彼此独立。
+后续如果重构，我会把窗口、相机、模型、材质、Shader、纹理和渲染 pass 拆成更独立的模块，为之后的 DX12 或自研渲染框架打基础。

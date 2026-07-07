@@ -1,31 +1,31 @@
 +++
 date = "2025-05-02 08:20:35"
 draft = false
-title = "unity仿原神渲染"
-description = "b站+知乎原神渲染复刻"
+title = "Unity URP 风格化角色渲染"
+description = "在 Unity URP 中复刻类原神角色渲染，实践 Ramp 光照、SDF 面部阴影和描边效果"
 [taxonomies]
-tags = ["复刻", "个人项目"]
+tags = ["Unity", "URP", "Shader", "NPR", "个人项目"]
 [extra]
 image = '/images/furina.png'
 +++
 
 ### 项目描述
 
-学习b站项目，原视频链接 [learnOpenGL](https://www.bilibili.com/video/BV1HN4y1X7uS/)，同时参考了很多知乎文章(好多都差一些，或者碰到了意料之外的情况...)
+这是一个在 Unity URP 管线中进行的 NPR 角色渲染练习，目标是复刻类原神角色的风格化光照效果。项目参考了 B 站教程 [原视频](https://www.bilibili.com/video/BV1HN4y1X7uS/) 以及多篇知乎技术文章，并以芙宁娜角色模型作为测试对象。
 
-参照纳西妲渲染复刻芙宁娜在Unity中URP管线的渲染
+练习重点包括 Ramp 贴图光照、SDF 面部阴影、描边和角色材质参数调试。相比简单 Shader 练习，这个项目更接近完整角色渲染效果的拆解与复现。
 
 ### 结果
 
 ![Furina](/images/furina.png)
-没有原神的全局光照效果，缺少一定暖色调
+*Unity URP 中的风格化角色渲染结果。当前版本缺少原作中更完整的全局光照和暖色环境氛围。*
 
-Github Link [learnOpenGL](https://github.com/MomentaryRainY/FurinaRender)
+Github Link [FurinaRender](https://github.com/MomentaryRainY/FurinaRender)
 
 ### 成长 & 反思 & 未来
 
-理解并熟悉了原神划特殊的ramp贴图光照采样，SDF面部阴影平滑舒适过度，描边技术，以及进阶shader编写方法
+这个项目让我理解了风格化角色渲染中多个关键模块的配合方式：Ramp 贴图负责控制明暗分层，SDF 面部阴影用于获得更稳定的脸部阴影过渡，描边则强化角色轮廓和动画风格。
 
-过去只会编写简单shader语法，并没有处理复杂逻辑的思路
+相比过去只会写简单 Shader 语法，这次练习让我开始理解如何把复杂视觉目标拆成多个可调模块，并通过材质参数逐步接近目标风格。
 
-在自己引擎里构筑一套专门NPR管线
+后续如果继续迭代，我希望在自己的渲染框架或 Unity 项目中整理一套更完整的 NPR 管线，包括角色光照、阴影、描边、后处理和场景氛围统一控制。

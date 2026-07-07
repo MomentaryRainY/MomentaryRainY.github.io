@@ -38,6 +38,7 @@ author_image = '/images/01.jpg'
 navigation = [
     { url = "$BASE_URL", title = "主页" },
     { url = "$BASE_URL/tags", title = "项目标签" },
+    { url = "$BASE_URL/about", title = "关于我" }
 ]
 
 social_icons = [
