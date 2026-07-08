@@ -1,7 +1,7 @@
 +++
 date = "2026-03-02 08:20:35"
 draft = false
-title = "PCG 与 NPR 游戏技术综述"
+title = "PCG 与 NPR 游戏技术综述(客户端向)"
 description = "从游戏开发视角调研 PCG 与 NPR 的技术路线、实践成本和适用场景，为后续 Unity 游戏项目提供技术选型参考"
 [taxonomies]
 tags = ["技术调研", "PCG", "NPR", "游戏开发", "学校项目"]

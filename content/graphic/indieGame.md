@@ -1,7 +1,7 @@
 +++
 date = "2026-7-23 05:30:35"
 draft = false
-title = "独立游戏"
+title = "独立游戏(图形学向)"
 description = "Unity 回合制卡牌战棋游戏，结合网格战斗、牌组构筑、敌人 AI、PCG 环境摆放与风格化渲染"
 [taxonomies]
 tags = ["2D", "C++", "游戏", "学校项目"]
