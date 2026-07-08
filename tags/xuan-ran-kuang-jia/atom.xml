@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
+    <title>Personal Website - 渲染框架</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/xuan-ran-kuang-jia/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-03-23T05:30:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/xuan-ran-kuang-jia/atom.xml</id>
+    <entry xml:lang="zh">
+        <title>DirectX 12 渲染框架与 3D 场景</title>
+        <published>2026-03-23T05:30:35+00:00</published>
+        <updated>2026-03-23T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/graphic/dx12/"/>
+        <id>https://momentaryrainy.github.io/graphic/dx12/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/graphic/dx12/">&lt;p&gt;2025.11&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是一个使用 C++ 和 DirectX 12 搭建的小型实时渲染框架，并基于该框架实现了一个可游玩的第一人称 3D 场景。项目从 DX12 底层管线配置出发，完成资源管理、Shader 管理、常量缓冲、模型渲染、动画控制和场景交互等基础模块。&lt;&#x2F;p&gt;
+&lt;p&gt;最终场景以“星际穿越之后”为概念：玩家以第一人称视角在受黑洞影响的空间中前进，经过树木、水面和天空盒场景，与一个 4D 生物进行对话，并触发简单动画反馈。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhu-yao-shi-xian&quot;&gt;主要实现&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;使用 C++ 初始化 DirectX 12 渲染管线，包括 device、command queue、swap chain、descriptor heap 等基础对象&lt;&#x2F;li&gt;
+&lt;li&gt;封装 Shader、Constant Buffer、Vertex Layout Cache 等渲染资源管理模块&lt;&#x2F;li&gt;
+&lt;li&gt;实现数据驱动式场景加载，用于组织模型、材质、贴图和场景对象&lt;&#x2F;li&gt;
+&lt;li&gt;实现第一人称相机移动和基础碰撞限制&lt;&#x2F;li&gt;
+&lt;li&gt;实现带纹理的静态模型渲染&lt;&#x2F;li&gt;
+&lt;li&gt;实现 alpha test 网格体，用于树叶等透明裁切材质&lt;&#x2F;li&gt;
+&lt;li&gt;实现实例化渲染，用于批量摆放树木等重复对象&lt;&#x2F;li&gt;
+&lt;li&gt;实现骨骼动画与动画混合，用于恐龙转头等角色反馈&lt;&#x2F;li&gt;
+&lt;li&gt;实现法线贴图，增强模型表面细节&lt;&#x2F;li&gt;
+&lt;li&gt;实现天空盒渲染，构建场景环境背景&lt;&#x2F;li&gt;
+&lt;li&gt;实现基于 Gerstner Wave 的水体顶点位移效果&lt;&#x2F;li&gt;
+&lt;li&gt;实现字体与对话框渲染，用于场景内 NPC 对话&lt;&#x2F;li&gt;
+&lt;li&gt;实现简单 PCG 树木摆放，提升场景丰富度&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;dialogue.png&quot; alt=&quot;Dialogue&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;项目最终形成了一个短流程 3D 场景：玩家沿固定路线前进，与场景中的 4D 生物触发对话，并看到角色动画反馈。场景中包含实例化树木、天空盒、水体、第一人称移动、碰撞限制和对话 UI。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;speech.png&quot; alt=&quot;Speech&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;水体部分使用 Gerstner Wave 进行顶点位移，配合自定义水面 Shader 表现受黑洞影响的海面。由于项目时间有限，水体材质仍偏塑料感，后续需要进一步改进反射、折射和法线细节。&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link: &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;DX12&quot;&gt;DX12&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;字体选的有点难看...&lt;&#x2F;p&gt;
+&lt;p&gt;对话内容为：&lt;&#x2F;p&gt;
+&lt;p&gt;“嗨，库珀，我知道你有很多问题。”&lt;&#x2F;p&gt;
+&lt;p&gt;“你可能已经明白了，到达三维循环的终点，你就能变成四维生物。”&lt;&#x2F;p&gt;
+&lt;p&gt;“但我不能让你这么做。”&lt;&#x2F;p&gt;
+&lt;p&gt;“好好享受你的时光吧，我已经把你在这里的时间流逝分隔开了。”&lt;&#x2F;p&gt;
+&lt;p&gt;“你想什么时候回去都可以，在这里的任何事情你都不会记得。”&lt;&#x2F;p&gt;
+&lt;p&gt;随即动画融合器使得恐龙转头&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我从更底层理解了实时渲染框架的组织方式。相比在 Unity 或 Unreal 中直接使用已有组件，DirectX 12 需要自己管理渲染资源、命令提交、Shader 输入布局、常量缓冲和对象绘制顺序，因此更能暴露 GPU 管线背后的工程细节。&lt;&#x2F;p&gt;
+&lt;p&gt;项目中最有价值的部分是把多个实时渲染功能整合进同一个可运行场景：模型、动画、实例化、水体、天空盒、相机和对话 UI 都需要在同一套框架下协同工作。这让我更清楚地理解了渲染框架与游戏场景之间的关系。&lt;&#x2F;p&gt;
+&lt;p&gt;不足之处在于框架抽象还不够成熟，资源生命周期、渲染状态管理和模块扩展性仍有优化空间。后续如果继续迭代，我会优先重构渲染资源管理和场景系统，并尝试在 Vulkan 或更现代的自研渲染框架中复现类似功能。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
+    <title>Personal Website - 个人项目</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/ge-ren-xiang-mu/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-06-03T05:30:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/ge-ren-xiang-mu/atom.xml</id>
+    <entry xml:lang="zh">
+        <title>Learn OpenGL</title>
+        <published>2025-06-03T05:30:35+00:00</published>
+        <updated>2025-06-03T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/other/learnopengl/"/>
+        <id>https://momentaryrainy.github.io/other/learnopengl/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/other/learnopengl/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是我跟随 &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;learnopengl.com&#x2F;&quot;&gt;LearnOpenGL&lt;&#x2F;a&gt; 完成的 OpenGL 学习项目，目标是建立实时渲染管线的基础理解，并通过代码实践连接图形学概念和实际 API 使用。&lt;&#x2F;p&gt;
+&lt;p&gt;项目覆盖了 OpenGL 基础语法、窗口创建、三角形绘制、纹理、相机、光照、材质和模型加载，也实践了深度测试、模板测试、面剔除、帧缓存、几何 Shader、实例化、反锯齿、阴影、后处理和法线贴图等进阶内容。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;opengl.gif&quot; alt=&quot;path tracing&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;完成了基础章节和大部分进阶章节的代码实践，形成了一个包含模型、相机、光照和多种渲染效果的 OpenGL 学习工程。&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;learnOpenGL&quot;&gt;learnOpenGL&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我第一次比较系统地理解实时光栅化渲染流程，也熟悉了图形学概念如何落到具体渲染 API 中。&lt;&#x2F;p&gt;
+&lt;p&gt;不足之处在于，早期代码更偏跟随教程逐步堆叠，模块划分和资源管理不够清晰，后期功能之间耦合较高。&lt;&#x2F;p&gt;
+&lt;p&gt;后续如果重构，我会把窗口、相机、模型、材质、Shader、纹理和渲染 pass 拆成更独立的模块，为之后的 DX12 或自研渲染框架打基础。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>Unity URP 风格化角色渲染</title>
+        <published>2025-05-02T08:20:35+00:00</published>
+        <updated>2025-05-02T08:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/other/npr/"/>
+        <id>https://momentaryrainy.github.io/other/npr/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/other/npr/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是一个在 Unity URP 管线中进行的 NPR 角色渲染练习，目标是复刻类原神角色的风格化光照效果。项目参考了 B 站教程 &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.bilibili.com&#x2F;video&#x2F;BV1HN4y1X7uS&#x2F;&quot;&gt;原视频&lt;&#x2F;a&gt; 以及多篇知乎技术文章，并以芙宁娜角色模型作为测试对象。&lt;&#x2F;p&gt;
+&lt;p&gt;练习重点包括 Ramp 贴图光照、SDF 面部阴影、描边和角色材质参数调试。相比简单 Shader 练习，这个项目更接近完整角色渲染效果的拆解与复现。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;furina.png&quot; alt=&quot;Furina&quot; &#x2F;&gt;
+&lt;em&gt;Unity URP 中的风格化角色渲染结果。当前版本缺少原作中更完整的全局光照和暖色环境氛围。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;FurinaRender&quot;&gt;FurinaRender&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我理解了风格化角色渲染中多个关键模块的配合方式：Ramp 贴图负责控制明暗分层，SDF 面部阴影用于获得更稳定的脸部阴影过渡，描边则强化角色轮廓和动画风格。&lt;&#x2F;p&gt;
+&lt;p&gt;相比过去只会写简单 Shader 语法，这次练习让我开始理解如何把复杂视觉目标拆成多个可调模块，并通过材质参数逐步接近目标风格。&lt;&#x2F;p&gt;
+&lt;p&gt;后续如果继续迭代，我希望在自己的渲染框架或 Unity 项目中整理一套更完整的 NPR 管线，包括角色光照、阴影、描边、后处理和场景氛围统一控制。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>Games202 高质量实时渲染</title>
+        <published>2024-09-09T05:30:35+00:00</published>
+        <updated>2024-09-09T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/other/pathtracing/"/>
+        <id>https://momentaryrainy.github.io/other/pathtracing/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/other/pathtracing/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是我跟随 GAMES202 高质量实时渲染课程进行的图形学练习，重点关注实时渲染中更进阶的算法问题，包括实时阴影、实时环境光照、实时全局光照、实时物理材质和实时光线追踪。&lt;&#x2F;p&gt;
+&lt;p&gt;项目中主要完成了基础着色和实时降噪相关实践，用来理解高质量实时渲染中“效果质量、性能预算和时序稳定性”之间的取舍。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;games202.png&quot; alt=&quot;webgl&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Blinn-Phong 着色模型练习。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;house-sequence.gif&quot; alt=&quot;House Sequence&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;实时降噪前的序列结果。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;denoised-house-sequence.gif&quot; alt=&quot;Denoised House Sequence&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;实时降噪后的序列结果。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;RTDenosier&quot;&gt;&lt;strong&gt;games202&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si&quot;&gt;成长 &amp;amp; 反思&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我开始理解实时渲染中更复杂的算法目标：很多效果并不是单帧算得越准越好，而是要在有限时间内获得稳定、可接受且可调的结果。&lt;&#x2F;p&gt;
+&lt;p&gt;实践中最大的体会是，复刻图形学算法不能只看公式，还需要理解公式背后的假设、输入输出范围和工程约束。后续还需要继续补充实时阴影、PBR、全局光照和现代实时光追方向的实践。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>Games101 现代图形学入门</title>
+        <published>2024-07-06T07:30:35+00:00</published>
+        <updated>2024-07-06T07:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/other/raytracing/"/>
+        <id>https://momentaryrainy.github.io/other/raytracing/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/other/raytracing/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是我跟随 GAMES101 现代图形学入门课程完成的基础图形学实践。课程内容覆盖线性代数、矩阵变换、光栅化、着色、几何处理、光线追踪、材质和动画等方向。&lt;&#x2F;p&gt;
+&lt;p&gt;这个项目是我进入图形学方向的起点，帮助我建立了从数学表达、渲染管线到代码实现之间的基本联系。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;games101.png&quot; alt=&quot;101&quot; &#x2F;&gt;
+&lt;em&gt;路径追踪中的直接光照结果。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;rabbit.png&quot; alt=&quot;rabbit&quot; &#x2F;&gt;
+&lt;em&gt;BVH 加速结构练习。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;RayTracing&quot;&gt;&lt;strong&gt;光栅化&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;PathTracing&quot;&gt;&lt;strong&gt;路径追踪&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我理解了图形学最基础的几个问题：如何表示空间，如何把三维物体投影到屏幕，如何进行可见性判断，以及如何用光线模拟光照。&lt;&#x2F;p&gt;
+&lt;p&gt;它也是我后续学习 OpenGL、实时渲染、路径追踪和渲染框架的起点。&lt;&#x2F;p&gt;
+&lt;p&gt;后续仍需要通过更多项目反复实践这些基础概念，尤其是矩阵变换、采样、求交和材质模型，才能真正把知识融会贯通。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>tiny renderer</title>
+        <published>2024-05-02T08:20:35+00:00</published>
+        <updated>2024-05-02T08:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/other/tinyrenderer/"/>
+        <id>https://momentaryrainy.github.io/other/tinyrenderer/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/other/tinyrenderer/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是我复刻 &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ssloy&#x2F;tinyrenderer&quot;&gt;tinyrenderer&lt;&#x2F;a&gt; 时完成的软件渲染器练习。项目不依赖 OpenGL 或 DirectX，而是用 C++ 从零实现基础光栅化流程，用来理解图形 API 背后实际发生的事情。&lt;&#x2F;p&gt;
+&lt;p&gt;练习内容包括线段绘制、三角形光栅化、重心坐标插值、深度测试、背面剔除、相机变换、纹理采样、法线贴图和阴影映射等。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;renderer.png&quot; alt=&quot;black&quot; &#x2F;&gt;
+&lt;em&gt;软件光栅化渲染结果。当前版本未实现间接光照。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;tinyRenderer&quot;&gt;&lt;strong&gt;tinyRenderer&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目进一步巩固了我对光栅化管线的理解。相比直接调用图形 API，从零实现软件渲染器能更清楚地看到坐标变换、插值、深度缓冲和纹理采样之间的关系。&lt;&#x2F;p&gt;
+&lt;p&gt;实践中也发现，不同项目中的坐标系、矩阵约定和屏幕空间定义可能不同，不能简单搬运已有经验，必须从整体管线重新检查每一步。&lt;&#x2F;p&gt;
+&lt;p&gt;后续如果继续完善，我会补充更清晰的渲染管线记录、调试可视化和模块拆分，并尝试加入更完整的光照模型。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

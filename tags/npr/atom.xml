@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
+    <title>Personal Website - NPR</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/npr/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-03-02T08:20:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/npr/atom.xml</id>
+    <entry xml:lang="zh">
+        <title>PCG 与 NPR 游戏技术综述(客户端向)</title>
+        <published>2026-03-02T08:20:35+00:00</published>
+        <updated>2026-03-02T08:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/client/pcgnpr/"/>
+        <id>https://momentaryrainy.github.io/client/pcgnpr/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/client/pcgnpr/">&lt;p&gt;2026.3&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是我在游戏&#x2F;图形学相关课程中完成的技术综述项目，论文题为 &lt;em&gt;Non-Photorealistic Rendering and Procedural Content Generation for Games: An Industry-Oriented Review&lt;&#x2F;em&gt;。&lt;&#x2F;p&gt;
+&lt;p&gt;项目从游戏开发实践角度出发，调研了 NPR（非真实感渲染）与 PCG（程序化内容生成）两类技术在游戏中的应用方式、实现成本和适用场景。相比单纯整理论文内容，我更关注这些技术在实际游戏客户端中是否容易落地：是否适合实时渲染、是否方便设计师控制、是否兼容现代引擎管线，以及是否能有效服务玩法和内容生产。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhu-yao-nei-rong&quot;&gt;主要内容&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;梳理 NPR 与 PCG 的基本概念、发展背景和游戏行业应用场景&lt;&#x2F;li&gt;
+&lt;li&gt;比较 NPR 中轮廓提取、风格化着色、LUT&#x2F;PBR 风格化等技术路线&lt;&#x2F;li&gt;
+&lt;li&gt;分析不同 NPR 方法在性能、可控性和现代渲染管线兼容性上的差异&lt;&#x2F;li&gt;
+&lt;li&gt;梳理 PCG 中参数化方法和规则方法，例如噪声、L-System、形状语法、图结构和求解器方法&lt;&#x2F;li&gt;
+&lt;li&gt;比较 PCG 方法在结果准确性、内容多样性、设计师可控性和实现门槛上的取舍&lt;&#x2F;li&gt;
+&lt;li&gt;讨论学术研究与游戏工业实践之间的差距，以及工具化、机器学习和设计师参与方向的潜力&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;yu-ke-hu-duan-xiang-mu-de-guan-xi&quot;&gt;与客户端项目的关系&lt;&#x2F;h3&gt;
+&lt;p&gt;这篇综述为后续 Unity 游戏项目《Reaching the IcePeak》提供了前期技术参考。论文中对 PCG 和 NPR 的比较，帮助我在后续项目中选择更适合短周期游戏开发的实现方式：使用风格化 Shader 强化画面氛围，并用规则化的程序摆放方式生成部分场景内容。&lt;&#x2F;p&gt;
+&lt;p&gt;因此，这个项目虽然不是一个直接可玩的客户端程序，但它承担了游戏开发前期的技术预研作用，帮助我从“想实现某种视觉效果或生成效果”进一步转向“判断它是否适合当前项目规模和开发周期”。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;Critical_Review.pdf&quot;&gt;Review PDF&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我第一次系统地从游戏开发视角阅读和比较图形学技术。相比只关注某个算法是否先进，我开始更重视它在实际项目中的成本：性能是否可接受、是否容易调参、是否能被美术或设计流程使用，以及是否真的服务玩家体验。&lt;&#x2F;p&gt;
+&lt;p&gt;不足之处在于论文篇幅有限，许多方向只能做概括性比较，缺少更深入的代码复现和实验数据。后续我希望把综述中的部分结论继续落到实际项目中，例如在 Unity 或自研渲染框架中复现更完整的风格化渲染流程，并尝试让 PCG 不只生成装饰内容，而是进一步参与关卡结构和玩法设计。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>PCG 与 NPR 游戏技术综述(图形学向)</title>
+        <published>2026-02-02T08:20:35+00:00</published>
+        <updated>2026-02-02T08:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/graphic/pcgnpr/"/>
+        <id>https://momentaryrainy.github.io/graphic/pcgnpr/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/graphic/pcgnpr/">&lt;p&gt;2026.3&lt;&#x2F;p&gt;
+&lt;p&gt;终末地的PBR渲染，豪堪，计划在游戏项目内进行复刻尝试&#x2F;学习。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是一篇围绕 NPR（Non-Photorealistic Rendering）与 PCG（Procedural Content Generation）的图形学综述论文。论文从游戏工业实践角度出发，比较两类技术在实时游戏中的应用价值、性能成本、艺术可控性和现代引擎管线兼容性。&lt;&#x2F;p&gt;
+&lt;p&gt;NPR 关注如何通过非真实感渲染传达风格化视觉信息，PCG 则关注如何通过算法生成游戏内容。虽然两者技术路径不同，但都涉及从高维信息空间中筛选、约束和生成可用结果，因此在游戏开发中都需要同时考虑算法效果和设计师控制。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhu-yao-nei-rong&quot;&gt;主要内容&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;梳理 NPR 与 PCG 在图形学和游戏工程中的定义、发展背景和应用场景&lt;&#x2F;li&gt;
+&lt;li&gt;分析 NPR 中轮廓提取方法，包括几何方法、屏幕空间方法和图像分析方法&lt;&#x2F;li&gt;
+&lt;li&gt;比较 NPR 着色路线，包括参数化着色、LUT、几何风格化和 PBR-based stylization&lt;&#x2F;li&gt;
+&lt;li&gt;分析 PCG 中参数化方法，包括 Perlin Noise、L-System、形状语法和分形方法&lt;&#x2F;li&gt;
+&lt;li&gt;分析 PCG 中规则生成方法，包括 grammar-based、graph-based、cellular automata 和 solver-based 方法&lt;&#x2F;li&gt;
+&lt;li&gt;从性能、结果质量、艺术可控性、管线兼容性和实现门槛等维度比较不同技术路线&lt;&#x2F;li&gt;
+&lt;li&gt;讨论学术研究与实时游戏工业实践之间的差距，以及工具化和机器学习方向的潜力&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;Critical_Review.pdf&quot;&gt;&lt;strong&gt;review&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这篇综述让我对 NPR 和 PCG 有了更系统的认识。相比只关注单个算法的实现细节，我开始从图形学技术在游戏中的落地条件进行判断：它是否满足实时性能要求，是否容易被美术或设计师控制，是否兼容现代渲染管线，以及是否能稳定地产生可用结果。&lt;&#x2F;p&gt;
+&lt;p&gt;我也意识到，图形学研究和工业实践之间存在明显差距。许多方法在论文中具有清晰的理论价值，但真正进入游戏项目时，还需要面对工具链、性能预算、内容生产流程和调参成本等问题。&lt;&#x2F;p&gt;
+&lt;p&gt;后续我希望继续沿着“论文阅读 -&amp;gt; 技术复现 -&amp;gt; 项目应用”的路线推进，在 Unity、现代渲染管线或自研框架中复现更多 NPR 效果，并尝试让 PCG 从环境装饰生成进一步走向关卡结构和玩法生成。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>Unity URP 风格化角色渲染</title>
+        <published>2025-05-02T08:20:35+00:00</published>
+        <updated>2025-05-02T08:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/other/npr/"/>
+        <id>https://momentaryrainy.github.io/other/npr/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/other/npr/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是一个在 Unity URP 管线中进行的 NPR 角色渲染练习，目标是复刻类原神角色的风格化光照效果。项目参考了 B 站教程 &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.bilibili.com&#x2F;video&#x2F;BV1HN4y1X7uS&#x2F;&quot;&gt;原视频&lt;&#x2F;a&gt; 以及多篇知乎技术文章，并以芙宁娜角色模型作为测试对象。&lt;&#x2F;p&gt;
+&lt;p&gt;练习重点包括 Ramp 贴图光照、SDF 面部阴影、描边和角色材质参数调试。相比简单 Shader 练习，这个项目更接近完整角色渲染效果的拆解与复现。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;furina.png&quot; alt=&quot;Furina&quot; &#x2F;&gt;
+&lt;em&gt;Unity URP 中的风格化角色渲染结果。当前版本缺少原作中更完整的全局光照和暖色环境氛围。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;FurinaRender&quot;&gt;FurinaRender&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我理解了风格化角色渲染中多个关键模块的配合方式：Ramp 贴图负责控制明暗分层，SDF 面部阴影用于获得更稳定的脸部阴影过渡，描边则强化角色轮廓和动画风格。&lt;&#x2F;p&gt;
+&lt;p&gt;相比过去只会写简单 Shader 语法，这次练习让我开始理解如何把复杂视觉目标拆成多个可调模块，并通过材质参数逐步接近目标风格。&lt;&#x2F;p&gt;
+&lt;p&gt;后续如果继续迭代，我希望在自己的渲染框架或 Unity 项目中整理一套更完整的 NPR 管线，包括角色光照、阴影、描边、后处理和场景氛围统一控制。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

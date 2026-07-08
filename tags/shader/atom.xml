@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
+    <title>Personal Website - Shader</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/shader/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-05-02T08:20:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/shader/atom.xml</id>
+    <entry xml:lang="zh">
+        <title>Unity URP 风格化角色渲染</title>
+        <published>2025-05-02T08:20:35+00:00</published>
+        <updated>2025-05-02T08:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/other/npr/"/>
+        <id>https://momentaryrainy.github.io/other/npr/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/other/npr/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是一个在 Unity URP 管线中进行的 NPR 角色渲染练习，目标是复刻类原神角色的风格化光照效果。项目参考了 B 站教程 &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.bilibili.com&#x2F;video&#x2F;BV1HN4y1X7uS&#x2F;&quot;&gt;原视频&lt;&#x2F;a&gt; 以及多篇知乎技术文章，并以芙宁娜角色模型作为测试对象。&lt;&#x2F;p&gt;
+&lt;p&gt;练习重点包括 Ramp 贴图光照、SDF 面部阴影、描边和角色材质参数调试。相比简单 Shader 练习，这个项目更接近完整角色渲染效果的拆解与复现。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;furina.png&quot; alt=&quot;Furina&quot; &#x2F;&gt;
+&lt;em&gt;Unity URP 中的风格化角色渲染结果。当前版本缺少原作中更完整的全局光照和暖色环境氛围。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;FurinaRender&quot;&gt;FurinaRender&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我理解了风格化角色渲染中多个关键模块的配合方式：Ramp 贴图负责控制明暗分层，SDF 面部阴影用于获得更稳定的脸部阴影过渡，描边则强化角色轮廓和动画风格。&lt;&#x2F;p&gt;
+&lt;p&gt;相比过去只会写简单 Shader 语法，这次练习让我开始理解如何把复杂视觉目标拆成多个可调模块，并通过材质参数逐步接近目标风格。&lt;&#x2F;p&gt;
+&lt;p&gt;后续如果继续迭代，我希望在自己的渲染框架或 Unity 项目中整理一套更完整的 NPR 管线，包括角色光照、阴影、描边、后处理和场景氛围统一控制。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

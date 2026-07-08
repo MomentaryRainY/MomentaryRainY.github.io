@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
+    <title>Personal Website - CPU</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/cpu/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-04-27T05:30:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/cpu/atom.xml</id>
+    <entry xml:lang="zh">
+        <title>CPU 路径追踪渲染器</title>
+        <published>2026-04-27T05:30:35+00:00</published>
+        <updated>2026-04-27T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/graphic/acg/"/>
+        <id>https://momentaryrainy.github.io/graphic/acg/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/graphic/acg/">&lt;p&gt;2026.4&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是一个使用 C++ 实现的 CPU 路径追踪渲染器项目，覆盖了从场景加载、光线求交、材质采样、直接&#x2F;间接光照计算，到多线程渲染加速和图像降噪的完整离线渲染流程。&lt;&#x2F;p&gt;
+&lt;p&gt;项目重点不只是渲染出正确图像，而是理解路径追踪中不同模块之间的关系：BSDF 采样、光源采样、MIS、多次反弹、BVH 加速、环境贴图采样、AOV 输出和后处理降噪。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhu-yao-shi-xian&quot;&gt;主要实现&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;实现基础路径追踪流程，支持直接光照、间接光照和多次反弹&lt;&#x2F;li&gt;
+&lt;li&gt;实现多重重要性采样，用于平衡 BSDF 采样与光源采样&lt;&#x2F;li&gt;
+&lt;li&gt;支持区域光与 HDR 环境贴图光照，并实现环境贴图采样&lt;&#x2F;li&gt;
+&lt;li&gt;实现多种 BSDF 材质，包括漫反射、镜面、玻璃和 GGX 微表面金属材质&lt;&#x2F;li&gt;
+&lt;li&gt;实现 Fresnel、GGX 法线分布、几何遮蔽项等材质计算&lt;&#x2F;li&gt;
+&lt;li&gt;使用 BVH 加速场景求交，降低复杂场景渲染时间&lt;&#x2F;li&gt;
+&lt;li&gt;使用 tile-based 多线程渲染和 job stealing 提升 CPU 利用率&lt;&#x2F;li&gt;
+&lt;li&gt;实现 normal &#x2F; albedo &#x2F; color AOV 输出，为降噪提供辅助通道&lt;&#x2F;li&gt;
+&lt;li&gt;接入 Intel Open Image Denoise，对低 SPP 渲染结果进行降噪&lt;&#x2F;li&gt;
+&lt;li&gt;实现 tone mapping、gamma correction 和 HDR&#x2F;PNG 输出&lt;&#x2F;li&gt;
+&lt;li&gt;尝试 irradiance cache，用于进一步加速间接光照计算&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;以下图像均为低 SPP 渲染结果，部分结果未降噪，用于展示路径追踪原始收敛效果和加速结构效果。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;cornellbox.png&quot; alt=&quot;Cornellbox&quot; &#x2F;&gt;
+&lt;em&gt;Cornell Box：测试直接光照、间接光照、漫反射材质和 BVH 加速。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;bathroom.png&quot; alt=&quot;Bathroom&quot; &#x2F;&gt;
+&lt;em&gt;Bathroom：复杂场景中的镜面反射与 BVH 求交加速。不使用 BVH 时渲染时间明显增加。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;material.png&quot; alt=&quot;Material&quot; &#x2F;&gt;
+&lt;em&gt;Material Scene：测试玻璃材质、GGX 微表面金属和环境光照。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;降噪效果使用 Intel Open Image Denoise，并输入 color、normal 和 albedo 作为参考通道：&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;dcornellbox.png&quot; alt=&quot;Cornellbox Denoised&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;images&#x2F;dbathroom.png&quot; alt=&quot;Bathroom Denoised&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;images&#x2F;dmaterial.png&quot; alt=&quot;Material Denoised&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link: &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;AdvancedCG&quot;&gt;AdvancedCG&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我系统理解了路径追踪渲染器的核心流程。相比只实现单个算法，完整渲染器需要把相机、求交、材质、采样、光照、加速结构和图像输出组织成稳定的管线。&lt;&#x2F;p&gt;
+&lt;p&gt;开发过程中我最深的体会是，路径追踪的难点不只在公式本身，也在大量边界情况和数值稳定性。例如玻璃材质中的全反射、GGX 采样中的极小 PDF、阴影偏移、Russian Roulette 终止策略，以及 MIS 权重都可能明显影响结果。&lt;&#x2F;p&gt;
+&lt;p&gt;项目也让我更直观地理解了性能优化的重要性。BVH、多线程 tile 渲染和 job stealing 对 CPU 路径追踪的影响非常明显，而低 SPP 下的噪声问题也让我认识到 AOV 与降噪流程在实际渲染中的价值。&lt;&#x2F;p&gt;
+&lt;p&gt;不足之处在于，目前渲染器仍偏课程框架式实现，参数管理、材质扩展、场景编辑和调试工具还不够工程化。后续如果继续迭代，我会优先完善性能数据对比、采样策略分析和材质系统结构。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
+    <title>Personal Website - 软件渲染器</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/ruan-jian-xuan-ran-qi/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-05-02T08:20:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/ruan-jian-xuan-ran-qi/atom.xml</id>
+    <entry xml:lang="zh">
+        <title>tiny renderer</title>
+        <published>2024-05-02T08:20:35+00:00</published>
+        <updated>2024-05-02T08:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/other/tinyrenderer/"/>
+        <id>https://momentaryrainy.github.io/other/tinyrenderer/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/other/tinyrenderer/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是我复刻 &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ssloy&#x2F;tinyrenderer&quot;&gt;tinyrenderer&lt;&#x2F;a&gt; 时完成的软件渲染器练习。项目不依赖 OpenGL 或 DirectX，而是用 C++ 从零实现基础光栅化流程，用来理解图形 API 背后实际发生的事情。&lt;&#x2F;p&gt;
+&lt;p&gt;练习内容包括线段绘制、三角形光栅化、重心坐标插值、深度测试、背面剔除、相机变换、纹理采样、法线贴图和阴影映射等。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;renderer.png&quot; alt=&quot;black&quot; &#x2F;&gt;
+&lt;em&gt;软件光栅化渲染结果。当前版本未实现间接光照。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;tinyRenderer&quot;&gt;&lt;strong&gt;tinyRenderer&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目进一步巩固了我对光栅化管线的理解。相比直接调用图形 API，从零实现软件渲染器能更清楚地看到坐标变换、插值、深度缓冲和纹理采样之间的关系。&lt;&#x2F;p&gt;
+&lt;p&gt;实践中也发现，不同项目中的坐标系、矩阵约定和屏幕空间定义可能不同，不能简单搬运已有经验，必须从整体管线重新检查每一步。&lt;&#x2F;p&gt;
+&lt;p&gt;后续如果继续完善，我会补充更清晰的渲染管线记录、调试可视化和模块拆分，并尝试加入更完整的光照模型。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

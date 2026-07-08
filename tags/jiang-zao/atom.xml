@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
+    <title>Personal Website - 降噪</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/jiang-zao/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-09-09T05:30:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/jiang-zao/atom.xml</id>
+    <entry xml:lang="zh">
+        <title>Games202 高质量实时渲染</title>
+        <published>2024-09-09T05:30:35+00:00</published>
+        <updated>2024-09-09T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/other/pathtracing/"/>
+        <id>https://momentaryrainy.github.io/other/pathtracing/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/other/pathtracing/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是我跟随 GAMES202 高质量实时渲染课程进行的图形学练习，重点关注实时渲染中更进阶的算法问题，包括实时阴影、实时环境光照、实时全局光照、实时物理材质和实时光线追踪。&lt;&#x2F;p&gt;
+&lt;p&gt;项目中主要完成了基础着色和实时降噪相关实践，用来理解高质量实时渲染中“效果质量、性能预算和时序稳定性”之间的取舍。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;games202.png&quot; alt=&quot;webgl&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Blinn-Phong 着色模型练习。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;house-sequence.gif&quot; alt=&quot;House Sequence&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;实时降噪前的序列结果。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;denoised-house-sequence.gif&quot; alt=&quot;Denoised House Sequence&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;实时降噪后的序列结果。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;RTDenosier&quot;&gt;&lt;strong&gt;games202&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si&quot;&gt;成长 &amp;amp; 反思&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我开始理解实时渲染中更复杂的算法目标：很多效果并不是单帧算得越准越好，而是要在有限时间内获得稳定、可接受且可调的结果。&lt;&#x2F;p&gt;
+&lt;p&gt;实践中最大的体会是，复刻图形学算法不能只看公式，还需要理解公式背后的假设、输入输出范围和工程约束。后续还需要继续补充实时阴影、PBR、全局光照和现代实时光追方向的实践。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

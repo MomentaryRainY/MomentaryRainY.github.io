@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
+    <title>Personal Website - 学校项目</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/xue-xiao-xiang-mu/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-07-23T05:30:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/xue-xiao-xiang-mu/atom.xml</id>
+    <entry xml:lang="zh">
+        <title>独立游戏(客户端向)</title>
+        <published>2026-07-23T05:30:35+00:00</published>
+        <updated>2026-07-23T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/client/indiegame/"/>
+        <id>https://momentaryrainy.github.io/client/indiegame/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/client/indiegame/">&lt;p&gt;2026.5&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;《Reaching the IcePeak》是一款基于Unity的，花费一个月时间制作的独立游戏。&lt;&#x2F;p&gt;
+&lt;p&gt;游戏以回合制卡牌战棋为核心，玩家需要在网格战场中移动、规划手牌、攻击敌人，并通过牌组构筑应对不同关卡。&lt;&#x2F;p&gt;
+&lt;p&gt;项目将前置图形学研究方向落到实际游戏中：使用风格化渲染强化冰雪幻想氛围，并结合程序化环境摆放生成场景中的树木、石块等装饰元素。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhu-yao-shi-xian&quot;&gt;主要实现&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;回合制网格战斗：战斗流程、移动范围、攻击范围、伤害结算与胜负判断&lt;&#x2F;li&gt;
+&lt;li&gt;卡牌系统：手牌、抽牌堆、弃牌堆、卡牌费用、目标选择与效果触发&lt;&#x2F;li&gt;
+&lt;li&gt;敌人行为：根据战场状态执行移动、攻击等回合行为&lt;&#x2F;li&gt;
+&lt;li&gt;客户端 UI：战斗界面、卡牌交互、状态显示、教程提示与场景过渡&lt;&#x2F;li&gt;
+&lt;li&gt;本地化模块：将界面文本、教程内容和卡牌描述从逻辑中拆分，支持多语言内容管理&lt;&#x2F;li&gt;
+&lt;li&gt;游戏流程：开始界面、教程关卡、多个战斗场景、过场与结局&lt;&#x2F;li&gt;
+&lt;li&gt;表现与反馈：音频、动画、天气效果和风格化场景表现&lt;&#x2F;li&gt;
+&lt;li&gt;教程系统：UI高光区域配合文字，制作了教程UI序列，提供详尽指导和建议&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;figure style=&quot;width:100%; margin:0 0 0 0; text-align:center;&quot;&gt;
+  &lt;img src=&quot;&#x2F;images&#x2F;csv.png&quot; style=&quot;width:100%; display:block;&quot;&gt;
+  &lt;figcaption style=&quot;margin-top:8px;&quot;&gt;
+    &lt;em&gt;例：卡牌数据与csv文件&lt;&#x2F;em&gt;
+  &lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;figure style=&quot;width:100%; margin:0 0 0 0; text-align:center;&quot;&gt;
+  &lt;video controls autoplay muted loop playsinline width=&quot;100%&quot;&gt;
+    &lt;source src=&quot;&#x2F;videos&#x2F;demo.mp4&quot; type=&quot;video&#x2F;mp4&quot;&gt;
+  &lt;&#x2F;video&gt;
+  &lt;figcaption style=&quot;margin-top:8px;&quot;&gt;
+    &lt;em&gt;Gameplay Demo&lt;&#x2F;em&gt;
+  &lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;项目已发布可试玩版本：&lt;&#x2F;p&gt;
+&lt;p&gt;Github: &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;FGR&quot;&gt;FGR&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
+Release: &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;FGR&#x2F;releases&#x2F;tag&#x2F;Release&quot;&gt;ReachingIcePeak_1.0.0&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si&quot;&gt;成长 &amp;amp; 反思&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我把游戏设计、系统开发和图形表现放进同一个完整流程中实践。相比单独实现某个技术点，这次更接近真实游戏项目：需要同时考虑玩法反馈、数据组织、UI 引导、资源管理和最终可运行版本。&lt;&#x2F;p&gt;
+&lt;p&gt;后续如果继续迭代，我会优先扩展卡牌多样性、敌人种类，关卡复杂度以继续加深游戏性，目前仍然只是一个极具潜力的雏形，以及把 PCG 和关卡目标结合得更紧密。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>独立游戏(图形学向)</title>
+        <published>2026-07-23T05:30:35+00:00</published>
+        <updated>2026-07-23T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/graphic/indiegame/"/>
+        <id>https://momentaryrainy.github.io/graphic/indiegame/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/graphic/indiegame/">&lt;p&gt;2026.6&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;《Reaching the IcePeak》是一款基于Unity的，花费一个月时间制作的独立游戏。&lt;&#x2F;p&gt;
+&lt;p&gt;游戏以回合制卡牌战棋为核心，玩家需要在网格战场中移动、规划手牌、攻击敌人，并通过牌组构筑应对不同关卡。&lt;&#x2F;p&gt;
+&lt;p&gt;该项目承接对PCG与NPR综述的研究，将场景物品布置与风格化渲染应用到 Unity 游戏原型中，通过程序化环境摆放和雪、雨、水面、草地等 Shader，构建冰雪幻想主题的战棋场景。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhu-yao-shi-xian&quot;&gt;主要实现&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;风格化渲染管线：基于 Unity URP 制作冰雪幻想风格的整体画面，统一角色、场景、卡牌与战斗界面的视觉基调&lt;&#x2F;li&gt;
+&lt;li&gt;自定义 Shader：实现雪地、雨水、水面反射、涟漪、indirect instance草地、棋盘格、透明材质与卡牌背景等效果&lt;&#x2F;li&gt;
+&lt;li&gt;雪地表现：通过雪面 Shader 与雪地变形绘制，让场景具备更强的冰雪主题反馈&lt;&#x2F;li&gt;
+&lt;li&gt;天气与环境效果：结合雨水、反射、水面和后处理效果，强化不同战斗场景的氛围变化&lt;&#x2F;li&gt;
+&lt;li&gt;PCG 环境摆放：程序化生成树木、石块等场景元素，减少手工布置成本，并提升场景层次&lt;&#x2F;li&gt;
+&lt;li&gt;卡牌渲染与数据可视化：3D卡牌攻击范围在拖动时显示，卡牌显示伤害实时变动，大大提升交互体验&lt;&#x2F;li&gt;
+&lt;li&gt;视觉与玩法结合：将棋盘高亮、攻击范围、卡牌表现和场景氛围整合到战斗流程中，让图形效果服务于玩家决策&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;figure style=&quot;width:100%; margin:0 0 0 0; text-align:center;&quot;&gt;
+  &lt;img src=&quot;&#x2F;images&#x2F;footprint.png&quot; style=&quot;width:100%; display:block;&quot;&gt;
+  &lt;figcaption style=&quot;margin-top:8px;&quot;&gt;
+    &lt;em&gt;例：表面细分shader配合RT展示雪地移动轨迹&lt;&#x2F;em&gt;
+  &lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;figure style=&quot;width:100%; margin:0 0 0 0; text-align:center;&quot;&gt;
+  &lt;video controls autoplay muted loop playsinline width=&quot;100%&quot;&gt;
+    &lt;source src=&quot;&#x2F;videos&#x2F;shader.mp4&quot; type=&quot;video&#x2F;mp4&quot;&gt;
+  &lt;&#x2F;video&gt;
+  &lt;figcaption style=&quot;margin-top:8px;&quot;&gt;
+    &lt;em&gt;1.噪音遮罩配合粒子系统的水面反射 2.噪音遮罩instance草地 3.粒子雨水在遮罩区域的涟漪扰动效果 4.简单卡背镭光效果&lt;&#x2F;em&gt;
+  &lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;项目已发布可试玩版本：&lt;&#x2F;p&gt;
+&lt;p&gt;Github: &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;FGR&quot;&gt;FGR&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
+Release: &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;FGR&#x2F;releases&#x2F;tag&#x2F;Release&quot;&gt;ReachingIcePeak_1.0.0&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我把 PCG 与 NPR 从论文阅读推进到实际游戏场景中。相比独立图形 Demo，在完整游戏里实现视觉效果需要同时考虑风格统一、玩法可读性、性能成本和资源管理。&lt;&#x2F;p&gt;
+&lt;p&gt;棋盘范围、攻击区域、卡牌反馈和环境氛围都需要服务玩家决策，因此视觉层级和信息清晰度同样重要，未来会进一步考虑运行性能的具体对比与提升&lt;&#x2F;p&gt;
+&lt;p&gt;目前 PCG 主要用于环境装饰摆放，后续希望进一步让程序化生成影响关卡结构与战斗策略；渲染方面则计划继续优化 Shader 性能，并整理更统一的风格化材质流程。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>C++ 网络聊天室</title>
+        <published>2026-05-01T05:30:35+00:00</published>
+        <updated>2026-05-01T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/client/web/"/>
+        <id>https://momentaryrainy.github.io/client/web/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/client/web/">&lt;p&gt;2025.12&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是一个使用 C++ 实现的网络聊天室项目，包含独立的客户端与服务端。客户端使用 Dear ImGui 搭建聊天界面，并通过 DirectX12 后端渲染窗口；网络通信部分基于 Winsock TCP socket，实现用户连接、消息收发、公共聊天和私聊功能。&lt;&#x2F;p&gt;
+&lt;p&gt;服务端负责维护在线客户端列表，为每个连接创建处理线程，并根据简单的文本协议转发群聊和私聊消息。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhu-yao-shi-xian&quot;&gt;主要实现&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;使用 Winsock TCP socket 实现客户端与服务端通信&lt;&#x2F;li&gt;
+&lt;li&gt;客户端支持用户名登录、连接状态显示和断线处理&lt;&#x2F;li&gt;
+&lt;li&gt;使用独立接收线程监听服务端消息，避免阻塞 UI 主循环&lt;&#x2F;li&gt;
+&lt;li&gt;使用 ImGui 实现公共聊天室、私聊窗口、输入框和在线用户列表&lt;&#x2F;li&gt;
+&lt;li&gt;服务端维护在线用户列表，并在用户连接&#x2F;断开时广播更新&lt;&#x2F;li&gt;
+&lt;li&gt;实现简单文本协议，例如 &lt;code&gt;clients&#x2F;&lt;&#x2F;code&gt;、&lt;code&gt;public&#x2F;&lt;&#x2F;code&gt;、&lt;code&gt;private&#x2F;&lt;&#x2F;code&gt; 区分消息类型&lt;&#x2F;li&gt;
+&lt;li&gt;支持群聊广播和指定用户私聊转发&lt;&#x2F;li&gt;
+&lt;li&gt;使用 FMOD 为公共消息和私聊消息添加提示音反馈&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;connecting.png&quot; alt=&quot;Connecting&quot; &#x2F;&gt;
+&lt;em&gt;客户端登录与连接界面。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;chatroom.png&quot; alt=&quot;Chatroom&quot; &#x2F;&gt;
+&lt;em&gt;聊天室界面，支持公共聊天和私聊窗口。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link: &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;Client&quot;&gt;Client&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
+Github Link: &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;Server&quot;&gt;Server&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我从客户端和服务端两个方向理解了基础网络通信流程，包括 socket 初始化、连接建立、消息收发、客户端列表维护和多线程处理。&lt;&#x2F;p&gt;
+&lt;p&gt;相比只写单端逻辑，聊天室项目更强调状态同步和异常处理。例如用户断开连接后，服务端需要更新在线列表并通知其他客户端；客户端也需要在接收线程和 UI 线程之间安全地传递消息。&lt;&#x2F;p&gt;
+&lt;p&gt;目前协议设计仍比较简单，消息格式依赖字符串解析，缺少更严格的封包、错误处理和身份验证。后续如果继续完善，我会考虑加入结构化消息格式、消息长度头、断线重连、聊天记录保存，以及更清晰的客户端状态管理。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>CPU 路径追踪渲染器</title>
+        <published>2026-04-27T05:30:35+00:00</published>
+        <updated>2026-04-27T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/graphic/acg/"/>
+        <id>https://momentaryrainy.github.io/graphic/acg/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/graphic/acg/">&lt;p&gt;2026.4&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是一个使用 C++ 实现的 CPU 路径追踪渲染器项目，覆盖了从场景加载、光线求交、材质采样、直接&#x2F;间接光照计算，到多线程渲染加速和图像降噪的完整离线渲染流程。&lt;&#x2F;p&gt;
+&lt;p&gt;项目重点不只是渲染出正确图像，而是理解路径追踪中不同模块之间的关系：BSDF 采样、光源采样、MIS、多次反弹、BVH 加速、环境贴图采样、AOV 输出和后处理降噪。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhu-yao-shi-xian&quot;&gt;主要实现&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;实现基础路径追踪流程，支持直接光照、间接光照和多次反弹&lt;&#x2F;li&gt;
+&lt;li&gt;实现多重重要性采样，用于平衡 BSDF 采样与光源采样&lt;&#x2F;li&gt;
+&lt;li&gt;支持区域光与 HDR 环境贴图光照，并实现环境贴图采样&lt;&#x2F;li&gt;
+&lt;li&gt;实现多种 BSDF 材质，包括漫反射、镜面、玻璃和 GGX 微表面金属材质&lt;&#x2F;li&gt;
+&lt;li&gt;实现 Fresnel、GGX 法线分布、几何遮蔽项等材质计算&lt;&#x2F;li&gt;
+&lt;li&gt;使用 BVH 加速场景求交，降低复杂场景渲染时间&lt;&#x2F;li&gt;
+&lt;li&gt;使用 tile-based 多线程渲染和 job stealing 提升 CPU 利用率&lt;&#x2F;li&gt;
+&lt;li&gt;实现 normal &#x2F; albedo &#x2F; color AOV 输出，为降噪提供辅助通道&lt;&#x2F;li&gt;
+&lt;li&gt;接入 Intel Open Image Denoise，对低 SPP 渲染结果进行降噪&lt;&#x2F;li&gt;
+&lt;li&gt;实现 tone mapping、gamma correction 和 HDR&#x2F;PNG 输出&lt;&#x2F;li&gt;
+&lt;li&gt;尝试 irradiance cache，用于进一步加速间接光照计算&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;以下图像均为低 SPP 渲染结果，部分结果未降噪，用于展示路径追踪原始收敛效果和加速结构效果。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;cornellbox.png&quot; alt=&quot;Cornellbox&quot; &#x2F;&gt;
+&lt;em&gt;Cornell Box：测试直接光照、间接光照、漫反射材质和 BVH 加速。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;bathroom.png&quot; alt=&quot;Bathroom&quot; &#x2F;&gt;
+&lt;em&gt;Bathroom：复杂场景中的镜面反射与 BVH 求交加速。不使用 BVH 时渲染时间明显增加。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;material.png&quot; alt=&quot;Material&quot; &#x2F;&gt;
+&lt;em&gt;Material Scene：测试玻璃材质、GGX 微表面金属和环境光照。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;降噪效果使用 Intel Open Image Denoise，并输入 color、normal 和 albedo 作为参考通道：&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;dcornellbox.png&quot; alt=&quot;Cornellbox Denoised&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;images&#x2F;dbathroom.png&quot; alt=&quot;Bathroom Denoised&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;images&#x2F;dmaterial.png&quot; alt=&quot;Material Denoised&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link: &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;AdvancedCG&quot;&gt;AdvancedCG&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我系统理解了路径追踪渲染器的核心流程。相比只实现单个算法，完整渲染器需要把相机、求交、材质、采样、光照、加速结构和图像输出组织成稳定的管线。&lt;&#x2F;p&gt;
+&lt;p&gt;开发过程中我最深的体会是，路径追踪的难点不只在公式本身，也在大量边界情况和数值稳定性。例如玻璃材质中的全反射、GGX 采样中的极小 PDF、阴影偏移、Russian Roulette 终止策略，以及 MIS 权重都可能明显影响结果。&lt;&#x2F;p&gt;
+&lt;p&gt;项目也让我更直观地理解了性能优化的重要性。BVH、多线程 tile 渲染和 job stealing 对 CPU 路径追踪的影响非常明显，而低 SPP 下的噪声问题也让我认识到 AOV 与降噪流程在实际渲染中的价值。&lt;&#x2F;p&gt;
+&lt;p&gt;不足之处在于，目前渲染器仍偏课程框架式实现，参数管理、材质扩展、场景编辑和调试工具还不够工程化。后续如果继续迭代，我会优先完善性能数据对比、采样策略分析和材质系统结构。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>类吸血鬼幸存者 2D 生存游戏</title>
+        <published>2026-04-05T05:30:35+00:00</published>
+        <updated>2026-04-05T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/client/vamipresurvival/"/>
+        <id>https://momentaryrainy.github.io/client/vamipresurvival/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/client/vamipresurvival/">&lt;p&gt;2025.10&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是一个使用 C++ 开发的 2D 生存动作游戏原型，玩法参考《吸血鬼幸存者》。玩家在地图中移动、生存、自动攻击敌人，并通过技能和道具强化自己。随着游戏时间推进，敌人会从视野外持续生成，生成频率逐渐提高，迫使玩家不断移动、规划路线并利用地形创造生存空间。&lt;&#x2F;p&gt;
+&lt;p&gt;项目是我早期的 C++ 游戏开发实践，重点在于从零实现游戏主循环、角色系统、敌人行为、投射物碰撞、地图加载和存档等基础模块。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;wan-fa-she-ji&quot;&gt;玩法设计&lt;&#x2F;h3&gt;
+&lt;p&gt;玩家可以使用 WASD 移动，角色会自动向最近敌人发射箭矢。箭矢具有穿透能力，在敌人排成一条线时可以造成较高收益。玩家也可以主动释放 AOE 技能，对范围内血量最高或最关键的敌人造成伤害。&lt;&#x2F;p&gt;
+&lt;p&gt;游戏中设计了多种敌人类型，包括普通敌人、快速追击敌人、高血量坦克和远程法师。不同敌人迫使玩家采取不同策略：山地可以阻挡部分敌人和玩家攻击，但法师的远程攻击可以穿透地形，从而打破玩家单纯依赖地形防守的策略。&lt;&#x2F;p&gt;
+&lt;p&gt;地图包含道路、草地、水域和山地等地形。不同地形会影响玩家和 NPC 的移动规则，例如草地减速、水域和山地阻挡玩家移动，而部分 NPC 不受水域限制。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhu-yao-shi-xian&quot;&gt;主要实现&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;使用 C++ 实现基础游戏循环、输入、渲染和 FPS 显示&lt;&#x2F;li&gt;
+&lt;li&gt;实现玩家移动、跟踪式相机和自动索敌攻击&lt;&#x2F;li&gt;
+&lt;li&gt;实现箭矢投射物、穿透攻击和碰撞检测&lt;&#x2F;li&gt;
+&lt;li&gt;实现主动 AOE 技能，可攻击范围内指定数量的敌人&lt;&#x2F;li&gt;
+&lt;li&gt;实现多种 NPC：普通敌人、快速敌人、坦克和远程法师&lt;&#x2F;li&gt;
+&lt;li&gt;实现视野外敌人生成，并随时间提高生成频率&lt;&#x2F;li&gt;
+&lt;li&gt;实现道具拾取与角色强化，例如增加 AOE 目标数、降低攻击冷却&lt;&#x2F;li&gt;
+&lt;li&gt;实现多地形地图，包括道路、草地、水域和山地&lt;&#x2F;li&gt;
+&lt;li&gt;支持固定地图与无限地图两种模式&lt;&#x2F;li&gt;
+&lt;li&gt;使用 Perlin Noise 生成无限地图地形&lt;&#x2F;li&gt;
+&lt;li&gt;支持数据驱动式关卡加载和当前游戏存档&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;figure style=&quot;width:100%; margin:0 0 0 0; text-align:center;&quot;&gt;
+  &lt;video controls autoplay muted loop playsinline width=&quot;100%&quot;&gt;
+    &lt;source src=&quot;&#x2F;videos&#x2F;demo1.mp4&quot; type=&quot;video&#x2F;mp4&quot;&gt;
+  &lt;&#x2F;video&gt;
+  &lt;figcaption style=&quot;margin-top:8px;&quot;&gt;
+    &lt;em&gt;Gameplay Demo&lt;&#x2F;em&gt;
+  &lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;项目可以在 Visual Studio 中运行。启动后可在控制台选择新建&#x2F;加载地图、固定地图或无限地图模式。&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link: &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;Game_VampireSurvivors&quot;&gt;Game_VampireSurvivors&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我系统实践了 C++ 基础语法、面向对象设计和小型游戏开发流程。相比只完成单个算法或课堂练习，它需要把输入、更新、渲染、碰撞、AI、地图和存档组织到同一个运行循环中。&lt;&#x2F;p&gt;
+&lt;p&gt;项目中最有价值的部分是敌人、地形和技能之间的关系设计。地形不只是背景，而是会影响玩家移动、敌人路径和攻击策略；法师敌人的设计也让玩家不能只依赖山地进行防守。&lt;&#x2F;p&gt;
+&lt;p&gt;不足之处在于整体架构仍比较直接，许多系统之间耦合较高，系统的物理、渲染帧数计算不严谨。后续如果继续迭代，我会优先重构实体管理、碰撞系统和数据配置方式，并尝试向更清晰的组件式架构过渡。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>DirectX 12 渲染框架与 3D 场景</title>
+        <published>2026-03-23T05:30:35+00:00</published>
+        <updated>2026-03-23T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/graphic/dx12/"/>
+        <id>https://momentaryrainy.github.io/graphic/dx12/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/graphic/dx12/">&lt;p&gt;2025.11&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是一个使用 C++ 和 DirectX 12 搭建的小型实时渲染框架，并基于该框架实现了一个可游玩的第一人称 3D 场景。项目从 DX12 底层管线配置出发，完成资源管理、Shader 管理、常量缓冲、模型渲染、动画控制和场景交互等基础模块。&lt;&#x2F;p&gt;
+&lt;p&gt;最终场景以“星际穿越之后”为概念：玩家以第一人称视角在受黑洞影响的空间中前进，经过树木、水面和天空盒场景，与一个 4D 生物进行对话，并触发简单动画反馈。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhu-yao-shi-xian&quot;&gt;主要实现&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;使用 C++ 初始化 DirectX 12 渲染管线，包括 device、command queue、swap chain、descriptor heap 等基础对象&lt;&#x2F;li&gt;
+&lt;li&gt;封装 Shader、Constant Buffer、Vertex Layout Cache 等渲染资源管理模块&lt;&#x2F;li&gt;
+&lt;li&gt;实现数据驱动式场景加载，用于组织模型、材质、贴图和场景对象&lt;&#x2F;li&gt;
+&lt;li&gt;实现第一人称相机移动和基础碰撞限制&lt;&#x2F;li&gt;
+&lt;li&gt;实现带纹理的静态模型渲染&lt;&#x2F;li&gt;
+&lt;li&gt;实现 alpha test 网格体，用于树叶等透明裁切材质&lt;&#x2F;li&gt;
+&lt;li&gt;实现实例化渲染，用于批量摆放树木等重复对象&lt;&#x2F;li&gt;
+&lt;li&gt;实现骨骼动画与动画混合，用于恐龙转头等角色反馈&lt;&#x2F;li&gt;
+&lt;li&gt;实现法线贴图，增强模型表面细节&lt;&#x2F;li&gt;
+&lt;li&gt;实现天空盒渲染，构建场景环境背景&lt;&#x2F;li&gt;
+&lt;li&gt;实现基于 Gerstner Wave 的水体顶点位移效果&lt;&#x2F;li&gt;
+&lt;li&gt;实现字体与对话框渲染，用于场景内 NPC 对话&lt;&#x2F;li&gt;
+&lt;li&gt;实现简单 PCG 树木摆放，提升场景丰富度&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;dialogue.png&quot; alt=&quot;Dialogue&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;项目最终形成了一个短流程 3D 场景：玩家沿固定路线前进，与场景中的 4D 生物触发对话，并看到角色动画反馈。场景中包含实例化树木、天空盒、水体、第一人称移动、碰撞限制和对话 UI。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;speech.png&quot; alt=&quot;Speech&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;水体部分使用 Gerstner Wave 进行顶点位移，配合自定义水面 Shader 表现受黑洞影响的海面。由于项目时间有限，水体材质仍偏塑料感，后续需要进一步改进反射、折射和法线细节。&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link: &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;DX12&quot;&gt;DX12&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;字体选的有点难看...&lt;&#x2F;p&gt;
+&lt;p&gt;对话内容为：&lt;&#x2F;p&gt;
+&lt;p&gt;“嗨，库珀，我知道你有很多问题。”&lt;&#x2F;p&gt;
+&lt;p&gt;“你可能已经明白了，到达三维循环的终点，你就能变成四维生物。”&lt;&#x2F;p&gt;
+&lt;p&gt;“但我不能让你这么做。”&lt;&#x2F;p&gt;
+&lt;p&gt;“好好享受你的时光吧，我已经把你在这里的时间流逝分隔开了。”&lt;&#x2F;p&gt;
+&lt;p&gt;“你想什么时候回去都可以，在这里的任何事情你都不会记得。”&lt;&#x2F;p&gt;
+&lt;p&gt;随即动画融合器使得恐龙转头&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我从更底层理解了实时渲染框架的组织方式。相比在 Unity 或 Unreal 中直接使用已有组件，DirectX 12 需要自己管理渲染资源、命令提交、Shader 输入布局、常量缓冲和对象绘制顺序，因此更能暴露 GPU 管线背后的工程细节。&lt;&#x2F;p&gt;
+&lt;p&gt;项目中最有价值的部分是把多个实时渲染功能整合进同一个可运行场景：模型、动画、实例化、水体、天空盒、相机和对话 UI 都需要在同一套框架下协同工作。这让我更清楚地理解了渲染框架与游戏场景之间的关系。&lt;&#x2F;p&gt;
+&lt;p&gt;不足之处在于框架抽象还不够成熟，资源生命周期、渲染状态管理和模块扩展性仍有优化空间。后续如果继续迭代，我会优先重构渲染资源管理和场景系统，并尝试在 Vulkan 或更现代的自研渲染框架中复现类似功能。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>PCG 与 NPR 游戏技术综述(客户端向)</title>
+        <published>2026-03-02T08:20:35+00:00</published>
+        <updated>2026-03-02T08:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/client/pcgnpr/"/>
+        <id>https://momentaryrainy.github.io/client/pcgnpr/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/client/pcgnpr/">&lt;p&gt;2026.3&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是我在游戏&#x2F;图形学相关课程中完成的技术综述项目，论文题为 &lt;em&gt;Non-Photorealistic Rendering and Procedural Content Generation for Games: An Industry-Oriented Review&lt;&#x2F;em&gt;。&lt;&#x2F;p&gt;
+&lt;p&gt;项目从游戏开发实践角度出发，调研了 NPR（非真实感渲染）与 PCG（程序化内容生成）两类技术在游戏中的应用方式、实现成本和适用场景。相比单纯整理论文内容，我更关注这些技术在实际游戏客户端中是否容易落地：是否适合实时渲染、是否方便设计师控制、是否兼容现代引擎管线，以及是否能有效服务玩法和内容生产。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhu-yao-nei-rong&quot;&gt;主要内容&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;梳理 NPR 与 PCG 的基本概念、发展背景和游戏行业应用场景&lt;&#x2F;li&gt;
+&lt;li&gt;比较 NPR 中轮廓提取、风格化着色、LUT&#x2F;PBR 风格化等技术路线&lt;&#x2F;li&gt;
+&lt;li&gt;分析不同 NPR 方法在性能、可控性和现代渲染管线兼容性上的差异&lt;&#x2F;li&gt;
+&lt;li&gt;梳理 PCG 中参数化方法和规则方法，例如噪声、L-System、形状语法、图结构和求解器方法&lt;&#x2F;li&gt;
+&lt;li&gt;比较 PCG 方法在结果准确性、内容多样性、设计师可控性和实现门槛上的取舍&lt;&#x2F;li&gt;
+&lt;li&gt;讨论学术研究与游戏工业实践之间的差距，以及工具化、机器学习和设计师参与方向的潜力&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;yu-ke-hu-duan-xiang-mu-de-guan-xi&quot;&gt;与客户端项目的关系&lt;&#x2F;h3&gt;
+&lt;p&gt;这篇综述为后续 Unity 游戏项目《Reaching the IcePeak》提供了前期技术参考。论文中对 PCG 和 NPR 的比较，帮助我在后续项目中选择更适合短周期游戏开发的实现方式：使用风格化 Shader 强化画面氛围，并用规则化的程序摆放方式生成部分场景内容。&lt;&#x2F;p&gt;
+&lt;p&gt;因此，这个项目虽然不是一个直接可玩的客户端程序，但它承担了游戏开发前期的技术预研作用，帮助我从“想实现某种视觉效果或生成效果”进一步转向“判断它是否适合当前项目规模和开发周期”。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;Critical_Review.pdf&quot;&gt;Review PDF&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我第一次系统地从游戏开发视角阅读和比较图形学技术。相比只关注某个算法是否先进，我开始更重视它在实际项目中的成本：性能是否可接受、是否容易调参、是否能被美术或设计流程使用，以及是否真的服务玩家体验。&lt;&#x2F;p&gt;
+&lt;p&gt;不足之处在于论文篇幅有限，许多方向只能做概括性比较，缺少更深入的代码复现和实验数据。后续我希望把综述中的部分结论继续落到实际项目中，例如在 Unity 或自研渲染框架中复现更完整的风格化渲染流程，并尝试让 PCG 不只生成装饰内容，而是进一步参与关卡结构和玩法设计。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>PCG 与 NPR 游戏技术综述(图形学向)</title>
+        <published>2026-02-02T08:20:35+00:00</published>
+        <updated>2026-02-02T08:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/graphic/pcgnpr/"/>
+        <id>https://momentaryrainy.github.io/graphic/pcgnpr/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/graphic/pcgnpr/">&lt;p&gt;2026.3&lt;&#x2F;p&gt;
+&lt;p&gt;终末地的PBR渲染，豪堪，计划在游戏项目内进行复刻尝试&#x2F;学习。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是一篇围绕 NPR（Non-Photorealistic Rendering）与 PCG（Procedural Content Generation）的图形学综述论文。论文从游戏工业实践角度出发，比较两类技术在实时游戏中的应用价值、性能成本、艺术可控性和现代引擎管线兼容性。&lt;&#x2F;p&gt;
+&lt;p&gt;NPR 关注如何通过非真实感渲染传达风格化视觉信息，PCG 则关注如何通过算法生成游戏内容。虽然两者技术路径不同，但都涉及从高维信息空间中筛选、约束和生成可用结果，因此在游戏开发中都需要同时考虑算法效果和设计师控制。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhu-yao-nei-rong&quot;&gt;主要内容&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;梳理 NPR 与 PCG 在图形学和游戏工程中的定义、发展背景和应用场景&lt;&#x2F;li&gt;
+&lt;li&gt;分析 NPR 中轮廓提取方法，包括几何方法、屏幕空间方法和图像分析方法&lt;&#x2F;li&gt;
+&lt;li&gt;比较 NPR 着色路线，包括参数化着色、LUT、几何风格化和 PBR-based stylization&lt;&#x2F;li&gt;
+&lt;li&gt;分析 PCG 中参数化方法，包括 Perlin Noise、L-System、形状语法和分形方法&lt;&#x2F;li&gt;
+&lt;li&gt;分析 PCG 中规则生成方法，包括 grammar-based、graph-based、cellular automata 和 solver-based 方法&lt;&#x2F;li&gt;
+&lt;li&gt;从性能、结果质量、艺术可控性、管线兼容性和实现门槛等维度比较不同技术路线&lt;&#x2F;li&gt;
+&lt;li&gt;讨论学术研究与实时游戏工业实践之间的差距，以及工具化和机器学习方向的潜力&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;Critical_Review.pdf&quot;&gt;&lt;strong&gt;review&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这篇综述让我对 NPR 和 PCG 有了更系统的认识。相比只关注单个算法的实现细节，我开始从图形学技术在游戏中的落地条件进行判断：它是否满足实时性能要求，是否容易被美术或设计师控制，是否兼容现代渲染管线，以及是否能稳定地产生可用结果。&lt;&#x2F;p&gt;
+&lt;p&gt;我也意识到，图形学研究和工业实践之间存在明显差距。许多方法在论文中具有清晰的理论价值，但真正进入游戏项目时，还需要面对工具链、性能预算、内容生产流程和调参成本等问题。&lt;&#x2F;p&gt;
+&lt;p&gt;后续我希望继续沿着“论文阅读 -&amp;gt; 技术复现 -&amp;gt; 项目应用”的路线推进，在 Unity、现代渲染管线或自研框架中复现更多 NPR 效果，并尝试让 PCG 从环境装饰生成进一步走向关卡结构和玩法生成。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>游戏设计</title>
+        <published>2026-01-15T05:30:35+00:00</published>
+        <updated>2026-01-15T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/other/design/"/>
+        <id>https://momentaryrainy.github.io/other/design/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/other/design/">&lt;p&gt;2026.1&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;ke-cheng-miao-shu&quot;&gt;课程描述&lt;&#x2F;h3&gt;
+&lt;p&gt;课程包括设计性思考、游戏可用性、结构与叙事、游戏开发相关技术、视觉传递、市场分析、众筹集资、原型测试&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是一个围绕课程理论完成的游戏设计文档项目，内容包括游戏设计梗概、核心玩法、玩家引导、机制分析和发行计划。设计目标是将养成模拟、卡牌构筑和战棋战斗结合起来，形成一个以角色成长和剧情代入为核心的游戏方案。&lt;&#x2F;p&gt;
+&lt;p&gt;项目限制在 3000 字左右，因此重点放在核心循环、机制互相支撑关系和开发计划表达上，而不是完整展开所有剧情和数值细节。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;battle.png&quot; alt=&quot;Dialogue&quot; &#x2F;&gt;
+&lt;em&gt;战斗概念图。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;flow.png&quot; alt=&quot;Dialogue&quot; &#x2F;&gt;
+&lt;em&gt;游戏流程图。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;schedule.png&quot; alt=&quot;Dialogue&quot; &#x2F;&gt;
+&lt;em&gt;开发时间规划。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;she-ji-nei-rong&quot;&gt;设计内容&lt;&#x2F;h3&gt;
+&lt;p&gt;游戏机制参考了《火山的女儿》的养成模拟，以及《杀戮尖塔》式卡牌构筑与战棋战斗。设计重点是让成长、剧情和卡牌效果互相呼应，而不是把卡牌系统作为独立战斗模块。&lt;&#x2F;p&gt;
+&lt;p&gt;养成阶段中，玩家通过课程和事件培养力量、敏捷、智力、感知等属性。认知与专注作为成长较慢的关键属性，分别影响每回合抽牌数和弃牌数，从而把养成结果反馈到战斗策略中。&lt;&#x2F;p&gt;
+&lt;p&gt;课程系统会提供不同方向的成长和牌组来源。例如精灵语提升感知和智力，体能提升力量和敏捷，精灵术基础提升智力和敏捷，自然识别提升敏捷和感知。玩家可以通过课程积累获得体系内进阶卡牌，也可以通过事件获得通用卡牌。&lt;&#x2F;p&gt;
+&lt;p&gt;战斗曲线设计上尽量避免过早提高难度，目标是突出主角成长感，并让玩家逐步理解卡牌、属性和棋盘位置之间的关系。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;qia-pai-shi-li&quot;&gt;卡牌示例：&lt;&#x2F;h3&gt;
+&lt;p&gt;踢击：来自于父亲的教导，近战：造成等同于攻击力的伤害，攻击者同时后退 基于敏捷的 格数，并使攻击者的体力减少反比于敏捷点数。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;boss-shi-li&quot;&gt;Boss 示例：&lt;&#x2F;h3&gt;
+&lt;p&gt;课程考试：10x10 固定棋盘。老师使用高级自然魔法以及精灵创造的特殊生物。这些生物攻击力极强，只使用近战攻击，且伤害相对较高，主角设定为精灵种族，考验战斗期间敏捷和体力规划&lt;&#x2F;p&gt;
+&lt;h5 id=&quot;shi-jian-shi-li&quot;&gt;事件示例：&lt;&#x2F;h5&gt;
+&lt;p&gt;父亲在村外的朋友，一位剑术高超的剑士，前来拜访。他观察了主角目前的剑术，给予了鼓励，并获得了“剑柄打击”卡牌：造成少量伤害并抽取一张卡牌。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我练习了如何把模糊的游戏想法整理成可执行方案：从玩家心理预期出发，推导玩家行为，再落到具体机制、数值和流程设计上。&lt;&#x2F;p&gt;
+&lt;p&gt;我也意识到，设计过程需要在宏观结构和细节机制之间有意识地切换。如果过早陷入单张卡牌或单段剧情，很容易失去整体节奏；但如果只停留在概念层，又无法验证玩法是否真的可执行。&lt;&#x2F;p&gt;
+&lt;p&gt;这个设计后来成为《Reaching the IcePeak》项目的早期设计基础之一。后续如果继续完善，我会优先重写剧情表达，并进一步整理卡牌体系、战斗节奏和玩家引导。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

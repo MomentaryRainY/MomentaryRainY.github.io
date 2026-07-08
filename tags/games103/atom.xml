@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
+    <title>Personal Website - GAMES103</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/games103/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-08-10T05:20:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/games103/atom.xml</id>
+    <entry xml:lang="zh">
+        <title>Games103 物理动画入门</title>
+        <published>2024-08-10T05:20:35+00:00</published>
+        <updated>2024-08-10T05:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/other/pbanimation/"/>
+        <id>https://momentaryrainy.github.io/other/pbanimation/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/other/pbanimation/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是我跟随 GAMES103 物理动画课程完成的 Unity 练习项目，目标是理解基于物理的动画模拟如何从数学模型落到实时交互程序中。&lt;&#x2F;p&gt;
+&lt;p&gt;项目覆盖了刚体动力学、布料模拟和基础流体模拟。相比手工关键帧动画，物理动画更关注约束、力、积分和碰撞对运动结果的影响。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;house.gif&quot; alt=&quot;Bouncing House&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;刚体动力学练习。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;cloth.gif&quot; alt=&quot;Cloth Simulation&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;基于物理的布料模拟。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;pool.gif&quot; alt=&quot;Pool Simulation&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;基础流体模拟。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;PBAnimation&quot;&gt;&lt;strong&gt;games103&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-wei-lai&quot;&gt;成长 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我熟悉了物理动画中常见的建模方式：用数值积分更新状态，用约束和碰撞控制运动边界，再通过实时渲染观察系统是否稳定。&lt;&#x2F;p&gt;
+&lt;p&gt;后续如果继续迭代，我希望在自研或 Unity 项目中实现更完整的碰撞系统，并进一步学习 PBD、XPBD 和更稳定的实时布料&#x2F;软体模拟方法。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

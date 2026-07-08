@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
+    <title>Personal Website - 实时渲染</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/shi-shi-xuan-ran/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-03-23T05:30:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/shi-shi-xuan-ran/atom.xml</id>
+    <entry xml:lang="zh">
+        <title>DirectX 12 渲染框架与 3D 场景</title>
+        <published>2026-03-23T05:30:35+00:00</published>
+        <updated>2026-03-23T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/graphic/dx12/"/>
+        <id>https://momentaryrainy.github.io/graphic/dx12/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/graphic/dx12/">&lt;p&gt;2025.11&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是一个使用 C++ 和 DirectX 12 搭建的小型实时渲染框架，并基于该框架实现了一个可游玩的第一人称 3D 场景。项目从 DX12 底层管线配置出发，完成资源管理、Shader 管理、常量缓冲、模型渲染、动画控制和场景交互等基础模块。&lt;&#x2F;p&gt;
+&lt;p&gt;最终场景以“星际穿越之后”为概念：玩家以第一人称视角在受黑洞影响的空间中前进，经过树木、水面和天空盒场景，与一个 4D 生物进行对话，并触发简单动画反馈。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhu-yao-shi-xian&quot;&gt;主要实现&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;使用 C++ 初始化 DirectX 12 渲染管线，包括 device、command queue、swap chain、descriptor heap 等基础对象&lt;&#x2F;li&gt;
+&lt;li&gt;封装 Shader、Constant Buffer、Vertex Layout Cache 等渲染资源管理模块&lt;&#x2F;li&gt;
+&lt;li&gt;实现数据驱动式场景加载，用于组织模型、材质、贴图和场景对象&lt;&#x2F;li&gt;
+&lt;li&gt;实现第一人称相机移动和基础碰撞限制&lt;&#x2F;li&gt;
+&lt;li&gt;实现带纹理的静态模型渲染&lt;&#x2F;li&gt;
+&lt;li&gt;实现 alpha test 网格体，用于树叶等透明裁切材质&lt;&#x2F;li&gt;
+&lt;li&gt;实现实例化渲染，用于批量摆放树木等重复对象&lt;&#x2F;li&gt;
+&lt;li&gt;实现骨骼动画与动画混合，用于恐龙转头等角色反馈&lt;&#x2F;li&gt;
+&lt;li&gt;实现法线贴图，增强模型表面细节&lt;&#x2F;li&gt;
+&lt;li&gt;实现天空盒渲染，构建场景环境背景&lt;&#x2F;li&gt;
+&lt;li&gt;实现基于 Gerstner Wave 的水体顶点位移效果&lt;&#x2F;li&gt;
+&lt;li&gt;实现字体与对话框渲染，用于场景内 NPC 对话&lt;&#x2F;li&gt;
+&lt;li&gt;实现简单 PCG 树木摆放，提升场景丰富度&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;dialogue.png&quot; alt=&quot;Dialogue&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;项目最终形成了一个短流程 3D 场景：玩家沿固定路线前进，与场景中的 4D 生物触发对话，并看到角色动画反馈。场景中包含实例化树木、天空盒、水体、第一人称移动、碰撞限制和对话 UI。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;speech.png&quot; alt=&quot;Speech&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;水体部分使用 Gerstner Wave 进行顶点位移，配合自定义水面 Shader 表现受黑洞影响的海面。由于项目时间有限，水体材质仍偏塑料感，后续需要进一步改进反射、折射和法线细节。&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link: &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;DX12&quot;&gt;DX12&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;字体选的有点难看...&lt;&#x2F;p&gt;
+&lt;p&gt;对话内容为：&lt;&#x2F;p&gt;
+&lt;p&gt;“嗨，库珀，我知道你有很多问题。”&lt;&#x2F;p&gt;
+&lt;p&gt;“你可能已经明白了，到达三维循环的终点，你就能变成四维生物。”&lt;&#x2F;p&gt;
+&lt;p&gt;“但我不能让你这么做。”&lt;&#x2F;p&gt;
+&lt;p&gt;“好好享受你的时光吧，我已经把你在这里的时间流逝分隔开了。”&lt;&#x2F;p&gt;
+&lt;p&gt;“你想什么时候回去都可以，在这里的任何事情你都不会记得。”&lt;&#x2F;p&gt;
+&lt;p&gt;随即动画融合器使得恐龙转头&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我从更底层理解了实时渲染框架的组织方式。相比在 Unity 或 Unreal 中直接使用已有组件，DirectX 12 需要自己管理渲染资源、命令提交、Shader 输入布局、常量缓冲和对象绘制顺序，因此更能暴露 GPU 管线背后的工程细节。&lt;&#x2F;p&gt;
+&lt;p&gt;项目中最有价值的部分是把多个实时渲染功能整合进同一个可运行场景：模型、动画、实例化、水体、天空盒、相机和对话 UI 都需要在同一套框架下协同工作。这让我更清楚地理解了渲染框架与游戏场景之间的关系。&lt;&#x2F;p&gt;
+&lt;p&gt;不足之处在于框架抽象还不够成熟，资源生命周期、渲染状态管理和模块扩展性仍有优化空间。后续如果继续迭代，我会优先重构渲染资源管理和场景系统，并尝试在 Vulkan 或更现代的自研渲染框架中复现类似功能。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>Learn OpenGL</title>
+        <published>2025-06-03T05:30:35+00:00</published>
+        <updated>2025-06-03T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/other/learnopengl/"/>
+        <id>https://momentaryrainy.github.io/other/learnopengl/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/other/learnopengl/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是我跟随 &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;learnopengl.com&#x2F;&quot;&gt;LearnOpenGL&lt;&#x2F;a&gt; 完成的 OpenGL 学习项目，目标是建立实时渲染管线的基础理解，并通过代码实践连接图形学概念和实际 API 使用。&lt;&#x2F;p&gt;
+&lt;p&gt;项目覆盖了 OpenGL 基础语法、窗口创建、三角形绘制、纹理、相机、光照、材质和模型加载，也实践了深度测试、模板测试、面剔除、帧缓存、几何 Shader、实例化、反锯齿、阴影、后处理和法线贴图等进阶内容。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;opengl.gif&quot; alt=&quot;path tracing&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;完成了基础章节和大部分进阶章节的代码实践，形成了一个包含模型、相机、光照和多种渲染效果的 OpenGL 学习工程。&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;learnOpenGL&quot;&gt;learnOpenGL&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我第一次比较系统地理解实时光栅化渲染流程，也熟悉了图形学概念如何落到具体渲染 API 中。&lt;&#x2F;p&gt;
+&lt;p&gt;不足之处在于，早期代码更偏跟随教程逐步堆叠，模块划分和资源管理不够清晰，后期功能之间耦合较高。&lt;&#x2F;p&gt;
+&lt;p&gt;后续如果重构，我会把窗口、相机、模型、材质、Shader、纹理和渲染 pass 拆成更独立的模块，为之后的 DX12 或自研渲染框架打基础。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>Games202 高质量实时渲染</title>
+        <published>2024-09-09T05:30:35+00:00</published>
+        <updated>2024-09-09T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/other/pathtracing/"/>
+        <id>https://momentaryrainy.github.io/other/pathtracing/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/other/pathtracing/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是我跟随 GAMES202 高质量实时渲染课程进行的图形学练习，重点关注实时渲染中更进阶的算法问题，包括实时阴影、实时环境光照、实时全局光照、实时物理材质和实时光线追踪。&lt;&#x2F;p&gt;
+&lt;p&gt;项目中主要完成了基础着色和实时降噪相关实践，用来理解高质量实时渲染中“效果质量、性能预算和时序稳定性”之间的取舍。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;games202.png&quot; alt=&quot;webgl&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Blinn-Phong 着色模型练习。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;house-sequence.gif&quot; alt=&quot;House Sequence&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;实时降噪前的序列结果。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;denoised-house-sequence.gif&quot; alt=&quot;Denoised House Sequence&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;实时降噪后的序列结果。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;RTDenosier&quot;&gt;&lt;strong&gt;games202&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si&quot;&gt;成长 &amp;amp; 反思&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我开始理解实时渲染中更复杂的算法目标：很多效果并不是单帧算得越准越好，而是要在有限时间内获得稳定、可接受且可调的结果。&lt;&#x2F;p&gt;
+&lt;p&gt;实践中最大的体会是，复刻图形学算法不能只看公式，还需要理解公式背后的假设、输入输出范围和工程约束。后续还需要继续补充实时阴影、PBR、全局光照和现代实时光追方向的实践。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>NeRF 实时真实感渲染方法综述</title>
+        <published>2024-05-02T08:20:35+00:00</published>
+        <updated>2024-05-02T08:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/graphic/nerf/"/>
+        <id>https://momentaryrainy.github.io/graphic/nerf/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/graphic/nerf/">&lt;p&gt;2024.4&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是我围绕 NeRF-based real-time photorealistic rendering 完成的文献综述论文。论文关注 NeRF 及其变体如何从离线神经场景表示，逐步走向实时真实感渲染，并分析其在游戏、AR&#x2F;VR、移动端和实时图形应用中的潜力。&lt;&#x2F;p&gt;
+&lt;p&gt;文章将相关方法整理为 volume-based、surface-based 与 hybrid methods 三类技术路线，并从渲染速度、存储占用、输出分辨率、数据集、硬件需求和场景适用性等维度进行比较。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhu-yao-nei-rong&quot;&gt;主要内容&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;梳理 NeRF 的基本思想：使用 5D 输入表示空间位置与观察方向，并预测颜色和密度&lt;&#x2F;li&gt;
+&lt;li&gt;总结 NeRF-like 方法在静态场景重建、隐式表示和新视角合成中的优势&lt;&#x2F;li&gt;
+&lt;li&gt;比较 volume-based 方法在质量、训练成本和实时渲染速度上的取舍&lt;&#x2F;li&gt;
+&lt;li&gt;比较 surface-based 方法在几何表达、渲染效率和实时应用中的优势&lt;&#x2F;li&gt;
+&lt;li&gt;分析 hybrid methods 如何结合体渲染质量与表面渲染效率&lt;&#x2F;li&gt;
+&lt;li&gt;从 FPS、模型大小、分辨率、数据集和硬件平台等指标比较不同方法&lt;&#x2F;li&gt;
+&lt;li&gt;讨论 NeRF 在游戏、AR&#x2F;VR、移动端渲染中的应用限制，包括动态场景、艺术可控性和硬件适配问题&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;cheng-guo&quot;&gt;成果&lt;&#x2F;h3&gt;
+&lt;p&gt;论文已发表：&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.62051&#x2F;26c21r61&quot;&gt;Paper&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这是我第一篇发表的论文，让我第一次完整经历了选题、文献阅读、技术分类、对比分析和学术写作流程。相比只阅读单篇论文，综述写作要求我从更高层次理解一个方向的发展脉络，并建立清晰的评价维度。&lt;&#x2F;p&gt;
+&lt;p&gt;这篇论文也让我意识到，阅读图形学论文不能只关注单个方法的效果图或指标，而需要持续追问：它和前人方法相比解决了什么问题，代价是什么，适合什么场景，是否真的具备实时应用价值。&lt;&#x2F;p&gt;
+&lt;p&gt;不足之处在于，当时对神经渲染和实时图形管线的理解还不够深入，部分分析更偏文献整理，缺少代码复现和实验验证。后续我希望继续阅读并复现 Instant-NGP、3D Gaussian Splatting 等方向的代表性方法，把神经表示和实时渲染的理解落到实际工程中。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>基于 NeRF 的实时真实感渲染方法综述</title>
+        <published>2024-05-02T08:20:35+00:00</published>
+        <updated>2024-05-02T08:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/other/nerf/"/>
+        <id>https://momentaryrainy.github.io/other/nerf/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/other/nerf/">&lt;p&gt;2024.4&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是我围绕 NeRF-based real-time photorealistic rendering 完成的文献综述论文。论文关注 NeRF 及其变体如何从离线神经场景表示，逐步走向实时真实感渲染，并分析其在游戏、AR&#x2F;VR、移动端和实时图形应用中的潜力。&lt;&#x2F;p&gt;
+&lt;p&gt;文章将相关方法整理为 volume-based、surface-based 与 hybrid methods 三类技术路线，并从渲染速度、存储占用、输出分辨率、数据集、硬件需求和场景适用性等维度进行比较。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhu-yao-nei-rong&quot;&gt;主要内容&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;梳理 NeRF 的基本思想：使用 5D 输入表示空间位置与观察方向，并预测颜色和密度&lt;&#x2F;li&gt;
+&lt;li&gt;总结 NeRF-like 方法在静态场景重建、隐式表示和新视角合成中的优势&lt;&#x2F;li&gt;
+&lt;li&gt;比较 volume-based 方法在质量、训练成本和实时渲染速度上的取舍&lt;&#x2F;li&gt;
+&lt;li&gt;比较 surface-based 方法在几何表达、渲染效率和实时应用中的优势&lt;&#x2F;li&gt;
+&lt;li&gt;分析 hybrid methods 如何结合体渲染质量与表面渲染效率&lt;&#x2F;li&gt;
+&lt;li&gt;从 FPS、模型大小、分辨率、数据集和硬件平台等指标比较不同方法&lt;&#x2F;li&gt;
+&lt;li&gt;讨论 NeRF 在游戏、AR&#x2F;VR、移动端渲染中的应用限制，包括动态场景、艺术可控性和硬件适配问题&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;cheng-guo&quot;&gt;成果&lt;&#x2F;h3&gt;
+&lt;p&gt;论文已发表：&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.62051&#x2F;26c21r61&quot;&gt;Paper&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这是我第一篇发表的论文，让我完整经历了选题、文献阅读、技术分类、对比分析和学术写作流程。相比只阅读单篇论文，综述写作要求我从更高层次理解一个方向的发展脉络，并建立清晰的评价维度。&lt;&#x2F;p&gt;
+&lt;p&gt;这篇论文也让我意识到，阅读图形学论文不能只关注单个方法的效果图或指标，而需要持续追问：它和前人方法相比解决了什么问题，代价是什么，适合什么场景，是否真的具备实时应用价值。&lt;&#x2F;p&gt;
+&lt;p&gt;不足之处在于，当时对神经渲染和实时图形管线的理解还不够深入，部分分析更偏文献整理，缺少代码复现和实验验证。后续我希望继续阅读并复现 Instant-NGP、3D Gaussian Splatting 等方向的代表性方法，把神经表示和实时渲染的理解落到实际工程中。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

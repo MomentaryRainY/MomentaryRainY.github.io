@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
+    <title>Personal Website - Unity</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/unity/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-06-25T05:30:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/unity/atom.xml</id>
+    <entry xml:lang="zh">
+        <title>Frantic Pinball GameJam</title>
+        <published>2026-06-25T05:30:35+00:00</published>
+        <updated>2026-06-25T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/client/pinballairhockey/"/>
+        <id>https://momentaryrainy.github.io/client/pinballairhockey/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/client/pinballairhockey/">&lt;p&gt;2025.11&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;《Frantic Pinball》是我在华威大学 Game Jam 中参与制作的 48 小时团队项目，主题为 “Frantic &#x2F; 疯狂”。游戏将弹珠台和空气曲棍球结合成 1v1 对抗玩法，玩家需要操控挡板击球、争夺得分或干扰对手，在快速变化的球速、道具和场地状态中保持节奏。&lt;&#x2F;p&gt;
+&lt;p&gt;项目最终发布到 itch.io，支持浏览器运行与 Windows &#x2F; Linux 下载版本，需要两个手柄进行游玩。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;you-xi-she-ji&quot;&gt;游戏设计&lt;&#x2F;h3&gt;
+&lt;p&gt;游戏包含两种模式：&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Split Mode&lt;&#x2F;strong&gt;：两名玩家分别在自己的区域中进行弹珠台式对抗，通过击中怪物获得分数。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Joint Mode&lt;&#x2F;strong&gt;：两名玩家在同一场地中直接竞争，以生命值和场地控制作为胜负核心。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;游戏中加入了多种碰撞道具，包括增大、减小、加速、增加球数和传送等效果。道具不仅影响玩家自己的场地，也可能改变对手区域的局势，从而强化 Game Jam 主题中“疯狂”和不可预测的体验。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;split.png&quot; alt=&quot;Split&quot; &#x2F;&gt;
+&lt;em&gt;Split Mode：双方在独立区域内竞争分数。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;joint.png&quot; alt=&quot;Joint&quot; &#x2F;&gt;
+&lt;em&gt;Joint Mode：双方在同一场地中争夺生存空间。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhu-yao-shi-xian&quot;&gt;主要实现&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;使用 Unity &#x2F; C# 完成 2D 游戏原型开发&lt;&#x2F;li&gt;
+&lt;li&gt;实现双人手柄输入、挡板移动与旋转控制&lt;&#x2F;li&gt;
+&lt;li&gt;实现弹球物理、碰撞反馈、得分与生命值逻辑&lt;&#x2F;li&gt;
+&lt;li&gt;制作 Split Mode 与 Joint Mode 两套玩法场景&lt;&#x2F;li&gt;
+&lt;li&gt;实现多种碰撞道具与场地干扰效果&lt;&#x2F;li&gt;
+&lt;li&gt;完成菜单、暂停界面、场景切换和基础游戏流程&lt;&#x2F;li&gt;
+&lt;li&gt;在 48 小时内完成可发布版本并上传 itch.io&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;项目发布地址：&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;hypersycos.itch.io&#x2F;frantic-pinball&quot;&gt;Frantic Pinball&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link: &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Games-Engineering-Grp-Game-Jam&#x2F;PinballAirHockey&quot;&gt;PinballAirHockey&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;获奖：最疯狂奖&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这是我早期参与的完整 Game Jam 项目之一，让我实践了从玩法设计、快速原型、团队协作到最终发布的完整流程。相比课程作业，Game Jam 更强调在极短时间内找到清晰的核心乐趣，并围绕它快速取舍功能。&lt;&#x2F;p&gt;
+&lt;p&gt;这个项目中最有价值的部分是玩法设计：通过双人竞争、弹球物理和道具干扰制造紧张感，让主题“疯狂”不只是视觉表现，而是直接进入了玩家交互。&lt;&#x2F;p&gt;
+&lt;p&gt;不足之处在于美术和反馈仍比较粗糙，部分资源选择不够统一。后续如果继续迭代，我会优先提升击球反馈、道具提示、UI 清晰度和视觉风格一致性。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>Unity URP 风格化角色渲染</title>
+        <published>2025-05-02T08:20:35+00:00</published>
+        <updated>2025-05-02T08:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/other/npr/"/>
+        <id>https://momentaryrainy.github.io/other/npr/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/other/npr/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是一个在 Unity URP 管线中进行的 NPR 角色渲染练习，目标是复刻类原神角色的风格化光照效果。项目参考了 B 站教程 &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.bilibili.com&#x2F;video&#x2F;BV1HN4y1X7uS&#x2F;&quot;&gt;原视频&lt;&#x2F;a&gt; 以及多篇知乎技术文章，并以芙宁娜角色模型作为测试对象。&lt;&#x2F;p&gt;
+&lt;p&gt;练习重点包括 Ramp 贴图光照、SDF 面部阴影、描边和角色材质参数调试。相比简单 Shader 练习，这个项目更接近完整角色渲染效果的拆解与复现。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;furina.png&quot; alt=&quot;Furina&quot; &#x2F;&gt;
+&lt;em&gt;Unity URP 中的风格化角色渲染结果。当前版本缺少原作中更完整的全局光照和暖色环境氛围。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;FurinaRender&quot;&gt;FurinaRender&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我理解了风格化角色渲染中多个关键模块的配合方式：Ramp 贴图负责控制明暗分层，SDF 面部阴影用于获得更稳定的脸部阴影过渡，描边则强化角色轮廓和动画风格。&lt;&#x2F;p&gt;
+&lt;p&gt;相比过去只会写简单 Shader 语法，这次练习让我开始理解如何把复杂视觉目标拆成多个可调模块，并通过材质参数逐步接近目标风格。&lt;&#x2F;p&gt;
+&lt;p&gt;后续如果继续迭代，我希望在自己的渲染框架或 Unity 项目中整理一套更完整的 NPR 管线，包括角色光照、阴影、描边、后处理和场景氛围统一控制。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>Games103 物理动画入门</title>
+        <published>2024-08-10T05:20:35+00:00</published>
+        <updated>2024-08-10T05:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/other/pbanimation/"/>
+        <id>https://momentaryrainy.github.io/other/pbanimation/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/other/pbanimation/">&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是我跟随 GAMES103 物理动画课程完成的 Unity 练习项目，目标是理解基于物理的动画模拟如何从数学模型落到实时交互程序中。&lt;&#x2F;p&gt;
+&lt;p&gt;项目覆盖了刚体动力学、布料模拟和基础流体模拟。相比手工关键帧动画，物理动画更关注约束、力、积分和碰撞对运动结果的影响。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;house.gif&quot; alt=&quot;Bouncing House&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;刚体动力学练习。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;cloth.gif&quot; alt=&quot;Cloth Simulation&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;基于物理的布料模拟。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;pool.gif&quot; alt=&quot;Pool Simulation&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;基础流体模拟。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;PBAnimation&quot;&gt;&lt;strong&gt;games103&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-wei-lai&quot;&gt;成长 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我熟悉了物理动画中常见的建模方式：用数值积分更新状态，用约束和碰撞控制运动边界，再通过实时渲染观察系统是否稳定。&lt;&#x2F;p&gt;
+&lt;p&gt;后续如果继续迭代，我希望在自研或 Unity 项目中实现更完整的碰撞系统，并进一步学习 PBD、XPBD 和更稳定的实时布料&#x2F;软体模拟方法。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

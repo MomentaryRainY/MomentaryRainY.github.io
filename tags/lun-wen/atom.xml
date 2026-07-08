@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
+    <title>Personal Website - 论文</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/lun-wen/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-05-02T08:20:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/lun-wen/atom.xml</id>
+    <entry xml:lang="zh">
+        <title>NeRF 实时真实感渲染方法综述</title>
+        <published>2024-05-02T08:20:35+00:00</published>
+        <updated>2024-05-02T08:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/graphic/nerf/"/>
+        <id>https://momentaryrainy.github.io/graphic/nerf/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/graphic/nerf/">&lt;p&gt;2024.4&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是我围绕 NeRF-based real-time photorealistic rendering 完成的文献综述论文。论文关注 NeRF 及其变体如何从离线神经场景表示，逐步走向实时真实感渲染，并分析其在游戏、AR&#x2F;VR、移动端和实时图形应用中的潜力。&lt;&#x2F;p&gt;
+&lt;p&gt;文章将相关方法整理为 volume-based、surface-based 与 hybrid methods 三类技术路线，并从渲染速度、存储占用、输出分辨率、数据集、硬件需求和场景适用性等维度进行比较。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhu-yao-nei-rong&quot;&gt;主要内容&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;梳理 NeRF 的基本思想：使用 5D 输入表示空间位置与观察方向，并预测颜色和密度&lt;&#x2F;li&gt;
+&lt;li&gt;总结 NeRF-like 方法在静态场景重建、隐式表示和新视角合成中的优势&lt;&#x2F;li&gt;
+&lt;li&gt;比较 volume-based 方法在质量、训练成本和实时渲染速度上的取舍&lt;&#x2F;li&gt;
+&lt;li&gt;比较 surface-based 方法在几何表达、渲染效率和实时应用中的优势&lt;&#x2F;li&gt;
+&lt;li&gt;分析 hybrid methods 如何结合体渲染质量与表面渲染效率&lt;&#x2F;li&gt;
+&lt;li&gt;从 FPS、模型大小、分辨率、数据集和硬件平台等指标比较不同方法&lt;&#x2F;li&gt;
+&lt;li&gt;讨论 NeRF 在游戏、AR&#x2F;VR、移动端渲染中的应用限制，包括动态场景、艺术可控性和硬件适配问题&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;cheng-guo&quot;&gt;成果&lt;&#x2F;h3&gt;
+&lt;p&gt;论文已发表：&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.62051&#x2F;26c21r61&quot;&gt;Paper&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这是我第一篇发表的论文，让我第一次完整经历了选题、文献阅读、技术分类、对比分析和学术写作流程。相比只阅读单篇论文，综述写作要求我从更高层次理解一个方向的发展脉络，并建立清晰的评价维度。&lt;&#x2F;p&gt;
+&lt;p&gt;这篇论文也让我意识到，阅读图形学论文不能只关注单个方法的效果图或指标，而需要持续追问：它和前人方法相比解决了什么问题，代价是什么，适合什么场景，是否真的具备实时应用价值。&lt;&#x2F;p&gt;
+&lt;p&gt;不足之处在于，当时对神经渲染和实时图形管线的理解还不够深入，部分分析更偏文献整理，缺少代码复现和实验验证。后续我希望继续阅读并复现 Instant-NGP、3D Gaussian Splatting 等方向的代表性方法，把神经表示和实时渲染的理解落到实际工程中。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>基于 NeRF 的实时真实感渲染方法综述</title>
+        <published>2024-05-02T08:20:35+00:00</published>
+        <updated>2024-05-02T08:20:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/other/nerf/"/>
+        <id>https://momentaryrainy.github.io/other/nerf/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/other/nerf/">&lt;p&gt;2024.4&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是我围绕 NeRF-based real-time photorealistic rendering 完成的文献综述论文。论文关注 NeRF 及其变体如何从离线神经场景表示，逐步走向实时真实感渲染，并分析其在游戏、AR&#x2F;VR、移动端和实时图形应用中的潜力。&lt;&#x2F;p&gt;
+&lt;p&gt;文章将相关方法整理为 volume-based、surface-based 与 hybrid methods 三类技术路线，并从渲染速度、存储占用、输出分辨率、数据集、硬件需求和场景适用性等维度进行比较。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhu-yao-nei-rong&quot;&gt;主要内容&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;梳理 NeRF 的基本思想：使用 5D 输入表示空间位置与观察方向，并预测颜色和密度&lt;&#x2F;li&gt;
+&lt;li&gt;总结 NeRF-like 方法在静态场景重建、隐式表示和新视角合成中的优势&lt;&#x2F;li&gt;
+&lt;li&gt;比较 volume-based 方法在质量、训练成本和实时渲染速度上的取舍&lt;&#x2F;li&gt;
+&lt;li&gt;比较 surface-based 方法在几何表达、渲染效率和实时应用中的优势&lt;&#x2F;li&gt;
+&lt;li&gt;分析 hybrid methods 如何结合体渲染质量与表面渲染效率&lt;&#x2F;li&gt;
+&lt;li&gt;从 FPS、模型大小、分辨率、数据集和硬件平台等指标比较不同方法&lt;&#x2F;li&gt;
+&lt;li&gt;讨论 NeRF 在游戏、AR&#x2F;VR、移动端渲染中的应用限制，包括动态场景、艺术可控性和硬件适配问题&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;cheng-guo&quot;&gt;成果&lt;&#x2F;h3&gt;
+&lt;p&gt;论文已发表：&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.62051&#x2F;26c21r61&quot;&gt;Paper&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这是我第一篇发表的论文，让我完整经历了选题、文献阅读、技术分类、对比分析和学术写作流程。相比只阅读单篇论文，综述写作要求我从更高层次理解一个方向的发展脉络，并建立清晰的评价维度。&lt;&#x2F;p&gt;
+&lt;p&gt;这篇论文也让我意识到，阅读图形学论文不能只关注单个方法的效果图或指标，而需要持续追问：它和前人方法相比解决了什么问题，代价是什么，适合什么场景，是否真的具备实时应用价值。&lt;&#x2F;p&gt;
+&lt;p&gt;不足之处在于，当时对神经渲染和实时图形管线的理解还不够深入，部分分析更偏文献整理，缺少代码复现和实验验证。后续我希望继续阅读并复现 Instant-NGP、3D Gaussian Splatting 等方向的代表性方法，把神经表示和实时渲染的理解落到实际工程中。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

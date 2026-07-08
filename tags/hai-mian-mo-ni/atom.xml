@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
+    <title>Personal Website - 海面模拟</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/hai-mian-mo-ni/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-05-22T05:30:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/hai-mian-mo-ni/atom.xml</id>
+    <entry xml:lang="zh">
+        <title>UE5 实时 IFFT 海面模拟</title>
+        <published>2026-05-22T05:30:35+00:00</published>
+        <updated>2026-05-22T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/graphic/ue/"/>
+        <id>https://momentaryrainy.github.io/graphic/ue/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/graphic/ue/">&lt;p&gt;2026.5&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是一个在 Unreal Engine 5.4.4 中实现的实时海面模拟模块，用于小组海战游戏项目中的海面表现。我主要负责海面模拟与渲染数据输出部分：基于频域波浪模型生成初始频谱，在 GPU 上通过 Compute Shader 执行 IFFT，并将结果写入 Render Target，最终传递给 UE 材质用于顶点位移、法线和泡沫表现。&lt;&#x2F;p&gt;
+&lt;p&gt;相比使用预制水面资源，这个项目更关注从频谱生成到材质接入的完整实时渲染流程。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhu-yao-shi-xian&quot;&gt;主要实现&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;使用 UE C++ 实现海面 Actor，生成可调分辨率的 Procedural Mesh 海面网格&lt;&#x2F;li&gt;
+&lt;li&gt;基于 JONSWAP 频谱生成初始频域数据 H0，用于控制不同尺度的海浪形态&lt;&#x2F;li&gt;
+&lt;li&gt;使用 Render Target 存储频谱、位移、斜率、Jacobian&#x2F;variation 等中间结果&lt;&#x2F;li&gt;
+&lt;li&gt;编写多阶段 Compute Shader 管线，包括 H0 生成、Ht 时间演化、横向 IFFT、纵向 IFFT 和结果组装&lt;&#x2F;li&gt;
+&lt;li&gt;通过 Unreal Render Dependency Graph 派发 Compute Shader，并在渲染线程中完成 GPU 计算&lt;&#x2F;li&gt;
+&lt;li&gt;使用多组频谱叠加大浪、中浪和细节波纹，提升海面层次感&lt;&#x2F;li&gt;
+&lt;li&gt;将 IFFT 输出的 displacement texture 传入材质，用于海面顶点位移&lt;&#x2F;li&gt;
+&lt;li&gt;将 slope texture &#x2F; normal 信息传入材质，用于海面法线和光照表现&lt;&#x2F;li&gt;
+&lt;li&gt;基于 Jacobian 或局部压缩强度生成泡沫控制信息，用于表现浪尖和破碎区域&lt;&#x2F;li&gt;
+&lt;li&gt;使用双缓冲管理前后帧位移结果，为泡沫累积和衰减提供基础&lt;&#x2F;li&gt;
+&lt;li&gt;使用 RenderDoc 调试渲染管线、Render Target 内容和 Compute Shader 输出&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;figure style=&quot;width:50%; margin:0px auto 0px auto; text-align:center;&quot;&gt;
+  &lt;img src=&quot;&#x2F;images&#x2F;displacement.png&quot; style=&quot;width:100%; display:block;&quot;&gt;
+  &lt;figcaption style=&quot;margin-top:8px;&quot;&gt;
+    &lt;em&gt;IFFT 后得到的主波位移贴图。&lt;&#x2F;em&gt;
+  &lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;模块最终在 UE 材质中接入多尺度 displacement、slope 和 foam 数据，形成实时海面效果。由于项目需要配合低难度开船玩法，最终海浪幅度被控制在较低范围，避免过强的波动影响玩家操作。&lt;&#x2F;p&gt;
+&lt;video controls playsinline preload=&quot;metadata&quot; width=&quot;100%&quot;&gt;
+  &lt;source src=&quot;&#x2F;videos&#x2F;ocean.mp4&quot; type=&quot;video&#x2F;mp4&quot;&gt;
+&lt;&#x2F;video&gt;
+&lt;p&gt;Github Link: &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;GEDD_Level3&quot;&gt;GEDD_Level3&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我第一次在 UE 中完整实践了从数学模型、GPU 计算到材质表现的实时渲染流程。相比在离线程序中实现 FFT，UE 项目需要额外处理 Render Target、RDG、渲染线程、材质参数绑定和资源生命周期等工程问题。&lt;&#x2F;p&gt;
+&lt;p&gt;开发中最大的难点是尺度统一。频谱采样、纹理分辨率、世界坐标映射和 UE 物理单位之间需要保持一致，否则海浪频率、波长和视觉尺度很容易失真。这也让我意识到，图形学算法进入引擎后，工程参数管理和调试工具同样重要。&lt;&#x2F;p&gt;
+&lt;p&gt;目前项目仍有几个不足：HLSL 和参数管理比较硬编码，对 DX12 依赖较强；泡沫与船体交互主要依赖屏幕空间深度差，缺少更真实的物理拖尾；海洋着色还没有充分利用水深、透射和环境反射信息。后续如果继续迭代，我会优先整理参数系统，完善 CPU-GPU 同步与调试流程，并进一步研究船体扰动、尾迹和更完整的海洋材质表现。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

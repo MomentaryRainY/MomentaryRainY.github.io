@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
+    <title>Personal Website - 游戏</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/you-xi/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-07-23T05:30:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/you-xi/atom.xml</id>
+    <entry xml:lang="zh">
+        <title>独立游戏(客户端向)</title>
+        <published>2026-07-23T05:30:35+00:00</published>
+        <updated>2026-07-23T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/client/indiegame/"/>
+        <id>https://momentaryrainy.github.io/client/indiegame/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/client/indiegame/">&lt;p&gt;2026.5&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;《Reaching the IcePeak》是一款基于Unity的，花费一个月时间制作的独立游戏。&lt;&#x2F;p&gt;
+&lt;p&gt;游戏以回合制卡牌战棋为核心，玩家需要在网格战场中移动、规划手牌、攻击敌人，并通过牌组构筑应对不同关卡。&lt;&#x2F;p&gt;
+&lt;p&gt;项目将前置图形学研究方向落到实际游戏中：使用风格化渲染强化冰雪幻想氛围，并结合程序化环境摆放生成场景中的树木、石块等装饰元素。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhu-yao-shi-xian&quot;&gt;主要实现&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;回合制网格战斗：战斗流程、移动范围、攻击范围、伤害结算与胜负判断&lt;&#x2F;li&gt;
+&lt;li&gt;卡牌系统：手牌、抽牌堆、弃牌堆、卡牌费用、目标选择与效果触发&lt;&#x2F;li&gt;
+&lt;li&gt;敌人行为：根据战场状态执行移动、攻击等回合行为&lt;&#x2F;li&gt;
+&lt;li&gt;客户端 UI：战斗界面、卡牌交互、状态显示、教程提示与场景过渡&lt;&#x2F;li&gt;
+&lt;li&gt;本地化模块：将界面文本、教程内容和卡牌描述从逻辑中拆分，支持多语言内容管理&lt;&#x2F;li&gt;
+&lt;li&gt;游戏流程：开始界面、教程关卡、多个战斗场景、过场与结局&lt;&#x2F;li&gt;
+&lt;li&gt;表现与反馈：音频、动画、天气效果和风格化场景表现&lt;&#x2F;li&gt;
+&lt;li&gt;教程系统：UI高光区域配合文字，制作了教程UI序列，提供详尽指导和建议&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;figure style=&quot;width:100%; margin:0 0 0 0; text-align:center;&quot;&gt;
+  &lt;img src=&quot;&#x2F;images&#x2F;csv.png&quot; style=&quot;width:100%; display:block;&quot;&gt;
+  &lt;figcaption style=&quot;margin-top:8px;&quot;&gt;
+    &lt;em&gt;例：卡牌数据与csv文件&lt;&#x2F;em&gt;
+  &lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;figure style=&quot;width:100%; margin:0 0 0 0; text-align:center;&quot;&gt;
+  &lt;video controls autoplay muted loop playsinline width=&quot;100%&quot;&gt;
+    &lt;source src=&quot;&#x2F;videos&#x2F;demo.mp4&quot; type=&quot;video&#x2F;mp4&quot;&gt;
+  &lt;&#x2F;video&gt;
+  &lt;figcaption style=&quot;margin-top:8px;&quot;&gt;
+    &lt;em&gt;Gameplay Demo&lt;&#x2F;em&gt;
+  &lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;项目已发布可试玩版本：&lt;&#x2F;p&gt;
+&lt;p&gt;Github: &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;FGR&quot;&gt;FGR&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
+Release: &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;FGR&#x2F;releases&#x2F;tag&#x2F;Release&quot;&gt;ReachingIcePeak_1.0.0&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si&quot;&gt;成长 &amp;amp; 反思&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我把游戏设计、系统开发和图形表现放进同一个完整流程中实践。相比单独实现某个技术点，这次更接近真实游戏项目：需要同时考虑玩法反馈、数据组织、UI 引导、资源管理和最终可运行版本。&lt;&#x2F;p&gt;
+&lt;p&gt;后续如果继续迭代，我会优先扩展卡牌多样性、敌人种类，关卡复杂度以继续加深游戏性，目前仍然只是一个极具潜力的雏形，以及把 PCG 和关卡目标结合得更紧密。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>独立游戏(图形学向)</title>
+        <published>2026-07-23T05:30:35+00:00</published>
+        <updated>2026-07-23T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/graphic/indiegame/"/>
+        <id>https://momentaryrainy.github.io/graphic/indiegame/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/graphic/indiegame/">&lt;p&gt;2026.6&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;《Reaching the IcePeak》是一款基于Unity的，花费一个月时间制作的独立游戏。&lt;&#x2F;p&gt;
+&lt;p&gt;游戏以回合制卡牌战棋为核心，玩家需要在网格战场中移动、规划手牌、攻击敌人，并通过牌组构筑应对不同关卡。&lt;&#x2F;p&gt;
+&lt;p&gt;该项目承接对PCG与NPR综述的研究，将场景物品布置与风格化渲染应用到 Unity 游戏原型中，通过程序化环境摆放和雪、雨、水面、草地等 Shader，构建冰雪幻想主题的战棋场景。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhu-yao-shi-xian&quot;&gt;主要实现&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;风格化渲染管线：基于 Unity URP 制作冰雪幻想风格的整体画面，统一角色、场景、卡牌与战斗界面的视觉基调&lt;&#x2F;li&gt;
+&lt;li&gt;自定义 Shader：实现雪地、雨水、水面反射、涟漪、indirect instance草地、棋盘格、透明材质与卡牌背景等效果&lt;&#x2F;li&gt;
+&lt;li&gt;雪地表现：通过雪面 Shader 与雪地变形绘制，让场景具备更强的冰雪主题反馈&lt;&#x2F;li&gt;
+&lt;li&gt;天气与环境效果：结合雨水、反射、水面和后处理效果，强化不同战斗场景的氛围变化&lt;&#x2F;li&gt;
+&lt;li&gt;PCG 环境摆放：程序化生成树木、石块等场景元素，减少手工布置成本，并提升场景层次&lt;&#x2F;li&gt;
+&lt;li&gt;卡牌渲染与数据可视化：3D卡牌攻击范围在拖动时显示，卡牌显示伤害实时变动，大大提升交互体验&lt;&#x2F;li&gt;
+&lt;li&gt;视觉与玩法结合：将棋盘高亮、攻击范围、卡牌表现和场景氛围整合到战斗流程中，让图形效果服务于玩家决策&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;figure style=&quot;width:100%; margin:0 0 0 0; text-align:center;&quot;&gt;
+  &lt;img src=&quot;&#x2F;images&#x2F;footprint.png&quot; style=&quot;width:100%; display:block;&quot;&gt;
+  &lt;figcaption style=&quot;margin-top:8px;&quot;&gt;
+    &lt;em&gt;例：表面细分shader配合RT展示雪地移动轨迹&lt;&#x2F;em&gt;
+  &lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;figure style=&quot;width:100%; margin:0 0 0 0; text-align:center;&quot;&gt;
+  &lt;video controls autoplay muted loop playsinline width=&quot;100%&quot;&gt;
+    &lt;source src=&quot;&#x2F;videos&#x2F;shader.mp4&quot; type=&quot;video&#x2F;mp4&quot;&gt;
+  &lt;&#x2F;video&gt;
+  &lt;figcaption style=&quot;margin-top:8px;&quot;&gt;
+    &lt;em&gt;1.噪音遮罩配合粒子系统的水面反射 2.噪音遮罩instance草地 3.粒子雨水在遮罩区域的涟漪扰动效果 4.简单卡背镭光效果&lt;&#x2F;em&gt;
+  &lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;项目已发布可试玩版本：&lt;&#x2F;p&gt;
+&lt;p&gt;Github: &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;FGR&quot;&gt;FGR&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
+Release: &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;FGR&#x2F;releases&#x2F;tag&#x2F;Release&quot;&gt;ReachingIcePeak_1.0.0&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我把 PCG 与 NPR 从论文阅读推进到实际游戏场景中。相比独立图形 Demo，在完整游戏里实现视觉效果需要同时考虑风格统一、玩法可读性、性能成本和资源管理。&lt;&#x2F;p&gt;
+&lt;p&gt;棋盘范围、攻击区域、卡牌反馈和环境氛围都需要服务玩家决策，因此视觉层级和信息清晰度同样重要，未来会进一步考虑运行性能的具体对比与提升&lt;&#x2F;p&gt;
+&lt;p&gt;目前 PCG 主要用于环境装饰摆放，后续希望进一步让程序化生成影响关卡结构与战斗策略；渲染方面则计划继续优化 Shader 性能，并整理更统一的风格化材质流程。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="zh">
+        <title>类吸血鬼幸存者 2D 生存游戏</title>
+        <published>2026-04-05T05:30:35+00:00</published>
+        <updated>2026-04-05T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/client/vamipresurvival/"/>
+        <id>https://momentaryrainy.github.io/client/vamipresurvival/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/client/vamipresurvival/">&lt;p&gt;2025.10&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是一个使用 C++ 开发的 2D 生存动作游戏原型，玩法参考《吸血鬼幸存者》。玩家在地图中移动、生存、自动攻击敌人，并通过技能和道具强化自己。随着游戏时间推进，敌人会从视野外持续生成，生成频率逐渐提高，迫使玩家不断移动、规划路线并利用地形创造生存空间。&lt;&#x2F;p&gt;
+&lt;p&gt;项目是我早期的 C++ 游戏开发实践，重点在于从零实现游戏主循环、角色系统、敌人行为、投射物碰撞、地图加载和存档等基础模块。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;wan-fa-she-ji&quot;&gt;玩法设计&lt;&#x2F;h3&gt;
+&lt;p&gt;玩家可以使用 WASD 移动，角色会自动向最近敌人发射箭矢。箭矢具有穿透能力，在敌人排成一条线时可以造成较高收益。玩家也可以主动释放 AOE 技能，对范围内血量最高或最关键的敌人造成伤害。&lt;&#x2F;p&gt;
+&lt;p&gt;游戏中设计了多种敌人类型，包括普通敌人、快速追击敌人、高血量坦克和远程法师。不同敌人迫使玩家采取不同策略：山地可以阻挡部分敌人和玩家攻击，但法师的远程攻击可以穿透地形，从而打破玩家单纯依赖地形防守的策略。&lt;&#x2F;p&gt;
+&lt;p&gt;地图包含道路、草地、水域和山地等地形。不同地形会影响玩家和 NPC 的移动规则，例如草地减速、水域和山地阻挡玩家移动，而部分 NPC 不受水域限制。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhu-yao-shi-xian&quot;&gt;主要实现&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;使用 C++ 实现基础游戏循环、输入、渲染和 FPS 显示&lt;&#x2F;li&gt;
+&lt;li&gt;实现玩家移动、跟踪式相机和自动索敌攻击&lt;&#x2F;li&gt;
+&lt;li&gt;实现箭矢投射物、穿透攻击和碰撞检测&lt;&#x2F;li&gt;
+&lt;li&gt;实现主动 AOE 技能，可攻击范围内指定数量的敌人&lt;&#x2F;li&gt;
+&lt;li&gt;实现多种 NPC：普通敌人、快速敌人、坦克和远程法师&lt;&#x2F;li&gt;
+&lt;li&gt;实现视野外敌人生成，并随时间提高生成频率&lt;&#x2F;li&gt;
+&lt;li&gt;实现道具拾取与角色强化，例如增加 AOE 目标数、降低攻击冷却&lt;&#x2F;li&gt;
+&lt;li&gt;实现多地形地图，包括道路、草地、水域和山地&lt;&#x2F;li&gt;
+&lt;li&gt;支持固定地图与无限地图两种模式&lt;&#x2F;li&gt;
+&lt;li&gt;使用 Perlin Noise 生成无限地图地形&lt;&#x2F;li&gt;
+&lt;li&gt;支持数据驱动式关卡加载和当前游戏存档&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;figure style=&quot;width:100%; margin:0 0 0 0; text-align:center;&quot;&gt;
+  &lt;video controls autoplay muted loop playsinline width=&quot;100%&quot;&gt;
+    &lt;source src=&quot;&#x2F;videos&#x2F;demo1.mp4&quot; type=&quot;video&#x2F;mp4&quot;&gt;
+  &lt;&#x2F;video&gt;
+  &lt;figcaption style=&quot;margin-top:8px;&quot;&gt;
+    &lt;em&gt;Gameplay Demo&lt;&#x2F;em&gt;
+  &lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;项目可以在 Visual Studio 中运行。启动后可在控制台选择新建&#x2F;加载地图、固定地图或无限地图模式。&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link: &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;Game_VampireSurvivors&quot;&gt;Game_VampireSurvivors&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我系统实践了 C++ 基础语法、面向对象设计和小型游戏开发流程。相比只完成单个算法或课堂练习，它需要把输入、更新、渲染、碰撞、AI、地图和存档组织到同一个运行循环中。&lt;&#x2F;p&gt;
+&lt;p&gt;项目中最有价值的部分是敌人、地形和技能之间的关系设计。地形不只是背景，而是会影响玩家移动、敌人路径和攻击策略；法师敌人的设计也让玩家不能只依赖山地进行防守。&lt;&#x2F;p&gt;
+&lt;p&gt;不足之处在于整体架构仍比较直接，许多系统之间耦合较高，系统的物理、渲染帧数计算不严谨。后续如果继续迭代，我会优先重构实体管理、碰撞系统和数据配置方式，并尝试向更清晰的组件式架构过渡。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
