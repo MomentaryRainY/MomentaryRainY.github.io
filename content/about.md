@@ -14,7 +14,7 @@ image_alt = "My best photo"
 学的越多感觉想象力越被拘束，学的越少想做的又做不到...
 
 
-
+<!--
 <div style="text-align:center; margin:2rem 0;">
   <p><strong>音乐列表</strong></p>
 
@@ -22,7 +22,8 @@ image_alt = "My best photo"
     <source src="/audio/ed.mp3" type="audio/mpeg">
   </audio>
 <p><em>成王败寇-爱德主题曲-KÖnig oder Feigling</em></p>
-
+-->
+<div style="text-align:center; margin:2rem 0;">
   <audio controls>
     <source src="/audio/ed1.mp3" type="audio/mpeg">
   </audio>
@@ -35,18 +36,29 @@ image_alt = "My best photo"
 
 </div>
 
-<h3>1.游戏经历</h3>
+<h3>1.现在在做什么</h3>
+
+做毕业设计中...
+
+已给项目列表内第一个unity项目内填充对话模块，具体会显示在3D角色头顶上的冒泡对话框内。(还在private代码库内)
+
+研究实现适合游戏角色的SAG-like算法，维护构造合适的角色记忆上下文，构建prompts实时传递给deepseek接口，再反馈到游戏内对话冒泡。
+
+<h3>2.游戏经历</h3>
 
 从小二元对立，打游戏还是学习，逐渐融合彼此到希望成为游戏的缔造者。
 
 小时候喜欢竞技游戏的刺激，能获得胜利的成就感，长大后喜欢二游的成长感和单机游戏的代入感。近些年单机游戏工业化后，更喜欢小而精独立游戏，没有重复样式，只有各种好玩的奇思妙想，仿佛是游戏应该有的样子。
 
+
+<!--
 <figure style="width:50%; float:right; margin:0px 0 0px 0px; text-align:center;">
   <img src="/images/zed.png" style="width:100%; display:block;">
   <figcaption style="margin-top:8px;">
     <em>想送塔来着，7年前的游戏录制</em>
   </figcaption>
 </figure>
+-->
 
 <h6>竞技游戏</h6>
 
@@ -78,7 +90,7 @@ image_alt = "My best photo"
   </figcaption>
 </figure>
 
-提一句白色相簿2(东马党，但是感觉在向雪菜偏..)，感受到了日本的扭曲，但也臣服于描述的细腻。私以为中国玩家就缺这个...
+提一句白色相簿2(东马党，但是感觉在向雪菜偏..)，感受到了日本的扭曲，但也臣服于描述的细腻。
 
 <h6>独立游戏，个人/工作室游戏</h6>
 
@@ -95,13 +107,15 @@ image_alt = "My best photo"
 </figure>
 
 
-<h3>2.对AI的看法</h3>
+<h3>3.对AI的看法</h3>
 
 AI对促进知识学习以及传播的意义无可替代，但是底层原因导致只有无解的枚举，组合能力。如果过度依赖AI会导致像三体里质子一样，让所有人类因为懒惰于思考，技术被封锁吧。AI成为了现代必用还必须驯服的存在。
 
 对于拥抱AI的人们来说，AI确实很大程度弥补了个体的技术与经验差距，比如我的大量项目后期部分细节早已忘记，AI(Codex)可以很好的帮我回顾总结，省下脑子容量记忆更重要的东西，或者复习, Stable Diffusion、ComfoyUI可以高质量文生图，降低美术门槛/工作量。总而言之AI现在修改了游戏规则，
 
 让人们能真正区别开来的回到了谁有更高效率的学习能力，自我精力管理，以及自控力吧。未来是一个比网络时代更进一步的知识轰炸的时代，如何理清、组织、接收并高效融会贯通才能将未来的人区分开来。
+
+目前日常在使用Codex的应用，调用deepseek的接口(便宜..)
 
 <figure style="width:70%; margin:0 auto 0 auto; text-align:center;">
   <img src="/images/melancholy.png" style="width:100%; display:block;">
@@ -122,33 +136,33 @@ AI对促进知识学习以及传播的意义无可替代，但是底层原因导
 <br>
 <br>
 <br>
-
+<!--
 <figure style="width:50%; float:right; margin:80px 0 20px 24px; text-align:center;">
   <img src="/images/15.jpg" style="width:100%; display:block;">
   <figcaption style="margin-top:8px;">
     <em>无限进步</em>
   </figcaption>
 </figure>
+-->
 
 
+<h3>4.性格</h3>
 
-<h3>3.性格</h3>
-
-i人，喜欢钻研并从进展中获得成就感。与游戏匹配机制带来的人斗纯纯浪费时间，与己斗体验到了其乐无穷。期待能加入强者的队伍，更高层次的交流，共鸣和互补提升。
+i人，事业心强，喜欢钻研并从进展中获得成就感。与游戏匹配机制带来的人斗纯纯浪费时间，与己斗体验到了其乐无穷。期待能加入强者的队伍，更高层次的交流，共鸣和互补提升。
 
 视觉动物。总感觉精力时间有限，会选择在喜欢的事物上持续投入。 实事求是。
 
-点子多，创造力强，思路活跃，常常在游戏体验中体会作者意图，理解作者意思，并思考自己会如何表达。长期目标是成为小岛秀夫一样的人。
+点子多，创造力强，思路活跃，常常在游戏内尝试体会作者意图，理解作者意思，并思考自己会如何表达。长期目标是成为小岛秀夫一样的人。
 
-
+<!--
 <figure style="width:35%; float:left; margin:0 0 0 0px; text-align:center;">
   <img src="/images/6.jpg" style="width:100%; display:block;">
   <figcaption style="margin-top:8px;">
     <em>如同在厕所镜子前的自我审视</em>
   </figcaption>
 </figure>
-
-<h3>4.独特经历</h3>
+-->
+<h3>5.独特经历</h3>
 
 笔者从小几乎没有生过病，意外第一次在一硕初期得了肾结石，被初来乍到，客死他乡的恐惧充斥，反而用了自己意想不到的冷静处理，克服了面临死亡的恐惧。
 
@@ -156,16 +170,16 @@ i人，喜欢钻研并从进展中获得成就感。与游戏匹配机制带来�
 
 经过后就感觉也没什么可怕的了，肉体精神都过了一道门槛。没有干掉你的只会让你更强，还有啥能吓倒我？
 
-
+<!--
 <figure style="width:70%; margin:30px auto 20px auto; text-align:center;">
   <img src="/images/refuse.png" style="width:100%; display:block;">
   <figcaption style="margin-top:8px;">
     <em>我拒绝向挫折低头</em>
   </figcaption>
 </figure>
+-->
 
-
-<h3>5.关于离职</h3>
+<h3>6.关于离职</h3>
 
 自认物质欲望不高，长期没有进步，原本的IT行业也没有未来，当时AI的势头也初步显现。地区原因，与同事的常常无法同频(日常、观念等等)，无正向反馈。
 
@@ -185,7 +199,7 @@ i人，喜欢钻研并从进展中获得成就感。与游戏匹配机制带来�
   </figcaption>
 </figure>   
 
-<h3>6.关于二硕</h3>
+<h3>7.关于二硕</h3>
 
 常常有人说英硕是水硕，个人认为主要看个人，资源和环境才是本人目的。一硕IT相关课程设置有些分散，加上自身不成熟，只乖乖听课了，成绩维持在最高档。
 
@@ -200,8 +214,7 @@ i人，喜欢钻研并从进展中获得成就感。与游戏匹配机制带来�
 二硕的学习让作者证明了自己的爱好，坚定了自己的道路，也与过去完美主义的自己逐渐达成和解，从结果论转为过程论，选择享受努力的过程。
 
 
-
-<h3>7.都看到这了</h3>
+<h3>8.都看到这了</h3>
 <figure style="width:100%; margin:0 auto 20px auto; text-align:center;">
   <figcaption style="margin-top:8px;">
     <em>不用你问，100发2命，她心里有我</em>
