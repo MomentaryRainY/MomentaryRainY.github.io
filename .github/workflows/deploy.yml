@@ -17,7 +17,7 @@ jobs:
             echo "Created .nojekyll in static/"
           fi
       - name: build_and_deploy
-        uses: shalzz/zola-deploy-action@master
+        uses: shalzz/zola-deploy-action@v0.21.0
         env:
           # Target branch
           PAGES_BRANCH: gh-pages
