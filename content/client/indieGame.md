@@ -4,7 +4,7 @@ draft = false
 title = "独立游戏(客户端向)"
 description = "Unity 回合制卡牌战棋游戏，结合网格战斗、牌组构筑、敌人 AI、PCG 环境摆放与风格化渲染"
 [taxonomies]
-tags = ["2D", "C++", "游戏", "学校项目"]
+tags = ["Unity", "卡牌战棋", "PCG"]
 [extra]
 image = '/images/GameStart.png'
 +++

@@ -66,7 +66,7 @@ menu = [
 [[extra.content_blocks]]
 block = "hero"
 title = "这里是Momentary Rainy的个人作品网站"
-description_html = "游戏见识丰富，见解深刻，在游戏客户端和技术美术方向均有研究的i人"
+description_html = "游戏见识丰富，见解深刻，在游戏客户端和图形学方向均有研究的i人"
 image = "/images/01.jpg"
 image_alt = "picture"
 cta_button_link = "about"
@@ -96,9 +96,18 @@ show_projects = true
 
 [[extra.content_blocks]]
 block = "projects-section"
+title = "研究与论文"
+section_path = "research/_index.md"
+description_html = """
+    <p>游戏 AI、LLM NPC对话、NPR / PCG、NeRF 与实时渲染方向的毕业设计、技术综述和研究实践</p>"""
+link_url = "/research"
+show_projects = true
+
+[[extra.content_blocks]]
+block = "projects-section"
 title = "较为散乱浅薄的各种尝试"
 section_path = "other/_index.md"
 description_html = """
-    <p>2025及以前的尝试包括NeRF论文、B站Games系列、建模教程、渲染教程等等相关的尝试</p>"""
+    <p>早期随兴的各种尝试，包括 B 站 Games 系列、建模教程、风格化渲染教程等内容</p>"""
 link_url = "/other"
 show_projects = true

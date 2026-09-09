@@ -1,10 +1,10 @@
 +++
 date = "2026-6-25 05:30:35"
 draft = false
-title = "Frantic Pinball GameJam"
+title = "GameJam: 疯狂弹球"
 description = "48 小时 Game Jam 团队项目，一款结合弹珠台与空气曲棍球的双人对抗游戏"
 [taxonomies]
-tags = ["Unity", "C#", "2D", "Game Jam", "团队项目"]
+tags = ["Unity", "Game Jam", "双人游戏"]
 [extra]
 image = '/images/frantic.png'
 +++

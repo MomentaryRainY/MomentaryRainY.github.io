@@ -4,7 +4,7 @@ draft = false
 title = "Unity URP 风格化角色渲染"
 description = "在 Unity URP 中复刻类原神角色渲染，实践 Ramp 光照、SDF 面部阴影和描边效果"
 [taxonomies]
-tags = ["Unity", "URP", "Shader", "NPR", "个人项目"]
+tags = ["Unity", "URP", "NPR"]
 [extra]
 image = '/images/furina.png'
 +++

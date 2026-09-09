@@ -4,7 +4,7 @@ draft = false
 title = "CPU 光栅化渲染器优化"
 description = "使用多线程、SIMD 和数据布局优化提升 C++ 软件光栅化渲染器性能"
 [taxonomies]
-tags = ["C++", "图形学", "性能优化", "SIMD", "多线程"]
+tags = ["C++", "软件渲染", "性能优化"]
 [extra]
 image = '/images/before.png'
 +++

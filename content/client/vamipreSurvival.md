@@ -4,7 +4,7 @@ draft = false
 title = "类吸血鬼幸存者 2D 生存游戏"
 description = "使用 C++ 实现的 2D 生存动作游戏，包含敌人 AI、自动攻击、地形交互、道具强化、关卡加载与存档"
 [taxonomies]
-tags = ["2D", "C++", "游戏", "学校项目"]
+tags = ["C++", "生存游戏", "程序生成"]
 [extra]
 image = '/images/VS.png'
 +++

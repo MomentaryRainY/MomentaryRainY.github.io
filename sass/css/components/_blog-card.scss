@@ -58,17 +58,24 @@
 
   &__tags-box {
     display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
   }
 
   &__tag {
     position: relative;
     z-index: 1;
     display: inline-block;
+    max-width: 100%;
+    box-sizing: border-box;
     padding: 8px 12px;
     margin: 0 4px 4px 0;
     font-size: 12px;
-    line-height: 10px;
+    line-height: 1.2;
     font-weight: 600;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
     text-transform: capitalize;
     border-radius: 8px;
     overflow: hidden;

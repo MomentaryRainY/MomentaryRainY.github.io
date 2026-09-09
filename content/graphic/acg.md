@@ -4,7 +4,7 @@ draft = false
 title = "CPU 路径追踪渲染器"
 description = "使用 C++ 实现路径追踪、材质系统、环境光照、BVH 加速、多线程渲染与 OIDN 降噪"
 [taxonomies]
-tags = ["3D", "C++", "路径追踪", "学校项目", "CPU"]
+tags = ["C++", "路径追踪", "CPU 渲染"]
 [extra]
 image = '/images/cornellbox.png'
 +++

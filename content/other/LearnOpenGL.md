@@ -4,7 +4,7 @@ draft = false
 title = "Learn OpenGL"
 description = "跟随 LearnOpenGL 完成的 OpenGL 渲染基础与进阶功能练习"
 [taxonomies]
-tags = ["OpenGL", "C++", "实时渲染", "个人项目"]
+tags = ["C++", "OpenGL", "实时渲染"]
 [extra]
 image = '/images/opengl.png'
 +++

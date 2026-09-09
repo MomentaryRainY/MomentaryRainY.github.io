@@ -4,7 +4,7 @@ draft = false
 title = "Games103 物理动画入门"
 description = "基于 Unity 复现 GAMES103 中的刚体、布料和流体模拟练习"
 [taxonomies]
-tags = ["GAMES103", "Unity", "物理动画", "布料模拟", "流体模拟"]
+tags = ["GAMES103", "Unity", "物理动画"]
 [extra]
 image = '/images/games103.png'
 +++

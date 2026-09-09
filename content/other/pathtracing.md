@@ -4,7 +4,7 @@ draft = false
 title = "Games202 高质量实时渲染"
 description = "跟随 GAMES202 学习实时阴影、环境光照、实时全局光照与实时降噪"
 [taxonomies]
-tags = ["GAMES202", "实时渲染", "降噪", "个人项目"]
+tags = ["GAMES202", "实时渲染", "实时降噪"]
 [extra]
 image = '/images/games202.png'
 +++

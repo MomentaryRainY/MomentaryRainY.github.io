@@ -4,7 +4,7 @@ draft = false
 title = "Blender"
 description = "跟随 Blender 教程完成的建模、材质与基础动画练习"
 [taxonomies]
-tags = ["Blender", "建模", "材质", "个人练习"]
+tags = ["Blender", "3D 建模", "材质"]
 [extra]
 image = '/images/donut.png'
 +++

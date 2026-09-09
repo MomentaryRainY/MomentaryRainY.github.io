@@ -4,7 +4,7 @@ draft = false
 title = "游戏设计"
 description = "围绕养成、卡牌与战棋战斗设计的游戏设计文档和发行计划"
 [taxonomies]
-tags = ["游戏设计", "学校项目"]
+tags = ["游戏设计"]
 [extra]
 image = '/images/elf.png'
 +++

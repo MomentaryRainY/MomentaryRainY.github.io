@@ -4,7 +4,7 @@ draft = false
 title = "C++ 网络聊天室"
 description = "基于 Winsock TCP、ImGui 和 DirectX12 实现的客户端/服务端聊天室，支持登录、在线用户列表、群聊与私聊"
 [taxonomies]
-tags = ["C++", "网络", "TCP", "ImGui", "DirectX12", "学校项目"]
+tags = ["C++", "网络编程", "DirectX 12"]
 [extra]
 image = '/images/chatroom.png'
 +++

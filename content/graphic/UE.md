@@ -4,7 +4,7 @@ draft = false
 title = "UE5 实时 IFFT 海面模拟"
 description = "在 Unreal Engine 5 中使用 Compute Shader 实现基于频谱的实时海面模拟，输出位移、法线与泡沫控制贴图"
 [taxonomies]
-tags = ["UE5", "C++", "HLSL", "Compute Shader", "IFFT", "海面模拟", "图形学"]
+tags = ["UE5", "Compute Shader", "海面模拟"]
 [extra]
 image = '/images/team.png'
 +++

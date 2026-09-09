@@ -4,7 +4,7 @@ draft = false
 title = "Games101 现代图形学入门"
 description = "跟随 GAMES101 学习现代图形学基础，并实践光栅化、BVH 与路径追踪"
 [taxonomies]
-tags = ["GAMES101", "图形学", "光栅化", "路径追踪", "个人项目"]
+tags = ["GAMES101", "光栅化", "路径追踪"]
 [extra]
 image = '/images/games101.png'
 +++

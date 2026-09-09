@@ -4,7 +4,7 @@ draft = false
 title = "tiny renderer"
 description = "复刻 tinyrenderer，使用 C++ 从零实现基础软件光栅化渲染流程"
 [taxonomies]
-tags = ["C++", "软件渲染器", "光栅化", "个人项目"]
+tags = ["C++", "软件渲染", "光栅化"]
 [extra]
 image = '/images/renderer.png'
 +++

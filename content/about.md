@@ -38,11 +38,9 @@ image_alt = "My best photo"
 
 <h3>1.现在在做什么</h3>
 
-做毕业设计中...
+毕设已完成于9.2，继续拓展我的独立游戏中....
 
-已给项目列表内第一个unity项目内填充对话模块，具体会显示在3D角色头顶上的冒泡对话框内。(还在private代码库内)
-
-研究实现适合游戏角色的SAG-like算法，维护构造合适的角色记忆上下文，构建prompts实时传递给deepseek接口，再反馈到游戏内对话冒泡。
+求职中，希望加入志同道合的队伍中。
 
 <h3>2.游戏经历</h3>
 
@@ -214,14 +212,6 @@ i人，事业心强，喜欢钻研并从进展中获得成就感。与游戏匹�
 
 二硕的学习让作者证明了自己的爱好，坚定了自己的道路，也与过去完美主义的自己逐渐达成和解，从结果论转为过程论，选择享受努力的过程。
 
-
-<h3>8.都看到这了</h3>
-<figure style="width:100%; margin:0 auto 20px auto; text-align:center;">
-  <figcaption style="margin-top:8px;">
-    <em>不用你问，100发2命，她心里有我</em>
-  </figcaption>
-  <img src="/images/xilian.jpg" style="width:100%; display:block;">
-</figure>   
 
 持续想到啥更新中...
 
