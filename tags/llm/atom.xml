@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
+    <title>Personal Website - LLM</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/llm/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-08-31T05:30:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/llm/atom.xml</id>
+    <entry xml:lang="zh">
+        <title>具有长期记忆的 LLM Boss 对话研究原型</title>
+        <published>2026-08-31T05:30:35+00:00</published>
+        <updated>2026-08-31T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/research/bossnpc/"/>
+        <id>https://momentaryrainy.github.io/research/bossnpc/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/research/bossnpc/">&lt;p&gt;2026.08&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;BossNPC 是一个面向游戏 NPC 长期记忆的研究原型。项目建立在此前制作的 Unity 回合制卡牌战斗原型之上，研究一个具体问题：当 Boss 需要根据玩家过去的真实行为生成对话时，系统应该如何从长期记忆中选出最合适的少量事件交给大语言模型？&lt;&#x2F;p&gt;
+&lt;p&gt;玩家首先完成三场小型战斗。系统会记录每回合造成的伤害、手牌使用、战斗持续回合、剩余生命值，以及玩家在战后作出的剧情选择。随后，Boss Rowan 会在三场实验战斗中根据这些经历评价、质问或回应玩家。对话并不是读取预写分支，而是由当前战况、Boss 人设、当前战斗的工作记忆，以及检索出的 Top3 长期记忆共同生成。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;bossnpc-prototype.png&quot; alt=&quot;BossNPC 的回合制卡牌战斗原型&quot; &#x2F;&gt;
+&lt;em&gt;回合制卡牌战斗基础：玩家通过卡牌、体力和棋盘位置完成行动。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;wan-fa-yu-ji-yi-xing-cheng&quot;&gt;玩法与记忆形成&lt;&#x2F;h3&gt;
+&lt;p&gt;项目采用回合制卡牌战斗结构。玩家需要消耗体力使用近战、重击、投枪和范围攻击等卡牌，在棋盘上选择目标并处理不同类型的敌人。回合制节奏也为在线对话请求提供了自然的等待窗口，避免生成延迟打断连续操作。&lt;&#x2F;p&gt;
+&lt;p&gt;前三场战斗分别引入与 Rowan 具有忠诚、恩情和亲属关系的角色。每次胜利后，玩家还需要决定如何处置对手。这些战斗不是固定背景文本，而是长期记忆的来源：同一个玩家可能快速取胜并处决敌人，也可能负伤、消耗更多回合并选择宽恕，由此形成不同的 Boss 对话依据。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;bossnpc-battles.png&quot; alt=&quot;用于形成长期记忆的三场战斗&quot; &#x2F;&gt;
+&lt;em&gt;三场前置战斗会产生战斗表现、最终状态和剧情选择等长期记忆。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;系统将对话信息分为三层：&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Static Context&lt;&#x2F;strong&gt;：世界设定、Rowan 的性格、价值观和人物关系，始终进入提示词。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Long-term Episodic Memory&lt;&#x2F;strong&gt;：来自前三场战斗的长期情节记忆，由检索器选出 Top3。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Working Memory&lt;&#x2F;strong&gt;：当前 Boss 战中的即时事件，例如率先击败支援单位；直接进入提示词，并在重试战斗时清空。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;dui-hua-sheng-cheng-yu-ben-di-dai-li&quot;&gt;对话生成与本地代理&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;bossnpc-boss.png&quot; alt=&quot;Boss 根据玩家经历生成对话&quot; &#x2F;&gt;
+&lt;em&gt;Boss Rowan 在战斗过程中引用玩家此前的行为生成动态台词。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;项目配套了一个本地 Node.js 服务 &lt;code&gt;LLMProxy&lt;&#x2F;code&gt;：&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&#x2F;embed&lt;&#x2F;code&gt; 在本地计算记忆与查询的向量，玩家数据无需为相似度计算离开设备。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;&#x2F;dialogue&lt;&#x2F;code&gt; 将生成请求转发至 OpenAI-compatible 接口，并把 API 凭据隔离在 Unity 构建之外。&lt;&#x2F;li&gt;
+&lt;li&gt;正式实验中的对话生成与模型辅助评分统一使用 &lt;code&gt;DeepSeek-V4-Pro-0813&lt;&#x2F;code&gt;，确保参与者和检索条件之间的模型配置不变。&lt;&#x2F;li&gt;
+&lt;li&gt;发布包附带 Windows x64 Node.js 运行时、锁定依赖和 ONNX 嵌入模型，降低参与者的安装成本。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;zhu-yao-shi-xian&quot;&gt;主要实现&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;使用 Unity 2022.3.62f2 &#x2F; C# 完成回合制卡牌战斗、棋盘移动、敌人 AI、场景流程与中英文本地化&lt;&#x2F;li&gt;
+&lt;li&gt;将玩家的回合行为、战斗结果和叙事选择转换为原子化、结构化的长期记忆&lt;&#x2F;li&gt;
+&lt;li&gt;实现跨场景 &lt;code&gt;MemorySystem&lt;&#x2F;code&gt;、当前战斗 Working Memory，以及向量与重要性缓存&lt;&#x2F;li&gt;
+&lt;li&gt;通过统一接口实现 Similarity-only、Rule-based Importance、Model-assisted Importance 和 Full Memory 检索器&lt;&#x2F;li&gt;
+&lt;li&gt;实现基于战斗状态的对话触发、请求冷却、优先级、取消、验证、重试与失败回退&lt;&#x2F;li&gt;
+&lt;li&gt;搭建本地 Node.js 代理，集成本地 ONNX embedding 与远程 OpenAI-compatible 对话接口&lt;&#x2F;li&gt;
+&lt;li&gt;实现 Scripted、Full Memory 和 Experiment 三种运行模式，以及独立场景调试配置&lt;&#x2F;li&gt;
+&lt;li&gt;实现 A&#x2F;B&#x2F;C 实验顺序、匿名 SessionCode、问卷衔接与 JSONL 全链路日志&lt;&#x2F;li&gt;
+&lt;li&gt;制作离线检索基准工具，对 144 个查询—记忆组合计算 Precision@3、Recall@3 和 nDCG@3&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我把游戏开发、LLM 工程和用户研究连接成了一条可运行、可验证的完整链路。相比只展示一段生成效果，我更关注生成结果之前发生了什么：游戏记录了哪些事实、检索器为什么选择某条记忆、模型最后是否使用了它，以及新增复杂度是否真的改善了玩家体验。&lt;&#x2F;p&gt;
+&lt;p&gt;研究也让我意识到，模型辅助方案并不会消除设计工作，而是把工作从编写规则转移到了评分标准、缓存、验证样本和失败处理上。多种设计方案应先通过项目自己的查询与记忆测试确认收益。&lt;&#x2F;p&gt;
+&lt;p&gt;目前实验规模较小，Boss 战和玩家历史也较短，图形负载还提高了参与门槛。后续我会优先考虑更轻量的客户端、更长但可控的共同历史、独立标注者、更大的参与者样本，以及跨模型测试，从而更清楚地区分检索策略、生成模型和实际游玩行为各自带来的影响。&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;MomentaryRainY&#x2F;BossNPC&quot;&gt;&lt;strong&gt;BossNPC&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;论文: &lt;a href=&quot;&#x2F;Dissertation.pdf&quot;&gt;&lt;strong&gt;Paper&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

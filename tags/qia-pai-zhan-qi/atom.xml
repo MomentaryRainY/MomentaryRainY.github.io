@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
+    <title>Personal Website - 卡牌战棋</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/qia-pai-zhan-qi/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-07-23T05:30:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/qia-pai-zhan-qi/atom.xml</id>
+    <entry xml:lang="zh">
+        <title>独立游戏(客户端向)</title>
+        <published>2026-07-23T05:30:35+00:00</published>
+        <updated>2026-07-23T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/client/indiegame/"/>
+        <id>https://momentaryrainy.github.io/client/indiegame/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/client/indiegame/">&lt;p&gt;2026.5&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;《Reaching the IcePeak》是一款基于Unity的，花费一个月时间制作的独立游戏。&lt;&#x2F;p&gt;
+&lt;p&gt;游戏以回合制卡牌战棋为核心，玩家需要在网格战场中移动、规划手牌、攻击敌人，并通过牌组构筑应对不同关卡。&lt;&#x2F;p&gt;
+&lt;p&gt;项目将前置图形学研究方向落到实际游戏中：使用风格化渲染强化冰雪幻想氛围，并结合程序化环境摆放生成场景中的树木、石块等装饰元素。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhu-yao-shi-xian&quot;&gt;主要实现&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;回合制网格战斗：战斗流程、移动范围、攻击范围、伤害结算与胜负判断&lt;&#x2F;li&gt;
+&lt;li&gt;卡牌系统：手牌、抽牌堆、弃牌堆、卡牌费用、目标选择与效果触发&lt;&#x2F;li&gt;
+&lt;li&gt;敌人行为：根据战场状态执行移动、攻击等回合行为&lt;&#x2F;li&gt;
+&lt;li&gt;客户端 UI：战斗界面、卡牌交互、状态显示、教程提示与场景过渡&lt;&#x2F;li&gt;
+&lt;li&gt;本地化模块：将界面文本、教程内容和卡牌描述从逻辑中拆分，支持多语言内容管理&lt;&#x2F;li&gt;
+&lt;li&gt;游戏流程：开始界面、教程关卡、多个战斗场景、过场与结局&lt;&#x2F;li&gt;
+&lt;li&gt;表现与反馈：音频、动画、天气效果和风格化场景表现&lt;&#x2F;li&gt;
+&lt;li&gt;教程系统：UI高光区域配合文字，制作了教程UI序列，提供详尽指导和建议&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;figure style=&quot;width:100%; margin:0 0 0 0; text-align:center;&quot;&gt;
+  &lt;img src=&quot;&#x2F;images&#x2F;csv.png&quot; style=&quot;width:100%; display:block;&quot;&gt;
+  &lt;figcaption style=&quot;margin-top:8px;&quot;&gt;
+    &lt;em&gt;例：卡牌数据与csv文件&lt;&#x2F;em&gt;
+  &lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;figure style=&quot;width:100%; margin:0 0 0 0; text-align:center;&quot;&gt;
+  &lt;video controls autoplay muted loop playsinline width=&quot;100%&quot;&gt;
+    &lt;source src=&quot;&#x2F;videos&#x2F;demo.mp4&quot; type=&quot;video&#x2F;mp4&quot;&gt;
+  &lt;&#x2F;video&gt;
+  &lt;figcaption style=&quot;margin-top:8px;&quot;&gt;
+    &lt;em&gt;Gameplay Demo&lt;&#x2F;em&gt;
+  &lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;项目已发布可试玩版本：&lt;&#x2F;p&gt;
+&lt;p&gt;Github: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;FGR&quot;&gt;FGR&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
+Release: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;FGR&#x2F;releases&#x2F;tag&#x2F;Release&quot;&gt;ReachingIcePeak_1.0.0&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si&quot;&gt;成长 &amp;amp; 反思&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我把游戏设计、系统开发和图形表现放进同一个完整流程中实践。相比单独实现某个技术点，这次更接近真实游戏项目：需要同时考虑玩法反馈、数据组织、UI 引导、资源管理和最终可运行版本。&lt;&#x2F;p&gt;
+&lt;p&gt;后续如果继续迭代，我会优先扩展卡牌多样性、敌人种类，关卡复杂度以继续加深游戏性，目前仍然只是一个极具潜力的雏形，以及把 PCG 和关卡目标结合得更紧密。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

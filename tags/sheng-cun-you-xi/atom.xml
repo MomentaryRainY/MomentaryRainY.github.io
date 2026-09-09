@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
+    <title>Personal Website - 生存游戏</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/sheng-cun-you-xi/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-04-05T05:30:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/sheng-cun-you-xi/atom.xml</id>
+    <entry xml:lang="zh">
+        <title>类吸血鬼幸存者 2D 生存游戏</title>
+        <published>2026-04-05T05:30:35+00:00</published>
+        <updated>2026-04-05T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/client/vamipresurvival/"/>
+        <id>https://momentaryrainy.github.io/client/vamipresurvival/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/client/vamipresurvival/">&lt;p&gt;2025.10&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是一个使用 C++ 开发的 2D 生存动作游戏原型，玩法参考《吸血鬼幸存者》。玩家在地图中移动、生存、自动攻击敌人，并通过技能和道具强化自己。随着游戏时间推进，敌人会从视野外持续生成，生成频率逐渐提高，迫使玩家不断移动、规划路线并利用地形创造生存空间。&lt;&#x2F;p&gt;
+&lt;p&gt;项目是我早期的 C++ 游戏开发实践，重点在于从零实现游戏主循环、角色系统、敌人行为、投射物碰撞、地图加载和存档等基础模块。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;wan-fa-she-ji&quot;&gt;玩法设计&lt;&#x2F;h3&gt;
+&lt;p&gt;玩家可以使用 WASD 移动，角色会自动向最近敌人发射箭矢。箭矢具有穿透能力，在敌人排成一条线时可以造成较高收益。玩家也可以主动释放 AOE 技能，对范围内血量最高或最关键的敌人造成伤害。&lt;&#x2F;p&gt;
+&lt;p&gt;游戏中设计了多种敌人类型，包括普通敌人、快速追击敌人、高血量坦克和远程法师。不同敌人迫使玩家采取不同策略：山地可以阻挡部分敌人和玩家攻击，但法师的远程攻击可以穿透地形，从而打破玩家单纯依赖地形防守的策略。&lt;&#x2F;p&gt;
+&lt;p&gt;地图包含道路、草地、水域和山地等地形。不同地形会影响玩家和 NPC 的移动规则，例如草地减速、水域和山地阻挡玩家移动，而部分 NPC 不受水域限制。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhu-yao-shi-xian&quot;&gt;主要实现&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;使用 C++ 实现基础游戏循环、输入、渲染和 FPS 显示&lt;&#x2F;li&gt;
+&lt;li&gt;实现玩家移动、跟踪式相机和自动索敌攻击&lt;&#x2F;li&gt;
+&lt;li&gt;实现箭矢投射物、穿透攻击和碰撞检测&lt;&#x2F;li&gt;
+&lt;li&gt;实现主动 AOE 技能，可攻击范围内指定数量的敌人&lt;&#x2F;li&gt;
+&lt;li&gt;实现多种 NPC：普通敌人、快速敌人、坦克和远程法师&lt;&#x2F;li&gt;
+&lt;li&gt;实现视野外敌人生成，并随时间提高生成频率&lt;&#x2F;li&gt;
+&lt;li&gt;实现道具拾取与角色强化，例如增加 AOE 目标数、降低攻击冷却&lt;&#x2F;li&gt;
+&lt;li&gt;实现多地形地图，包括道路、草地、水域和山地&lt;&#x2F;li&gt;
+&lt;li&gt;支持固定地图与无限地图两种模式&lt;&#x2F;li&gt;
+&lt;li&gt;使用 Perlin Noise 生成无限地图地形&lt;&#x2F;li&gt;
+&lt;li&gt;支持数据驱动式关卡加载和当前游戏存档&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;figure style=&quot;width:100%; margin:0 0 0 0; text-align:center;&quot;&gt;
+  &lt;video controls autoplay muted loop playsinline width=&quot;100%&quot;&gt;
+    &lt;source src=&quot;&#x2F;videos&#x2F;demo1.mp4&quot; type=&quot;video&#x2F;mp4&quot;&gt;
+  &lt;&#x2F;video&gt;
+  &lt;figcaption style=&quot;margin-top:8px;&quot;&gt;
+    &lt;em&gt;Gameplay Demo&lt;&#x2F;em&gt;
+  &lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;项目可以在 Visual Studio 中运行。启动后可在控制台选择新建&#x2F;加载地图、固定地图或无限地图模式。&lt;&#x2F;p&gt;
+&lt;p&gt;Github Link: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;GEShunyuYang&#x2F;Game_VampireSurvivors&quot;&gt;Game_VampireSurvivors&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我系统实践了 C++ 基础语法、面向对象设计和小型游戏开发流程。相比只完成单个算法或课堂练习，它需要把输入、更新、渲染、碰撞、AI、地图和存档组织到同一个运行循环中。&lt;&#x2F;p&gt;
+&lt;p&gt;项目中最有价值的部分是敌人、地形和技能之间的关系设计。地形不只是背景，而是会影响玩家移动、敌人路径和攻击策略；法师敌人的设计也让玩家不能只依赖山地进行防守。&lt;&#x2F;p&gt;
+&lt;p&gt;不足之处在于整体架构仍比较直接，许多系统之间耦合较高，系统的物理、渲染帧数计算不严谨。后续如果继续迭代，我会优先重构实体管理、碰撞系统和数据配置方式，并尝试向更清晰的组件式架构过渡。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

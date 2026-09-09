@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
+    <title>Personal Website - 游戏设计</title>
+    <subtitle>Shunyu Yang&#x27;s personal website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://momentaryrainy.github.io/tags/you-xi-she-ji/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-01-15T05:30:35+00:00</updated>
+    <id>https://momentaryrainy.github.io/tags/you-xi-she-ji/atom.xml</id>
+    <entry xml:lang="zh">
+        <title>游戏设计</title>
+        <published>2026-01-15T05:30:35+00:00</published>
+        <updated>2026-01-15T05:30:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Shunyu Yang
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://momentaryrainy.github.io/other/design/"/>
+        <id>https://momentaryrainy.github.io/other/design/</id>
+        
+        <content type="html" xml:base="https://momentaryrainy.github.io/other/design/">&lt;p&gt;2026.1&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;ke-cheng-miao-shu&quot;&gt;课程描述&lt;&#x2F;h3&gt;
+&lt;p&gt;课程包括设计性思考、游戏可用性、结构与叙事、游戏开发相关技术、视觉传递、市场分析、众筹集资、原型测试&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xiang-mu-miao-shu&quot;&gt;项目描述&lt;&#x2F;h3&gt;
+&lt;p&gt;这是一个围绕课程理论完成的游戏设计文档项目，内容包括游戏设计梗概、核心玩法、玩家引导、机制分析和发行计划。设计目标是将养成模拟、卡牌构筑和战棋战斗结合起来，形成一个以角色成长和剧情代入为核心的游戏方案。&lt;&#x2F;p&gt;
+&lt;p&gt;项目限制在 3000 字左右，因此重点放在核心循环、机制互相支撑关系和开发计划表达上，而不是完整展开所有剧情和数值细节。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-guo&quot;&gt;结果&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;battle.png&quot; alt=&quot;Dialogue&quot; &#x2F;&gt;
+&lt;em&gt;战斗概念图。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;flow.png&quot; alt=&quot;Dialogue&quot; &#x2F;&gt;
+&lt;em&gt;游戏流程图。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;schedule.png&quot; alt=&quot;Dialogue&quot; &#x2F;&gt;
+&lt;em&gt;开发时间规划。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;she-ji-nei-rong&quot;&gt;设计内容&lt;&#x2F;h3&gt;
+&lt;p&gt;游戏机制参考了《火山的女儿》的养成模拟，以及《杀戮尖塔》式卡牌构筑与战棋战斗。设计重点是让成长、剧情和卡牌效果互相呼应，而不是把卡牌系统作为独立战斗模块。&lt;&#x2F;p&gt;
+&lt;p&gt;养成阶段中，玩家通过课程和事件培养力量、敏捷、智力、感知等属性。认知与专注作为成长较慢的关键属性，分别影响每回合抽牌数和弃牌数，从而把养成结果反馈到战斗策略中。&lt;&#x2F;p&gt;
+&lt;p&gt;课程系统会提供不同方向的成长和牌组来源。例如精灵语提升感知和智力，体能提升力量和敏捷，精灵术基础提升智力和敏捷，自然识别提升敏捷和感知。玩家可以通过课程积累获得体系内进阶卡牌，也可以通过事件获得通用卡牌。&lt;&#x2F;p&gt;
+&lt;p&gt;战斗曲线设计上尽量避免过早提高难度，目标是突出主角成长感，并让玩家逐步理解卡牌、属性和棋盘位置之间的关系。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;qia-pai-shi-li&quot;&gt;卡牌示例：&lt;&#x2F;h3&gt;
+&lt;p&gt;踢击：来自于父亲的教导，近战：造成等同于攻击力的伤害，攻击者同时后退 基于敏捷的 格数，并使攻击者的体力减少反比于敏捷点数。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;boss-shi-li&quot;&gt;Boss 示例：&lt;&#x2F;h3&gt;
+&lt;p&gt;课程考试：10x10 固定棋盘。老师使用高级自然魔法以及精灵创造的特殊生物。这些生物攻击力极强，只使用近战攻击，且伤害相对较高，主角设定为精灵种族，考验战斗期间敏捷和体力规划&lt;&#x2F;p&gt;
+&lt;h5 id=&quot;shi-jian-shi-li&quot;&gt;事件示例：&lt;&#x2F;h5&gt;
+&lt;p&gt;父亲在村外的朋友，一位剑术高超的剑士，前来拜访。他观察了主角目前的剑术，给予了鼓励，并获得了“剑柄打击”卡牌：造成少量伤害并抽取一张卡牌。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cheng-chang-fan-si-wei-lai&quot;&gt;成长 &amp;amp; 反思 &amp;amp; 未来&lt;&#x2F;h3&gt;
+&lt;p&gt;这个项目让我练习了如何把模糊的游戏想法整理成可执行方案：从玩家心理预期出发，推导玩家行为，再落到具体机制、数值和流程设计上。&lt;&#x2F;p&gt;
+&lt;p&gt;我也意识到，设计过程需要在宏观结构和细节机制之间有意识地切换。如果过早陷入单张卡牌或单段剧情，很容易失去整体节奏；但如果只停留在概念层，又无法验证玩法是否真的可执行。&lt;&#x2F;p&gt;
+&lt;p&gt;这个设计后来成为《Reaching the IcePeak》项目的早期设计基础之一。后续如果继续完善，我会优先重写剧情表达，并进一步整理卡牌体系、战斗节奏和玩家引导。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
