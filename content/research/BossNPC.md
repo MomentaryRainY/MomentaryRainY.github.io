@@ -1,7 +1,7 @@
 +++
 date = "2026-8-31 05:30:35"
 draft = false
-title = "毕业设计：具有长期记忆的 LLM Boss 对话研究原型"
+title = "具有长期记忆的 LLM Boss 对话研究原型"
 description = "Unity 回合制游戏研究原型：记录玩家行为并比较三种记忆检索策略，让 Boss 根据真实游玩经历生成可追踪的动态对话"
 [taxonomies]
 tags = ["Unity", "LLM", "RAG"]
